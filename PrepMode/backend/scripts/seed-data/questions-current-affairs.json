@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "questionText": "Under the liquidity adjustment facility of the Reserve Bank of India, what is the 'repo rate'?",
+      "options": [
+        "The rate at which the RBI lends short-term funds to commercial banks against government securities",
+        "The rate at which commercial banks lend to their most creditworthy corporate clients",
+        "The proportion of deposits that banks must hold as cash with the RBI",
+        "The rate at which the RBI borrows funds overnight from commercial banks"
+      ],
+      "correctAnswer": "The rate at which the RBI lends short-term funds to commercial banks against government securities",
+      "explanation": "The repo (repurchase) rate is the policy rate at which the RBI provides short-term liquidity to banks against the collateral of government securities. The reverse of this operation, where the RBI absorbs liquidity from banks, is governed by the reverse repo rate.",
+      "difficulty": "Easy",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Monetary Policy", "RBI"],
+      "examModeTags": ["UPSC", "Banking", "SSC", "All"]
+    },
+    {
+      "questionText": "Which of the following correctly distinguishes the Cash Reserve Ratio (CRR) from the Statutory Liquidity Ratio (SLR)?",
+      "options": [
+        "CRR is held as cash with the RBI, while SLR is maintained by banks themselves in approved assets such as government securities",
+        "CRR is maintained in gold only, while SLR is maintained in foreign currency",
+        "CRR applies only to cooperative banks, while SLR applies only to public sector banks",
+        "CRR earns market-linked interest, while SLR balances earn no return of any kind"
+      ],
+      "correctAnswer": "CRR is held as cash with the RBI, while SLR is maintained by banks themselves in approved assets such as government securities",
+      "explanation": "CRR is the share of a bank's net demand and time liabilities that must be parked as cash balances with the RBI. SLR is the share that banks must maintain on their own books in liquid assets such as cash, gold, and approved government securities.",
+      "difficulty": "Medium",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Monetary Policy", "Banking Regulation"],
+      "examModeTags": ["Banking", "UPSC", "SSC"]
+    },
+    {
+      "questionText": "In the context of the Union Budget of India, the 'fiscal deficit' is best defined as which of the following?",
+      "options": [
+        "The excess of total expenditure over total receipts excluding borrowings",
+        "The excess of revenue expenditure over revenue receipts",
+        "The total outstanding debt of the central government at year end",
+        "The gap between exports and imports of goods and services"
+      ],
+      "correctAnswer": "The excess of total expenditure over total receipts excluding borrowings",
+      "explanation": "Fiscal deficit measures how much the government must borrow in a year: total expenditure minus total non-borrowed receipts (revenue receipts plus non-debt capital receipts). The excess of revenue expenditure over revenue receipts is the revenue deficit, a separate concept.",
+      "difficulty": "Medium",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Union Budget", "Fiscal Policy"],
+      "examModeTags": ["UPSC", "Banking", "SSC", "All"]
+    },
+    {
+      "questionText": "The Finance Bill, presented along with the Union Budget every year, primarily serves what purpose?",
+      "options": [
+        "It gives legal effect to the government's taxation proposals for the coming financial year",
+        "It authorises withdrawal of funds from the Consolidated Fund of India for expenditure",
+        "It lays down the borrowing programme of state governments",
+        "It publishes the audited accounts of the previous financial year"
+      ],
+      "correctAnswer": "It gives legal effect to the government's taxation proposals for the coming financial year",
+      "explanation": "The Finance Bill contains the government's proposals for imposing, abolishing, or altering taxes and is introduced as a Money Bill. Authorisation to withdraw money from the Consolidated Fund for expenditure is done through the Appropriation Bill, not the Finance Bill.",
+      "difficulty": "Hard",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Union Budget", "Parliament"],
+      "examModeTags": ["UPSC", "SSC", "Banking"]
+    },
+    {
+      "questionText": "In the working of the G20, what does the 'troika' refer to?",
+      "options": [
+        "The previous, current, and incoming presidencies working together to ensure continuity of the agenda",
+        "The three largest economies of the grouping by GDP, which jointly set the agenda",
+        "A standing three-member secretariat headquartered in Geneva",
+        "The three founding members who hold permanent veto power over declarations"
+      ],
+      "correctAnswer": "The previous, current, and incoming presidencies working together to ensure continuity of the agenda",
+      "explanation": "Because the G20 has no permanent secretariat, continuity is maintained through the troika: the immediate past, present, and next presidency countries coordinate the agenda together. The presidency rotates among members annually.",
+      "difficulty": "Medium",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["International Organisations", "G20"],
+      "examModeTags": ["UPSC", "SSC", "All"]
+    },
+    {
+      "questionText": "Which statement correctly describes the PSLV and GSLV launch vehicle classes operated by ISRO?",
+      "options": [
+        "PSLV is primarily used to place satellites into polar and sun-synchronous orbits, while GSLV is designed to carry heavier payloads towards geosynchronous transfer orbits",
+        "PSLV is a crewed launch vehicle, while GSLV is used exclusively for interplanetary missions",
+        "PSLV uses only cryogenic engines, while GSLV uses only solid-fuel boosters",
+        "PSLV is operated by DRDO, while GSLV is operated by ISRO"
+      ],
+      "correctAnswer": "PSLV is primarily used to place satellites into polar and sun-synchronous orbits, while GSLV is designed to carry heavier payloads towards geosynchronous transfer orbits",
+      "explanation": "The Polar Satellite Launch Vehicle is ISRO's workhorse for polar and sun-synchronous orbit missions, while the Geosynchronous Satellite Launch Vehicle, equipped with a cryogenic upper stage, lofts heavier satellites towards geosynchronous transfer orbit. Both are operated by ISRO.",
+      "difficulty": "Medium",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Space Programme", "ISRO"],
+      "examModeTags": ["UPSC", "SSC", "All"]
+    },
+    {
+      "questionText": "A 'bilateral military exercise' between India and a partner country is best understood as which of the following?",
+      "options": [
+        "A joint training activity involving the armed forces of exactly two countries to improve interoperability",
+        "A multilateral war game conducted under a United Nations mandate",
+        "A unilateral readiness drill conducted by one country along its own borders",
+        "A formal defence treaty that obliges both countries to defend each other"
+      ],
+      "correctAnswer": "A joint training activity involving the armed forces of exactly two countries to improve interoperability",
+      "explanation": "Bilateral exercises involve the forces of two nations training together to build interoperability, share tactics, and strengthen defence cooperation. They are training engagements, not binding defence treaties, and differ from multilateral exercises that involve three or more countries.",
+      "difficulty": "Easy",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Defence Cooperation", "Military Exercises"],
+      "examModeTags": ["UPSC", "SSC", "All"]
+    },
+    {
+      "questionText": "What is the key difference between a 'central sector scheme' and a 'centrally sponsored scheme' in India's public finance framework?",
+      "options": [
+        "Central sector schemes are fully funded by the Union government, whereas centrally sponsored schemes are implemented by states with a defined cost-sharing pattern between the Centre and the states",
+        "Central sector schemes are funded entirely by the states, whereas centrally sponsored schemes are funded entirely by the Union government",
+        "Central sector schemes operate only in Union Territories, whereas centrally sponsored schemes operate only in special category states",
+        "Central sector schemes require parliamentary approval, whereas centrally sponsored schemes require approval only from the NITI Aayog"
+      ],
+      "correctAnswer": "Central sector schemes are fully funded by the Union government, whereas centrally sponsored schemes are implemented by states with a defined cost-sharing pattern between the Centre and the states",
+      "explanation": "Central sector schemes are financed 100 percent by the Union government, usually on subjects in the Union List. Centrally sponsored schemes are implemented by state governments with expenditure shared between the Centre and the states in prescribed ratios.",
+      "difficulty": "Advanced",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Government Schemes", "Fiscal Federalism"],
+      "examModeTags": ["UPSC", "SSC", "Banking"]
+    }
+  ]
+}

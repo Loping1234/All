@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "questionText": "Arrange the following sentences into a coherent paragraph. A. As a result, households began saving a larger share of their income. B. The committee raised interest rates twice within the year. C. Higher deposit returns made saving more attractive than spending. D. Borrowing for consumption, meanwhile, became noticeably costlier.",
+      "options": ["BDCA", "BCAD", "DBCA", "CBDA"],
+      "correctAnswer": "BDCA",
+      "explanation": "B introduces the action (rate hikes). D and C describe its two channels — costlier borrowing and more attractive saving — and A states the combined outcome, so BDCA flows logically."
+    ,
+      "difficulty": "Medium",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Parajumbles"],
+      "examModeTags": ["CAT", "CLAT", "CUET", "MBA", "All"]
+    },
+    {
+      "questionText": "Arrange the following sentences into a coherent paragraph. A. These trade-offs explain why no single city has copied another's transit model wholesale. B. Metro systems demand enormous upfront capital but move the most people per hour. C. Every transport technology occupies a different point on the cost-capacity spectrum. D. Buses, by contrast, are cheap to deploy but limited in peak throughput.",
+      "options": ["CBDA", "BCDA", "CABD", "BDCA"],
+      "correctAnswer": "CBDA",
+      "explanation": "C states the general principle, B and D give the two contrasting examples (the phrase 'by contrast' signals D follows B), and A concludes with the implication."
+    ,
+      "difficulty": "Medium",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Parajumbles"],
+      "examModeTags": ["CAT", "CLAT", "MBA", "All"]
+    },
+    {
+      "questionText": "Arrange the following sentences into a coherent paragraph. A. Yet the printing press did not merely spread existing ideas faster. B. Scholars once copied manuscripts by hand, a process taking months per volume. C. It changed which ideas were worth writing down in the first place. D. Print made reproduction so cheap that even minor works found audiences.",
+      "options": ["BDAC", "BADC", "DBAC", "ABDC"],
+      "correctAnswer": "BDAC",
+      "explanation": "B sets the historical baseline, D introduces the change print brought, A pivots with 'Yet' to a deeper claim, and C completes that claim ('It changed...')."
+    ,
+      "difficulty": "Hard",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Parajumbles"],
+      "examModeTags": ["CAT", "CUET", "MBA", "All"]
+    },
+    {
+      "questionText": "Read the passage: 'The survey found that commuters who switched from cars to the new metro line reported shorter travel times, yet overall road congestion on the corridor barely changed.' What can be most reasonably inferred?",
+      "options": [
+        "Other vehicles quickly filled the road space vacated by metro converts",
+        "The metro line was built primarily to reduce travel times for car owners",
+        "Most commuters on the corridor refused to use the new metro line",
+        "Road congestion increased sharply in neighbouring corridors"
+      ],
+      "correctAnswer": "Other vehicles quickly filled the road space vacated by metro converts",
+      "explanation": "If some drivers left the road but congestion stayed the same, the freed capacity must have been absorbed by other traffic — the classic induced-demand inference. The other options go beyond or against the passage."
+    ,
+      "difficulty": "Medium",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Inference"],
+      "examModeTags": ["CAT", "CLAT", "CUET", "All"]
+    },
+    {
+      "questionText": "Read the passage: 'Although the new irrigation scheme doubled water availability, average crop yields in the district rose only marginally. Agronomists noted that most farmers continued using seed varieties suited to dry conditions.' What can be most reasonably inferred?",
+      "options": [
+        "Water availability was not the only constraint limiting crop yields",
+        "The irrigation scheme failed to deliver the promised water",
+        "Farmers in the district oppose modern agricultural methods",
+        "Dry-condition seed varieties cannot produce high yields under any circumstances"
+      ],
+      "correctAnswer": "Water availability was not the only constraint limiting crop yields",
+      "explanation": "More water produced little gain because seed choice remained unchanged, implying yields depend on factors beyond water alone. The other options contradict or overstate the passage."
+    ,
+      "difficulty": "Medium",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Inference"],
+      "examModeTags": ["CAT", "CLAT", "MBA", "All"]
+    },
+    {
+      "questionText": "Read the passage: 'Publishers report that readers increasingly sample the opening chapters of many books but finish very few. Completion rates, however, remain high for books recommended personally by friends.' What can be most reasonably inferred?",
+      "options": [
+        "Personal recommendation influences whether readers persist with a book",
+        "Readers today are less intelligent than readers of earlier generations",
+        "Publishers should stop releasing opening chapters as free samples",
+        "Books recommended by friends are objectively better written"
+      ],
+      "correctAnswer": "Personal recommendation influences whether readers persist with a book",
+      "explanation": "The contrast between low general completion and high completion for friend-recommended books points to recommendation as a factor in persistence. Quality claims or prescriptions are not supported."
+    ,
+      "difficulty": "Hard",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Inference"],
+      "examModeTags": ["CAT", "CUET", "MBA", "All"]
+    },
+    {
+      "questionText": "Choose the option that best summarises the paragraph: 'Cities that invested heavily in cycling infrastructure saw commuting patterns shift only after employers added showers and secure parking. Infrastructure alone changed little; the surrounding ecosystem of small conveniences determined whether new lanes were actually used.'",
+      "options": [
+        "Cycling infrastructure succeeds only when complemented by supporting workplace facilities",
+        "Cities should stop building cycle lanes because they are rarely used",
+        "Employers, not governments, are responsible for commuting choices",
+        "Showers and secure parking matter more to commuters than safe cycle lanes"
+      ],
+      "correctAnswer": "Cycling infrastructure succeeds only when complemented by supporting workplace facilities",
+      "explanation": "The paragraph's core point is that lanes work only alongside an ecosystem of conveniences. The other options exaggerate, invert, or mis-attribute the claim."
+    ,
+      "difficulty": "Medium",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Para Summary"],
+      "examModeTags": ["CAT", "CLAT", "CUET", "All"]
+    },
+    {
+      "questionText": "Choose the option that best summarises the paragraph: 'Standardised tests measure a narrow band of skills with great precision. The danger is not that they are inaccurate, but that institutions treat the narrow thing measured as if it were the whole of merit.'",
+      "options": [
+        "The flaw of standardised testing lies in over-interpreting what its scores represent",
+        "Standardised tests are imprecise and should be abandoned",
+        "Institutions deliberately ignore the inaccuracy of standardised tests",
+        "Merit cannot be measured by any form of examination"
+      ],
+      "correctAnswer": "The flaw of standardised testing lies in over-interpreting what its scores represent",
+      "explanation": "The paragraph concedes precision but warns against treating a narrow measure as full merit — that is, over-interpretation. The other options contradict the concession or overgeneralise."
+    ,
+      "difficulty": "Hard",
+      "subjectTags": ["English", "Verbal Ability"],
+      "topicTags": ["Para Summary"],
+      "examModeTags": ["CAT", "MBA", "All"]
+    }
+  ]
+}

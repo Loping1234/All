@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "title": "Monetary Policy Committee Decisions: What to Track After Every Meeting",
+      "slug": "ca-mpc-decision-tracking",
+      "summary": "A framework for tracking RBI Monetary Policy Committee meetings: composition, mandate, and the five outcomes to record after every bi-monthly announcement.",
+      "body": "The Monetary Policy Committee of the Reserve Bank of India sets the benchmark repo rate, and its decisions surface in almost every bank and civil services exam cycle. Rather than memorising each announcement in isolation, build a framework around the institution itself. The committee was created through a 2016 amendment to the RBI Act and has six members: three from the RBI, including the Governor as chairperson, and three external members appointed by the central government. Each member has one vote, and the Governor holds a casting vote in the event of a tie.\n\nThe committee operates under a flexible inflation targeting mandate. The target is consumer price index inflation of 4 percent, with a tolerance band of 2 percentage points on either side. The law requires at least four meetings a year, and in practice the committee follows a bi-monthly calendar. If inflation stays outside the band for three consecutive quarters, the RBI must explain the failure to the government in writing. These institutional facts rarely change and anchor most factual questions.\n\nFor every meeting, track five outcomes: the repo rate decision, the policy stance, the vote split, the inflation projection, and the growth projection for the financial year. The stance, whether accommodative, neutral, or focused on withdrawal of accommodation, signals the likely direction of future moves. Around the repo rate sits the liquidity corridor: the standing deposit facility rate lies below it and the marginal standing facility rate above it.\n\nBe precise about what the committee actually votes on. It decides only the policy rate; instruments such as the cash reserve ratio and the statutory liquidity ratio are announced by the RBI outside the committee vote, a distinction examiners enjoy testing. Keep one running page where each meeting outcome replaces the previous entry, because the latest figures matter far more than the history.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Medium",
+      "readingLevel": "Intermediate",
+      "recencyTag": "Monthly",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Monetary Policy", "RBI", "Economy"],
+      "examModeTags": ["All", "UPSC", "Banking"]
+    },
+    {
+      "title": "Reading the Union Budget: A Framework for Exam-Ready Analysis",
+      "slug": "ca-union-budget-reading-framework",
+      "summary": "How to read the Union Budget like an examiner: constitutional basis, key documents, the three deficits, and the short list of figures to track each year.",
+      "body": "The Union Budget is constitutionally the Annual Financial Statement under Article 112, a statement of estimated receipts and expenditure of the Government of India for the coming financial year. It is presented to the Lok Sabha, by convention on the first of February, and the Economic Survey, prepared by the office of the Chief Economic Adviser, is tabled shortly before it. Knowing this scaffolding lets you place every detail that follows.\n\nRead the budget through its documents. The Finance Bill carries tax proposals, while the Appropriation Bill authorises withdrawal from the Consolidated Fund of India. Demands for Grants list ministry-wise spending. All receipts and expenditure are classified as revenue or capital: revenue items recur every year, while capital items create or reduce assets and liabilities. This two-way classification is the single most useful lens for the comprehension-style questions that exams increasingly favour.\n\nThree deficit figures deserve a permanent place in your framework. The fiscal deficit is total expenditure minus total receipts excluding borrowings, and is quoted as a percentage of GDP. The revenue deficit is the gap between revenue expenditure and revenue receipts. The primary deficit is the fiscal deficit minus interest payments. The Fiscal Responsibility and Budget Management Act, 2003 provides the legal anchor for deficit discipline.\n\nEach year, track a short list: the fiscal deficit target, the capital expenditure outlay, changes to income tax slabs, the gross borrowing figure, and the largest ministry allocations. Then connect new announcements to existing schemes rather than treating them as novelties. Part A of the speech covers the economy and allocations; Part B covers taxation. Reading the two parts separately, with the deficit table beside you, converts a long speech into roughly ten testable data points.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Hard",
+      "readingLevel": "Advanced",
+      "recencyTag": "Monthly",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Union Budget", "Public Finance", "Economy"],
+      "examModeTags": ["UPSC", "Banking", "SSC", "All"]
+    },
+    {
+      "title": "Tracking G20 and BRICS Summits: Architecture Versus Annual Variables",
+      "slug": "ca-summit-tracking-framework",
+      "summary": "A reusable template for following G20 and BRICS summits: separate the permanent architecture from annual variables like host, theme, and declaration.",
+      "body": "Summits of groupings such as the G20 and BRICS produce a predictable cluster of exam questions every year, and the trick is to separate the permanent architecture from the annual variables. The architecture changes rarely; the variables change every summit. Learn the first thoroughly and you only need to update the second.\n\nStart with the stable facts. The G20 brings together nineteen countries plus the European Union, with the African Union admitted as a permanent member at the New Delhi summit. It has no permanent secretariat; a rotating presidency sets the agenda, supported by a troika of the previous, current, and incoming chairs. Its work runs on two parallel tracks: the sherpa track for broad policy themes and the finance track led by finance ministries and central banks. BRICS began with Brazil, Russia, India, China, and South Africa, has since expanded its membership, and runs the New Development Bank headquartered in Shanghai.\n\nFor each summit, capture a fixed set of variables: the host country and city, the presidency theme, the title of the final declaration, any new members or invited partner nations, and outcomes that directly involve India, such as initiatives launched or documents signed on the sidelines. Distinguish the leaders summit from the many ministerial meetings held through the year under the same presidency, because question setters often test exactly that confusion.\n\nFinally, follow the chair. Knowing which country holds the next presidency of each grouping answers a surprising number of questions on its own, and the handover is announced at the summit itself, making it easy to log once and retain. Apply the same template to other recurring gatherings, from the Shanghai Cooperation Organisation to East Asia summits, and the entire multilateral calendar becomes a single repeating worksheet rather than a stream of unrelated headlines.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Medium",
+      "readingLevel": "Intermediate",
+      "recencyTag": "Weekly",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Summits", "International Relations", "G20"],
+      "examModeTags": ["UPSC", "SSC", "All"]
+    },
+    {
+      "title": "Space Milestones: A Template for Following Launches and Missions",
+      "slug": "ca-space-milestone-tracking",
+      "summary": "Track space milestones with a six-blank template covering vehicle, payload, purpose, orbit, commercial status, and partners, built on stable institutional facts.",
+      "body": "Space launches are among the friendliest current affairs themes because the institutional backdrop is stable and every new mission fits a template. The Indian Space Research Organisation works under the Department of Space, and most launches lift off from the Satish Dhawan Space Centre at Sriharikota in Andhra Pradesh.\n\nLearn the launch vehicle family once. The SSLV is the small satellite launcher built for quick, low-cost missions. The PSLV is the long-serving workhorse for earth observation and many commercial payloads. The GSLV uses a cryogenic upper stage for heavier satellites, and the LVM3 is the heaviest lifter, used for the most demanding missions including human spaceflight development. Matching a mission to its vehicle is one of the most frequently asked question patterns.\n\nFor every launch you read about, fill in the same six blanks: the vehicle used, the payload name, the payload purpose, the orbit it was placed in, whether the mission was commercial, and any international partner involved. Commercial launches are routed through NewSpace India Limited, the public sector enterprise under the Department of Space, while IN-SPACe authorises and supports private sector space activity. NavIC, the regional navigation satellite constellation, is another fixture worth knowing by name and purpose.\n\nMission families also recur: lunar exploration, solar observation, and human spaceflight each progress through numbered or staged missions over the years. When a new milestone is reported, attach it to its family and to the six-blank template instead of treating it as an isolated headline. The template, not the headline, is what exams reward, and it works just as well for foreign missions, where the agency, vehicle, and destination simply replace their Indian counterparts.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Easy",
+      "readingLevel": "Foundational",
+      "recencyTag": "Weekly",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Space", "ISRO", "Science and Technology"],
+      "examModeTags": ["All", "UPSC", "SSC"]
+    },
+    {
+      "title": "Defence Exercises Decoded: Naming Conventions and Partner Mapping",
+      "slug": "ca-defence-exercise-naming",
+      "summary": "Defence exercises keep the same names across editions. Learn the name-country-service mapping once and treat each new edition as a three-field update.",
+      "body": "Military exercises look like an endless stream of exotic names, but they follow conventions so stable that this is one of the most learnable themes in current affairs. A bilateral exercise keeps the same name across editions; only the edition number, the venue, and the participating units change. Learn the name once and every future edition becomes a one-line update.\n\nBuild a three-column mapping of name, partner country, and service. With the United States, Yudh Abhyas is the army exercise and Vajra Prahar involves special forces. Malabar is the naval exercise conducted with the United States, Japan, and Australia. France pairs Varuna with the navy, Garuda with the air force, and Shakti with the army. Indra is held with Russia, Surya Kiran with Nepal, Sampriti with Bangladesh, and Mitra Shakti with Sri Lanka, whose naval counterpart is SLINEX. With Japan, JIMEX is naval and Dharma Guardian is the army exercise; AUSINDEX is the naval exercise with Australia.\n\nTwo conventions help you reason about unfamiliar reports. First, venues usually alternate between the two partner countries across editions, so the location is news but the alternation itself is not. Second, exercise names often carry meaning in Hindi or Sanskrit or in the partner country language, which makes them easier to anchor to the right country and remember under exam pressure.\n\nWhen an edition is reported, update only three fields in your table: the edition number, the host venue, and any first-time element such as a new participating service or platform. Multilateral and tri-service exercises follow the same logic with more participants. The mapping is the durable asset; the news item is just its latest row.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Easy",
+      "readingLevel": "Foundational",
+      "recencyTag": "Daily",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Defence", "Military Exercises"],
+      "examModeTags": ["SSC", "Banking", "All"]
+    },
+    {
+      "title": "Analysing Government Schemes: A Seven-Heading Framework",
+      "slug": "ca-scheme-analysis-framework",
+      "summary": "A fixed template for analysing government schemes: ministry, type, funding pattern, target group, and how to spot renamed schemes posing as new ones.",
+      "body": "Government schemes generate more exam questions than almost any other current affairs category, and nearly all of them can be answered from a single analytical template applied consistently. The goal is not to chase every announcement but to file each scheme under a fixed set of headings the day you first meet it.\n\nThe headings are: the administering ministry, the scheme type, the launch context, the objective, the target group, the funding pattern, and the implementing agency. Scheme type matters most. A central sector scheme is funded entirely by the union government and usually implemented by its own agencies. A centrally sponsored scheme shares costs with states, commonly in a 60:40 pattern, shifting to 90:10 for north-eastern and Himalayan states. Examiners return to this distinction year after year because it tests whether you understand fiscal federalism, not just names.\n\nNext, separate genuinely new schemes from restructured or renamed ones. Many announcements fold existing schemes into a new umbrella, attach a new portal, or extend a deadline; the underlying funding and ministry often stay the same. Asking what exactly changed protects you from treating every headline as a new fact to memorise. Also distinguish a scheme from a mission, a campaign, and a statutory entitlement, since these words signal different legal and budgetary footings.\n\nVerify details against primary sources: the ministry press releases and the budget documents that carry each scheme allocation. When a scheme is in the news for an anniversary, an expansion, or a revised outlay, refresh only the changed fields in your template. Ministry matching, beneficiary criteria, and funding patterns are the three angles from which most questions arrive, so weight your effort accordingly.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Medium",
+      "readingLevel": "Intermediate",
+      "recencyTag": "Daily",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Government Schemes", "Governance", "Polity"],
+      "examModeTags": ["UPSC", "SSC", "Banking", "All"]
+    },
+    {
+      "title": "Elections and Constitutional Processes: Tracking the Machinery, Not the Headlines",
+      "slug": "ca-election-process-tracking",
+      "summary": "Track elections and constitutional change as processes: the bodies, statutes, and sequences behind announcements, polls, amendments, and key rulings.",
+      "body": "Electoral and constitutional developments reward candidates who track processes rather than personalities. The anchor institution is the Election Commission of India, established under Article 324, which conducts elections to Parliament, the state legislatures, and the offices of President and Vice-President. It functions as a multi-member body headed by the Chief Election Commissioner.\n\nTwo statutes do most of the legal work: the Representation of the People Act, 1950, which deals with electoral rolls and the allocation of seats, and the Representation of the People Act, 1951, which governs the actual conduct of elections and disqualifications. The Model Code of Conduct comes into force the moment elections are announced, not when they are formally notified, a distinction that appears regularly in question papers.\n\nTrack every election as a sequence: announcement, notification, nominations, scrutiny, withdrawal, polling in one or more phases, and counting. Rajya Sabha elections are biennial, with about one-third of members retiring every two years, elected indirectly by state legislators through the single transferable vote. The President is elected by an electoral college of elected MPs and MLAs whose votes carry calculated values, another stable mechanism worth learning once rather than relearning with every news cycle.\n\nFor constitutional developments, classify each amendment under Article 368 by its passage route: some provisions need a simple majority, most need a special majority, and federal provisions need ratification by half the state legislatures as well. The Tenth Schedule on defection, delimitation exercises, and constitution bench judgments form the remaining recurring cluster. Link every reported judgment, bill, or amendment to the specific article and statute involved. Law-oriented and civil services papers consistently reward the provision over the personality, so organise your running record by article number, not by the name in the news.",
+      "category": "Current Affairs",
+      "contentType": "Brief",
+      "difficulty": "Advanced",
+      "readingLevel": "Advanced",
+      "recencyTag": "Weekly",
+      "subjectTags": ["Current Affairs"],
+      "topicTags": ["Elections", "Constitution", "Polity"],
+      "examModeTags": ["UPSC", "CLAT", "All"]
+    }
+  ]
+}

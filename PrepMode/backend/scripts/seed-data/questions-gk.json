@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "questionText": "Which institution acts as the 'lender of last resort' for commercial banks in India?",
+      "options": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "Securities and Exchange Board of India",
+        "NABARD"
+      ],
+      "correctAnswer": "Reserve Bank of India",
+      "explanation": "The Reserve Bank of India, as the country's central bank, provides emergency liquidity to solvent commercial banks facing temporary cash shortages. This 'lender of last resort' function helps maintain stability and public confidence in the banking system.",
+      "difficulty": "Easy",
+      "subjectTags": ["GK"],
+      "topicTags": ["RBI", "Banking"],
+      "examModeTags": ["Banking", "SSC", "All"]
+    },
+    {
+      "questionText": "Which body is the primary regulator of the securities market in India?",
+      "options": [
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "Securities and Exchange Board of India",
+        "Insurance Regulatory and Development Authority of India"
+      ],
+      "correctAnswer": "Securities and Exchange Board of India",
+      "explanation": "SEBI regulates India's securities market, protecting investor interests and overseeing stock exchanges, brokers, and listed companies. It received statutory powers through the SEBI Act of 1992.",
+      "difficulty": "Easy",
+      "subjectTags": ["GK"],
+      "topicTags": ["SEBI", "Capital Markets"],
+      "examModeTags": ["Banking", "UPSC", "All"]
+    },
+    {
+      "questionText": "In which year did the Reserve Bank of India commence its operations?",
+      "options": [
+        "1935",
+        "1947",
+        "1949",
+        "1921"
+      ],
+      "correctAnswer": "1935",
+      "explanation": "The Reserve Bank of India began operations on 1 April 1935 under the provisions of the Reserve Bank of India Act, 1934. It was nationalised later, in 1949, after independence.",
+      "difficulty": "Medium",
+      "subjectTags": ["GK"],
+      "topicTags": ["RBI", "Banking History"],
+      "examModeTags": ["SSC", "Banking", "Defence Exams", "All"]
+    },
+    {
+      "questionText": "Which of the following is a function performed exclusively by the Reserve Bank of India?",
+      "options": [
+        "Issuing currency notes of denominations above one rupee",
+        "Collecting income tax",
+        "Regulating stock exchanges",
+        "Minting coins"
+      ],
+      "correctAnswer": "Issuing currency notes of denominations above one rupee",
+      "explanation": "The RBI has the sole authority to issue currency notes in India, except the one rupee note, which is issued by the Ministry of Finance. Coins are minted by the Government of India, and stock exchanges are regulated by SEBI.",
+      "difficulty": "Medium",
+      "subjectTags": ["GK"],
+      "topicTags": ["RBI", "Currency"],
+      "examModeTags": ["Banking", "SSC", "UPSC", "All"]
+    },
+    {
+      "questionText": "Where is the headquarters of the United Nations located?",
+      "options": [
+        "Geneva, Switzerland",
+        "New York, United States",
+        "Paris, France",
+        "Vienna, Austria"
+      ],
+      "correctAnswer": "New York, United States",
+      "explanation": "The headquarters of the United Nations is situated in New York City, United States. Geneva, Vienna, and Nairobi host major UN offices, but the principal headquarters is in New York.",
+      "difficulty": "Easy",
+      "subjectTags": ["GK"],
+      "topicTags": ["United Nations", "International Organisations"],
+      "examModeTags": ["SSC", "Defence Exams", "All"]
+    },
+    {
+      "questionText": "The International Monetary Fund (IMF) has its headquarters in which city?",
+      "options": [
+        "New York",
+        "London",
+        "Washington, D.C.",
+        "Geneva"
+      ],
+      "correctAnswer": "Washington, D.C.",
+      "explanation": "The IMF is headquartered in Washington, D.C., United States. It works to ensure the stability of the international monetary system and provides financial assistance to member countries facing balance of payments difficulties.",
+      "difficulty": "Easy",
+      "subjectTags": ["GK"],
+      "topicTags": ["IMF", "International Organisations"],
+      "examModeTags": ["UPSC", "Banking", "SSC", "All"]
+    },
+    {
+      "questionText": "Where is the headquarters of the Indian Space Research Organisation (ISRO) located?",
+      "options": [
+        "Hyderabad",
+        "Bengaluru",
+        "Thiruvananthapuram",
+        "Sriharikota"
+      ],
+      "correctAnswer": "Bengaluru",
+      "explanation": "ISRO is headquartered in Bengaluru, Karnataka. Sriharikota in Andhra Pradesh hosts the Satish Dhawan Space Centre launch site, while Thiruvananthapuram houses the Vikram Sarabhai Space Centre.",
+      "difficulty": "Easy",
+      "subjectTags": ["GK"],
+      "topicTags": ["ISRO", "Space"],
+      "examModeTags": ["SSC", "Defence Exams", "All"]
+    },
+    {
+      "questionText": "What is the SI unit of pressure?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+      ],
+      "correctAnswer": "Pascal",
+      "explanation": "The pascal (Pa) is the SI unit of pressure, defined as one newton of force applied over an area of one square metre. The newton measures force, the joule measures energy, and the watt measures power.",
+      "difficulty": "Easy",
+      "subjectTags": ["GK"],
+      "topicTags": ["SI Units", "Physics Basics"],
+      "examModeTags": ["SSC", "Defence Exams", "All"]
+    },
+    {
+      "questionText": "The Ramsar Convention is an international treaty concerned with the conservation of which of the following?",
+      "options": [
+        "Tropical rainforests",
+        "Wetlands",
+        "Coral reefs",
+        "Migratory birds only"
+      ],
+      "correctAnswer": "Wetlands",
+      "explanation": "The Ramsar Convention, signed in 1971 in Ramsar, Iran, is an international treaty for the conservation and sustainable use of wetlands. Sites designated under it are known as Ramsar sites or Wetlands of International Importance.",
+      "difficulty": "Medium",
+      "subjectTags": ["GK"],
+      "topicTags": ["Environment", "Conventions"],
+      "examModeTags": ["UPSC", "SSC", "All"]
+    },
+    {
+      "questionText": "The Montreal Protocol is an international agreement primarily aimed at which environmental objective?",
+      "options": [
+        "Reducing marine plastic pollution",
+        "Protecting the ozone layer by phasing out ozone-depleting substances",
+        "Conserving biological diversity",
+        "Preventing desertification"
+      ],
+      "correctAnswer": "Protecting the ozone layer by phasing out ozone-depleting substances",
+      "explanation": "The Montreal Protocol, adopted in 1987, commits countries to phasing out substances such as chlorofluorocarbons (CFCs) that deplete the ozone layer. It is widely regarded as one of the most successful environmental agreements.",
+      "difficulty": "Medium",
+      "subjectTags": ["GK"],
+      "topicTags": ["Environment", "Ozone Layer"],
+      "examModeTags": ["UPSC", "SSC", "Defence Exams", "All"]
+    }
+  ]
+}

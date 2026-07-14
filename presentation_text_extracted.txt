@@ -1,0 +1,109 @@
+--- Slide 1 ---
+Revora, NewsTv19 & Task-Ops
+Industry Mentor:Mr. Kanwar Pal Singh Rathore SinghTechBizSolutions
+Internal Faculty Mentor:Dr. Preeti GuptaSchool of Technology Management & EngineeringNMIMS, Navi Mumbai
+
+--- Slide 2 ---
+Table of Content
+2
+
+--- Slide 3 ---
+3
+Internship Overview
+• Internship at Delta The Innovators• Working on TV19 News platform• Role: MERN Stack Developer Intern• Duration: 5th Jan 2026 – 30th April 2026Objective of the Project• Optimize a real-time news aggregation engine to handle high-volume data from 20+ categories. • Develop production-level proxy servers using Express.js and TypeScript for multi-source RSS feed parsing. • Implement automated metadata enrichment and OG image scraping to ensure high-quality content delivery.
+
+--- Slide 4 ---
+Abstract — Foundational & Collaborative Projects
+Project 1: TaskOps (Independent Full-Stack Project)	Project Details: An enterprise-grade project management and real-time 	collaboration platform built on the MERN stack (MongoDB, Express, React,     			Node.js). It features a live Kanban board, real-time sync, and an interactive analytics suite.	Role & Tasks: Served as the Lead Full-Stack Developer. Independently architected the 	three-tier Role-Based Access Control (RBAC), integrated Socket.io for live notifications, and 	implemented a drag-and-drop system using @dnd-kit.Project 2: NewsTV19 (Company Product Contribution)	Project Details: A production-scale news aggregation web application that consolidates live 	feeds from 20+ global news publishers (BBC, TOI, etc.) across multiple categories.	Role & Tasks: Acted as a Backend & Integration Specialist. Developed a custom Express.js 	RSS Proxy Server with a deduplication engine. Built an asynchronous OG-metadata 	scraper to automatically enrich news articles with high-resolution images.
+4
+
+--- Slide 5 ---
+Abstract — Foundational & Collaborative Projects
+Project 3: Revora (Core Product: Business Intelligence)	Project Details: A high-complexity Pricing & Demand 	Intelligence platform designed for data-driven decision-making. It 	enables 	businesses to simulate market scenarios and receive automated pricing 	recommendations.	Role & Tasks: Worked as a Core Full-Stack Developer. Engineered 	a Demand 	Intelligence Engine to model price elasticity and a Bulk Data Pipeline for high-	volume CSV ingestion using stream-based parsing.	AI Integration: Successfully integrated a local Mistral LLM as a 	conversational pricing assistant, implementing a state-machine architecture to 	ensure grounded and reliable business guidance.
+5
+
+--- Slide 6 ---
+5/9/2026
+6
+Industry Relevance / Motivation
+Revora is positioned as decision support for real business pricing, not blind automation.
+1
+Foundation
+Node, Express, MongoDB, auth
+2
+TaskOps
+RBAC, task boards, real-time workflows
+3
+NewsTv19
+RSS ingestion, search, production codebase
+4
+Revora
+pricing intelligence and decision quality
+The system keeps a human in control: it recommends, explains, warns, and exports evidence.
+
+--- Slide 7 ---
+7
+
+--- Slide 8 ---
+8
+
+--- Slide 9 ---
+9
+
+--- Slide 10 ---
+Hardware and Software used
+10
+Hardware:Intel Core i516GB RAM256GB SSDWindows 11 OS
+Software (Technologies & Tools):Languages: JavaScript (ES6+), TypeScript, Python, HTML5, CSS3Frontend: React.js, Vite, Tailwind CSS v4, Bootstrap 5Backend: Node.js, Express.js, FlaskDatabase: MongoDB, Mongoose ODMReal-time: Socket.ioAI/ML: Mistral LLM, Pandas, NumPyCloud & DevOps: Docker, AWS S3Security: JSON Web Tokens (JWT), BcryptAnalytics: RechartsDevelopment Tools: VS Code, Postman, Git, GitHub, npm, pip
+
+--- Slide 11 ---
+Methodology
+11
+Requirement Analysis & Planning: Defined project goals, user roles (RBAC), and technical scopes for TaskOps, NewsTV19, and Revora.System Architecture Design: Designed the MERN stack structure, MongoDB schemas, and API endpoints. Planned the integration of external services like AWS S3 and RSS proxies.Component-Based Development: Developed modular, reusable UI components using React & Vite and built scalable RESTful APIs with Node.js & Express.Feature Integration & AI Implementation: Integrated real-time sync with Socket.io, data enrichment with Async Scrapers, and decision intelligence with Mistral LLM.Testing & Refinement: Conducted performance audits, optimized database queries, and refined the UI using Tailwind CSS v4.Deployment & Documentation: Containerized applications using Docker and deployed the backend to Fly.io, followed by drafting technical interim reports.
+
+--- Slide 12 ---
+12
+TaskOps admin dashboard evidence
+Task Board
+
+--- Slide 13 ---
+13
+
+--- Slide 14 ---
+14
+
+--- Slide 15 ---
+15
+
+--- Slide 16 ---
+16
+
+--- Slide 17 ---
+17
+
+--- Slide 18 ---
+Screenshots of Results
+18
+Revora
+NewsTv19
+TaskOps
+
+--- Slide 19 ---
+Result and Analysis
+19
+TaskOps (Project Efficiency):Successfully implemented a single source of truth for team tasks, reducing status-check meetings by providing real-time visibility.Achieved <200ms latency for task updates and notifications using Socket.io.NewsTV19 (Data Quality):95%+ Image Coverage: The Async OG-Scraper successfully enriched articles that lacked thumbnails in raw RSS feeds.30% Data Deduplication: Effectively filtered redundant headlines across 20+ overlapping global news sources.Revora (Intelligence Engine):Automated Guardrails: Successfully implemented a "Quality Gate" that flags 100% of invalid sales data (missing SKUs or negative margins) before analysis.High-Volume Processing: Stream-based CSV ingestion handled 1000+ records with minimal memory overhead (<100MB RAM usage).
+
+--- Slide 20 ---
+Future Work
+1. Revora App (Intelligence Platform)Predictive Forecasting: Implement time-series analysis to forecast future sales trends and seasonal demand.Competitor Tracking: Build a real-time monitoring module to track competitor price changes automatically.Redis Caching: Integrate Redis to optimize the performance of complex analytical and simulation queries.2. NewsTV19 & TaskOpsPersonalization: Add user profiles to NewsTV19 for personalized news feeds and bookmarks.Advanced Analytics: Introduce burndown charts and project-level velocity tracking in TaskOps.Mobile Audit: Perform a comprehensive mobile responsiveness audit to ensure a seamless experience across all devices.3. System-Wide ImprovementsAutomated Testing: Expand unit and integration test coverage using Jest and Supertest.CI/CD Pipeline: Set up GitHub Actions for automated testing and deployment to streamline the production release process.
+20
+
+--- Slide 21 ---
+Conclusions
+Successful Project Delivery: Completed three distinct full-stack applications—TaskOps, NewsTV19, and Revora—demonstrating proficiency across the entire software development lifecycle.Technical Mastery: Gained deep expertise in the MERN stack, transitioning from independent project creation to contributing to production-ready company codebases.Bridging the Gap: Effectively translated complex business requirements into technical solutions, specifically in real-time communication, data enrichment, and AI-driven decision support.Professional Growth: Developed critical industry skills, including version control (Git), Docker containerization, and agile iterative development.
+21
+
+--- Slide 22 ---
+References
+22
+

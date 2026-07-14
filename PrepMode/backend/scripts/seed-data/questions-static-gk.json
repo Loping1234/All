@@ -1,0 +1,139 @@
+{
+  "questions": [
+    {
+      "questionText": "Which Part of the Indian Constitution contains the provisions relating to Fundamental Rights?",
+      "options": [
+        "Part II",
+        "Part III",
+        "Part IV",
+        "Part V"
+      ],
+      "correctAnswer": "Part III",
+      "explanation": "Fundamental Rights are enshrined in Part III of the Constitution, covering Articles 12 to 35. Part IV, by contrast, contains the Directive Principles of State Policy, which are non-justiciable.",
+      "difficulty": "Easy",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Indian Polity", "Constitution"],
+      "examModeTags": ["All", "SSC", "UPSC", "CLAT"]
+    },
+    {
+      "questionText": "Under which Article of the Indian Constitution can the President of India proclaim a National Emergency?",
+      "options": [
+        "Article 352",
+        "Article 356",
+        "Article 360",
+        "Article 343"
+      ],
+      "correctAnswer": "Article 352",
+      "explanation": "Article 352 empowers the President to proclaim a National Emergency on grounds of war, external aggression, or armed rebellion. Article 356 deals with President's Rule in a state and Article 360 with Financial Emergency.",
+      "difficulty": "Medium",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Indian Polity", "Emergency Provisions"],
+      "examModeTags": ["All", "UPSC", "CLAT", "SSC"]
+    },
+    {
+      "questionText": "Who is the ex-officio Chairman of the Rajya Sabha?",
+      "options": [
+        "The President of India",
+        "The Vice-President of India",
+        "The Prime Minister of India",
+        "The Speaker of the Lok Sabha"
+      ],
+      "correctAnswer": "The Vice-President of India",
+      "explanation": "Under Article 64 of the Constitution, the Vice-President of India serves as the ex-officio Chairman of the Rajya Sabha. The Rajya Sabha also elects a Deputy Chairman from among its members to preside in the Chairman's absence.",
+      "difficulty": "Easy",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Indian Polity", "Parliament"],
+      "examModeTags": ["All", "SSC", "Defence Exams", "CLAT"]
+    },
+    {
+      "questionText": "The river Godavari, the largest river of peninsular India, originates from which location?",
+      "options": [
+        "Amarkantak Plateau",
+        "Trimbakeshwar in the Western Ghats",
+        "Mahabaleshwar Plateau",
+        "Brahmagiri Hills near Talakaveri"
+      ],
+      "correctAnswer": "Trimbakeshwar in the Western Ghats",
+      "explanation": "The Godavari rises at Trimbakeshwar in the Nashik district of Maharashtra, in the Western Ghats, and flows eastwards into the Bay of Bengal. The Narmada originates from Amarkantak, the Krishna from near Mahabaleshwar, and the Kaveri from the Brahmagiri Hills.",
+      "difficulty": "Medium",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Indian Geography", "Rivers"],
+      "examModeTags": ["All", "SSC", "UPSC", "Defence Exams"]
+    },
+    {
+      "questionText": "Nathu La, a famous mountain pass that connects India with Tibet, is located in which Indian state?",
+      "options": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Sikkim",
+        "Arunachal Pradesh"
+      ],
+      "correctAnswer": "Sikkim",
+      "explanation": "Nathu La lies on the old trade route between Sikkim and the Tibetan region of China and is one of the highest motorable passes on the India-China border. Shipki La is in Himachal Pradesh, Lipulekh is in Uttarakhand, and Bomdila is in Arunachal Pradesh.",
+      "difficulty": "Easy",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Indian Geography", "Mountain Passes"],
+      "examModeTags": ["All", "SSC", "Defence Exams", "UPSC"]
+    },
+    {
+      "questionText": "Which Indian state has the longest mainland coastline?",
+      "options": [
+        "Maharashtra",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Gujarat"
+      ],
+      "correctAnswer": "Gujarat",
+      "explanation": "Gujarat has the longest coastline among Indian states, stretching along the Arabian Sea with major indentations such as the Gulf of Kutch and the Gulf of Khambhat. Its coastline is significantly longer than that of Andhra Pradesh or Tamil Nadu.",
+      "difficulty": "Easy",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Indian Geography", "States"],
+      "examModeTags": ["All", "SSC", "CLAT", "Defence Exams"]
+    },
+    {
+      "questionText": "The Dandi March, launched by Mahatma Gandhi to break the salt law, began in which year?",
+      "options": [
+        "1920",
+        "1930",
+        "1942",
+        "1919"
+      ],
+      "correctAnswer": "1930",
+      "explanation": "Gandhi began the Dandi March on 12 March 1930, walking from Sabarmati Ashram to the coastal village of Dandi, where he broke the salt law on 6 April 1930. This act launched the Civil Disobedience Movement across the country.",
+      "difficulty": "Easy",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Modern History", "Freedom Movement"],
+      "examModeTags": ["All", "UPSC", "SSC", "CLAT"]
+    },
+    {
+      "questionText": "At which session of the Indian National Congress was the resolution for 'Purna Swaraj' (complete independence) adopted in December 1929?",
+      "options": [
+        "Lahore Session",
+        "Karachi Session",
+        "Lucknow Session",
+        "Calcutta Session"
+      ],
+      "correctAnswer": "Lahore Session",
+      "explanation": "The Purna Swaraj resolution was adopted at the Lahore Session of the Indian National Congress in December 1929, presided over by Jawaharlal Nehru. Following this, 26 January 1930 was observed as the first Independence Day.",
+      "difficulty": "Medium",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Modern History", "Freedom Movement"],
+      "examModeTags": ["All", "UPSC", "CLAT", "SSC"]
+    },
+    {
+      "questionText": "Kathakali, a classical dance-drama known for its elaborate costumes and facial make-up, originated in which Indian state?",
+      "options": [
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Kerala",
+        "Odisha"
+      ],
+      "correctAnswer": "Kerala",
+      "explanation": "Kathakali is a classical dance-drama of Kerala that combines dance, music, and acting, with performers wearing elaborate costumes and painted faces to enact stories from the epics. Bharatanatyam belongs to Tamil Nadu, Kuchipudi to Andhra Pradesh, and Odissi to Odisha.",
+      "difficulty": "Easy",
+      "subjectTags": ["Static GK"],
+      "topicTags": ["Art and Culture", "Classical Dances"],
+      "examModeTags": ["All", "SSC", "UPSC", "Defence Exams"]
+    }
+  ]
+}

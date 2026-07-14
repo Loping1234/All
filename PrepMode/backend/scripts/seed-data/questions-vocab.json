@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "questionText": "Choose the word closest in meaning to CANDID.",
+      "options": ["Frank", "Hidden", "Clever", "Cautious"],
+      "correctAnswer": "Frank",
+      "explanation": "Candid means truthful and straightforward in speech or expression, which is exactly what frank means. The other options describe secrecy, intelligence, or carefulness, none of which match candid.",
+      "difficulty": "Easy",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Synonyms"],
+      "examModeTags": ["All", "SSC", "Banking"]
+    },
+    {
+      "questionText": "Select the word most similar in meaning to EPHEMERAL.",
+      "options": ["Transient", "Eternal", "Robust", "Significant"],
+      "correctAnswer": "Transient",
+      "explanation": "Ephemeral describes something that lasts for a very short time, and transient carries the same sense of brief duration. Eternal is its opposite, while robust and significant are unrelated in meaning.",
+      "difficulty": "Medium",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Synonyms"],
+      "examModeTags": ["All", "CAT", "CLAT"]
+    },
+    {
+      "questionText": "Pick the closest synonym of OBSTREPEROUS.",
+      "options": ["Unruly", "Obedient", "Transparent", "Melancholic"],
+      "correctAnswer": "Unruly",
+      "explanation": "Obstreperous means noisy, defiant, and difficult to control, so unruly is the best match. Obedient is an antonym, while transparent and melancholic refer to clarity and sadness respectively.",
+      "difficulty": "Hard",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Synonyms"],
+      "examModeTags": ["All", "CAT", "CLAT", "Banking"]
+    },
+    {
+      "questionText": "Choose the word most nearly OPPOSITE in meaning to SCARCE.",
+      "options": ["Abundant", "Rare", "Expensive", "Tiny"],
+      "correctAnswer": "Abundant",
+      "explanation": "Scarce means available in very small quantities, so its opposite is abundant, meaning existing in large amounts. Rare is a synonym of scarce, not an antonym.",
+      "difficulty": "Easy",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Antonyms"],
+      "examModeTags": ["All", "SSC", "Banking"]
+    },
+    {
+      "questionText": "Select the word most nearly OPPOSITE in meaning to FRUGAL.",
+      "options": ["Extravagant", "Economical", "Stingy", "Prudent"],
+      "correctAnswer": "Extravagant",
+      "explanation": "Frugal means careful and sparing with money, so its opposite is extravagant, meaning spending freely and wastefully. Economical, stingy, and prudent are all close in spirit to frugal.",
+      "difficulty": "Medium",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Antonyms"],
+      "examModeTags": ["All", "SSC", "CAT"]
+    },
+    {
+      "questionText": "Pick the word most nearly OPPOSITE in meaning to OBDURATE.",
+      "options": ["Yielding", "Stubborn", "Hardened", "Indifferent"],
+      "correctAnswer": "Yielding",
+      "explanation": "Obdurate describes a person who stubbornly refuses to change their opinion or soften their attitude. Yielding, meaning flexible and willing to give way, is therefore the correct antonym; stubborn and hardened are synonyms of obdurate.",
+      "difficulty": "Hard",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Antonyms"],
+      "examModeTags": ["All", "CAT", "CLAT"]
+    },
+    {
+      "questionText": "What is the meaning of the idiom 'to let the cat out of the bag'?",
+      "options": ["To reveal a secret accidentally", "To create unnecessary trouble", "To abandon a difficult task", "To punish someone severely"],
+      "correctAnswer": "To reveal a secret accidentally",
+      "explanation": "The idiom 'to let the cat out of the bag' means to disclose a secret, usually without intending to. It is often used when confidential plans or surprises are revealed too early.",
+      "difficulty": "Easy",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Idioms"],
+      "examModeTags": ["All", "SSC", "Banking"]
+    },
+    {
+      "questionText": "What is the meaning of the idiom 'to throw down the gauntlet'?",
+      "options": ["To issue a challenge", "To surrender completely", "To waste resources carelessly", "To make a humble request"],
+      "correctAnswer": "To issue a challenge",
+      "explanation": "Throwing down the gauntlet comes from the medieval custom of a knight throwing his glove to the ground to challenge an opponent to combat. Today it means to openly challenge or confront someone.",
+      "difficulty": "Medium",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["Idioms"],
+      "examModeTags": ["All", "CAT", "CLAT", "SSC"]
+    },
+    {
+      "questionText": "Choose the one word that means 'a person who can speak many languages'.",
+      "options": ["Polyglot", "Linguist", "Orator", "Interpreter"],
+      "correctAnswer": "Polyglot",
+      "explanation": "A polyglot is specifically a person who knows and is able to use several languages. A linguist studies the science of language, an orator is a skilled public speaker, and an interpreter translates speech between languages.",
+      "difficulty": "Easy",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["One Word Substitution"],
+      "examModeTags": ["All", "SSC", "CUET"]
+    },
+    {
+      "questionText": "Choose the one word that means 'one who believes that nothing can be known about the existence of God'.",
+      "options": ["Agnostic", "Atheist", "Heretic", "Fanatic"],
+      "correctAnswer": "Agnostic",
+      "explanation": "An agnostic holds that the existence of God is unknown or unknowable, which is different from an atheist, who denies that God exists. A heretic opposes accepted religious doctrine, and a fanatic holds extreme, uncritical zeal.",
+      "difficulty": "Medium",
+      "subjectTags": ["Vocabulary"],
+      "topicTags": ["One Word Substitution"],
+      "examModeTags": ["All", "SSC", "CLAT", "Banking"]
+    }
+  ]
+}
