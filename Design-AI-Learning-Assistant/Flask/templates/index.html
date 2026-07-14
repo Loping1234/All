@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnAI — Study Session</title>
+    
+    <script>
+        // Base URL for API requests (points to Flask server)
+        const API_BASE_URL = 'http://localhost:5000';
+    </script>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/monitor.css') }}">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="bg-gradient-base"></div>
+        <div class="gradient-orb orb-purple"></div>
+        <div class="gradient-orb orb-blue"></div>
+        <div class="gradient-orb orb-cyan"></div>
+        
+        <!-- Floating particles -->
+        <div class="floating-particle" style="left: 10%; top: 20%; animation-delay: 0s;"></div>
+        <div class="floating-particle" style="left: 20%; top: 40%; animation-delay: 0.5s;"></div>
+        <div class="floating-particle" style="left: 30%; top: 60%; animation-delay: 1s;"></div>
+        <div class="floating-particle" style="left: 40%; top: 30%; animation-delay: 1.5s;"></div>
+        <div class="floating-particle" style="left: 50%; top: 70%; animation-delay: 2s;"></div>
+        <div class="floating-particle" style="left: 60%; top: 50%; animation-delay: 2.5s;"></div>
+        <div class="floating-particle" style="left: 70%; top: 25%; animation-delay: 3s;"></div>
+        <div class="floating-particle" style="left: 80%; top: 65%; animation-delay: 3.5s;"></div>
+        <div class="floating-particle" style="left: 90%; top: 45%; animation-delay: 4s;"></div>
+        <div class="floating-particle" style="left: 15%; top: 80%; animation-delay: 0.8s;"></div>
+        <div class="floating-particle" style="left: 25%; top: 15%; animation-delay: 1.3s;"></div>
+        <div class="floating-particle" style="left: 35%; top: 85%; animation-delay: 1.8s;"></div>
+        <div class="floating-particle" style="left: 45%; top: 10%; animation-delay: 2.3s;"></div>
+        <div class="floating-particle" style="left: 55%; top: 90%; animation-delay: 2.8s;"></div>
+        <div class="floating-particle" style="left: 65%; top: 35%; animation-delay: 3.3s;"></div>
+        <div class="floating-particle" style="left: 75%; top: 75%; animation-delay: 3.8s;"></div>
+        <div class="floating-particle" style="left: 85%; top: 20%; animation-delay: 4.3s;"></div>
+        <div class="floating-particle" style="left: 95%; top: 55%; animation-delay: 4.8s;"></div>
+        <div class="floating-particle" style="left: 5%; top: 50%; animation-delay: 0.3s;"></div>
+        <div class="floating-particle" style="left: 12%; top: 95%; animation-delay: 1.1s;"></div>
+        
+        <div class="gradient-mesh"></div>
+    </div>
+
+    <div class="container fade-in-up">
+        <div class="header-bar">
+            <h1>LearnAI <span style="font-weight: 500; opacity: 0.75;">Study Session</span></h1>
+            {% if username %}
+                <div class="session-info">
+                    <span class="user-name">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;vertical-align:-2px;margin-right:4px;"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>{{ username }}</span>
+                    {% if session_purpose %}
+                        <span class="session-purpose">{{ session_purpose.title() }}</span>
+                    {% endif %}
+                    {% if uploaded_files %}
+                        <span class="file-count">{{ uploaded_files|length }} files</span>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+        
+        <div class="main-content">
+            <!-- Left Panel: Video Feed + Analytics -->
+            <div class="left-panel">
+                <div class="video-container">
+                    <h3 style="margin-bottom: 15px; color: var(--foreground); text-align: center;">Live Feed</h3>
+                    <img src="{{ url_for('video_feed') }}" class="video-feed" alt="Video Feed">
+                    <div class="feed-overlay" id="feedOverlay">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="2" x2="22" y1="2" y2="22"/><path d="M7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h13"/><path d="M9.5 4h5L17 7h3a2 2 0 0 1 2 2v7.5"/><path d="M14.121 15.121A3 3 0 1 1 9.88 10.88"/></svg>
+                        <p>Webcam feed paused or disconnected.</p>
+                        <button type="button" class="gradient-btn feed-reconnect-btn" onclick="reconnectFeed()">Reconnect</button>
+                    </div>
+                </div>
+                
+                <div class="analytics-container">
+                    <h3 style="margin-bottom: 15px; color: var(--foreground); text-align: center;">Analytics</h3>
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <div class="metric-label">Face Detection</div>
+                            <div class="metric-value">
+                                <span id="faceStatus" class="status-indicator indicator-offline"></span>
+                                <span id="faceText">Checking...</span>
+                            </div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-label">Eye Aspect Ratio</div>
+                            <div id="earValue" class="metric-value">0.000</div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-label">Yawn Probability</div>
+                            <div id="yawnProb" class="metric-value">0.00</div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-label">Face Direction</div>
+                            <div id="faceDirection" class="metric-value">Forward</div>
+                        </div>
+                        
+                        <div class="metric-card">
+                            <div class="metric-label">Time Away</div>
+                            <div id="timeAway" class="metric-value">0s</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Center: Status Display -->
+            <div class="status-display">
+                <div id="currentStatus" class="current-status status-focused">
+                    INITIALIZING...
+                </div>
+                <div id="timestamp" class="timestamp">
+                    Last updated: --
+                </div>
+            </div>
+
+            <!-- Center: Document Viewer -->
+            <div class="document-viewer">
+                <h3 style="color: var(--text-main); margin-bottom: 15px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;color:var(--primary);"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>
+                    Document Viewer
+                </h3>
+                <div class="document-content" id="documentContent">
+                    {% if uploaded_files %}
+                        <div class="file-list">
+                            <h4>Uploaded Documents:</h4>
+                            {% for file in uploaded_files %}
+                                <div class="file-item-display" onclick="viewDocument('{{ file }}')">
+                                    <span class="file-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;color:var(--secondary);"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></span>
+                                    <span class="file-name">{{ file.split('_', 2)[2] if '_' in file else file }}</span>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="document-preview" id="documentPreview">
+                            <p style="text-align: center; color: var(--text-muted); margin-top: 50px;">
+                                Click on a document above to view it here
+                            </p>
+                        </div>
+                    {% else %}
+                        <div class="no-documents document-display" id="documentDisplay" style="padding: 40px; max-width: 800px; margin: 0 auto; line-height: 1.8; color: var(--text-secondary);">
+                            <h2 style="color: var(--text-main); border-bottom: 3px solid var(--primary); padding-bottom: 10px; margin-bottom: 20px;">No Documents Uploaded</h2>
+
+                            <p><strong style="color: var(--text-main);">Welcome to your study session!</strong> While you haven't uploaded any documents yet, you can still use all the monitoring features.</p>
+
+                            <h3 style="color: var(--text-main); margin-top: 30px; margin-bottom: 15px;">Try the Highlighter:</h3>
+                            <p>Select this sample text and try highlighting it! Click the <strong style="color: var(--text-main);">"Highlighter"</strong> button on the right side, then select any text below:</p>
+
+                            <blockquote style="background: rgba(139, 92, 246, 0.08); border-left: 4px solid var(--primary); border-radius: 0 8px 8px 0; padding: 15px; margin: 20px 0; font-style: italic; color: var(--text-secondary);">
+                                "Education is the most powerful weapon which you can use to change the world." - Nelson Mandela
+                            </blockquote>
+
+                            <h3 style="color: var(--text-main); margin-top: 30px; margin-bottom: 15px;">Study Tips:</h3>
+                            <ul style="margin-left: 25px;">
+                                <li><strong style="color: var(--text-main);">Stay Focused:</strong> The system monitors your attention in real-time</li>
+                                <li><strong style="color: var(--text-main);">Take Breaks:</strong> Use the mini-games for quick mental refreshers</li>
+                                <li><strong style="color: var(--text-main);">Use the Chat:</strong> Ask AI questions about your study material</li>
+                                <li><strong style="color: var(--text-main);">Make Notes:</strong> Jot down important points as you study</li>
+                                <li><strong style="color: var(--text-main);">Watch Videos:</strong> Get video recommendations on any topic</li>
+                            </ul>
+
+                            <h3 style="color: var(--text-main); margin-top: 30px; margin-bottom: 15px;">About Highlighting:</h3>
+                            <p>The highlighter feature allows you to mark important text with different colors:</p>
+                            <ul style="margin-left: 25px; list-style: none;">
+                                <li><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#eab308;margin-right:8px;"></span><strong style="color: var(--text-main);">Yellow</strong> - Main concepts and definitions</li>
+                                <li><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#10b981;margin-right:8px;"></span><strong style="color: var(--text-main);">Green</strong> - Important facts and data</li>
+                                <li><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ef4444;margin-right:8px;"></span><strong style="color: var(--text-main);">Red</strong> - Critical information and warnings</li>
+                                <li><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#3b82f6;margin-right:8px;"></span><strong style="color: var(--text-main);">Blue</strong> - Examples and case studies</li>
+                                <li><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#8b5cf6;margin-right:8px;"></span><strong style="color: var(--text-main);">Purple</strong> - Questions and areas to review</li>
+                                <li><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#f59e0b;margin-right:8px;"></span><strong style="color: var(--text-main);">Orange</strong> - Additional notes and references</li>
+                            </ul>
+
+                            <p style="margin-top: 20px; color: var(--text-muted);"><em>Note: Highlighting works with HTML content and images, but not with PDFs in iframe mode. For PDF highlighting, consider uploading screenshots or using the Notes feature.</em></p>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Right Panel: Timer + Tools -->
+            <div class="right-panel">
+                <div class="session-timer-container">
+                    <h3 style="margin-bottom: 15px;">Session Timer</h3>
+                    <div class="timer-display" id="sessionTimer">
+                        {{ session_duration }}:00
+                    </div>
+                    <div class="timer-progress">
+                        <div class="progress-bar" id="progressBar"></div>
+                    </div>
+                    <button class="end-session-btn-small" onclick="endSession()">
+                        End Session
+                    </button>
+                </div>
+                
+                <div class="tools-container">
+                    <h3 style="margin-bottom: 15px;">Tools</h3>
+                    <div class="tool-buttons">
+                        <div class="zoom-controls">
+                            <button class="tool-btn zoom-btn" onclick="zoomOut()">-</button>
+                            <span class="zoom-level" id="zoomLevel">100%</span>
+                            <button class="tool-btn zoom-btn" onclick="zoomIn()">+</button>
+                        </div>
+                        <button class="tool-btn" id="notesBtn" onclick="toggleNotes()">
+                            Notes
+                        </button>
+                        <button class="tool-btn" id="downloadBtn" onclick="downloadNotes()">
+                            Download Notes
+                        </button>
+                    </div>
+                </div>
+
+                <!-- New Action Buttons -->
+                <div class="action-buttons-container">
+                    <button class="action-btn" id="chatBtn" onclick="toggleChat()">
+                        Chat with me!
+                    </button>
+                    <button class="action-btn" id="gamesBtn" onclick="openMiniGames()">
+                        Mini games
+                    </button>
+                    <button class="action-btn" id="videoRecsBtn" onclick="getVideoRecommendations()">
+                        Get Video Recommendations
+                    </button>
+                    <button class="action-btn" id="ttsBtn" onclick="toggleTTS()">
+                        Document Reader
+                    </button>
+                </div>
+
+                <!-- TTS Controls Modal -->
+                <div class="tts-modal" id="ttsModal">
+                    <div class="tts-header">
+                        <h4>Document Reader</h4>
+                        <button class="close-tts" onclick="toggleTTS()">✕</button>
+                    </div>
+                    <div class="tts-content">
+                        <div class="tts-controls-group">
+                            <button class="tts-control-btn" id="readAllBtn" onclick="readFullDocument()">
+                                Read All
+                            </button>
+                            <button class="tts-control-btn" id="readSelectedBtn" onclick="readSelectedText()">
+                                Read Selected
+                            </button>
+                        </div>
+
+                        <!-- PDF Page Controls -->
+                        <div class="tts-pdf-controls" id="pdfControls" style="display: none;">
+                            <div class="pdf-page-info">
+                                <label style="font-size: 0.8rem; margin-right: 5px;">Page:</label>
+                                <input type="number" id="pdfPageInput" min="1" max="1" value="1" 
+                                       class="pdf-page-input" onchange="goToPage(this.value)">
+                                <span style="font-size: 0.8rem; margin-left: 5px;">of <span id="totalPages">1</span></span>
+                            </div>
+                            <div class="pdf-navigation">
+                                <button class="pdf-nav-btn" onclick="readPreviousPage()">&laquo; Prev</button>
+                                <button class="pdf-nav-btn" onclick="readCurrentPage()">This Page</button>
+                                <button class="pdf-nav-btn" onclick="readNextPage()">Next &raquo;</button>
+                            </div>
+                        </div>
+
+                        <div class="tts-playback-controls">
+                            <button class="tts-playback-btn" id="ttsPlayBtn" onclick="toggleTTSPlayPause()" disabled>
+                                ▶️
+                            </button>
+                            <button class="tts-playback-btn" id="ttsStopBtn" onclick="stopReading()" disabled>
+                                ⏹️
+                            </button>
+                        </div>
+
+                        <div class="tts-settings">
+                            <div class="tts-setting-row">
+                                <label>Voice:</label>
+                                <select id="voiceSelect" class="tts-select" onchange="updateTTSVoice()">
+                                    <option>Loading voices...</option>
+                                </select>
+                            </div>
+
+                            <div class="tts-setting-row">
+                                <label>Speed:</label>
+                                <input type="range" id="ttsRate" min="0.5" max="2" step="0.1" value="1" class="tts-slider" oninput="updateTTSRate(this.value)">
+                                <span id="ttsRateValue" class="tts-value">1.0x</span>
+                            </div>
+
+                            <div class="tts-setting-row">
+                                <label>Volume:</label>
+                                <input type="range" id="ttsVolume" min="0" max="1" step="0.1" value="1" class="tts-slider" oninput="updateTTSVolume(this.value)">
+                                <span id="ttsVolumeValue" class="tts-value">100%</span>
+                            </div>
+                        </div>
+
+                        <div class="tts-status" id="ttsStatus">
+                            Ready - Open a document and click "Read All" or select text
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Music Section -->
+                <div class="music-container">
+                    <div class="music-header">
+                        <h3>Focus Music</h3>
+                    </div>
+                    <div class="music-controls">
+                        <div class="play-pause-container">
+                            <button class="play-pause-btn" id="playPauseBtn" onclick="toggleMusic()">
+                                ▶️
+                            </button>
+                            <div class="music-status">
+                                <div id="musicStatus">Loading music...</div>
+                                <div id="musicTime" style="font-size: 0.8rem; opacity: 0.8;">00:00 / 20:00</div>
+                            </div>
+                        </div>
+                        <div class="volume-container">
+                            <span class="volume-label">Volume:</span>
+                            <input type="range" class="volume-slider" id="volumeSlider" 
+                                   min="0" max="100" value="50" oninput="updateVolume()">
+                            <span class="volume-percentage" id="volumePercentage">50%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notes Modal -->
+        <div class="notes-modal" id="notesModal">
+            <div class="notes-content">
+                <div class="notes-header">
+                    <h4>Session Notes</h4>
+                    <button class="close-notes" onclick="toggleNotes()">✕</button>
+                </div>
+                <textarea id="notesTextarea" placeholder="Write your notes here..."></textarea>
+                <div class="notes-footer">
+                    <button onclick="saveNotes()">Save</button>
+                    <button onclick="clearNotes()">Clear</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Overlay (for maximized mode) -->
+        <div class="chat-overlay" id="chatOverlay" onclick="minimizeChat()"></div>
+
+        <!-- Chat Modal -->
+        <div class="notes-modal" id="chatModal">
+            <div class="notes-content">
+                <div class="notes-header">
+                    <h4>Chat with AI Assistant</h4>
+                    <div class="chat-controls">
+                        <button class="maximize-btn" id="maximizeBtn" onclick="maximizeChat()" title="Maximize">
+                            ⛶
+                        </button>
+                        <button class="minimize-btn" onclick="minimizeChat()" title="Minimize">
+                            −
+                        </button>
+                        <button class="close-notes" onclick="toggleChat()" title="Close">
+                            ✕
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Chat Mode Selection -->
+                <div class="chat-mode-selector">
+                    <button class="mode-btn active" id="askAnythingBtn" onclick="setChatMode('ask_anything')">
+                        Ask Anything
+                    </button>
+                    <button class="mode-btn" id="askDocumentBtn" onclick="setChatMode('ask_document')">
+                        Ask from Document
+                    </button>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="chat-message ai-message">
+                        <strong>AI Assistant:</strong> Hello! I'm here to help you during your study session. 
+                        <br><br>
+                        Choose a mode:
+                        <br>• <strong>Ask Anything:</strong> Ask me any question
+                        <br>• <strong>Ask from Document:</strong> Ask questions about your uploaded documents
+                    </div>
+                </div>
+                <div class="chat-input-container">
+                    <input type="text" id="chatInput" placeholder="Type your message..." onkeypress="handleChatEnter(event)">
+                    <button onclick="sendChatMessage()" id="sendChatBtn">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mini Games Modal -->
+        <div id="gamesModal">
+            <div class="games-modal-header">
+                <h4>Mini Brain Games</h4>
+                <div class="games-controls">
+                    <button onclick="maximizeGames()" title="Maximize" id="maxGamesBtn">⛶</button>
+                    <button onclick="minimizeGames()" title="Minimize">−</button>
+                    <button onclick="closeGames()" title="Close">✕</button>
+                </div>
+            </div>
+            <div class="games-modal-content">
+                <div id="gamesGrid" class="games-grid"></div>
+            </div>
+        </div>
+
+        <!-- Game Player Overlay -->
+        <div class="game-player-overlay" id="gamePlayerOverlay">
+            <div class="game-player-container">
+                <div class="game-player-header">
+                    <div class="game-player-info">
+                        <h3 class="game-player-title" id="gamePlayerTitle">Playing Game</h3>
+                        <div class="game-timer" id="gameTimer">Time: 5:00</div>
+                    </div>
+                    <button class="game-player-close" onclick="closeGamePlayer()">✕</button>
+                </div>
+                <div id="gamePlayerContent" style="flex: 1; overflow: hidden;"></div>
+            </div>
+        </div>
+
+        <!-- Video Recommendations Modal -->
+        <div id="videoModal">
+            <div class="video-modal-header">
+                <h4>Video Recommendations</h4>
+                <div class="video-controls">
+                    <button onclick="maximizeVideo()" title="Maximize" id="maxVideoBtn">⛶</button>
+                    <button onclick="minimizeVideo()" title="Minimize">−</button>
+                    <button onclick="closeVideo()" title="Close">✕</button>
+                </div>
+            </div>
+            <div class="video-modal-content">
+                <div class="video-search-container">
+                    <input 
+                        type="text" 
+                        id="videoTopicInput" 
+                        placeholder="Enter a topic (e.g., Python tutorials, relaxation music, study tips...)"
+                        onkeypress="handleVideoEnter(event)"
+                    />
+                    <button onclick="searchVideos()" id="searchVideoBtn">
+                        Search Videos
+                    </button>
+                </div>
+                <div id="videoResultsContainer"></div>
+            </div>
+        </div>
+
+        <!-- Video Player Overlay -->
+        <div class="video-player-overlay" id="videoPlayerOverlay">
+            <div class="video-player-container">
+                <div class="video-player-header">
+                    <h3 id="videoPlayerTitle">Playing Video</h3>
+                    <button class="video-player-close" onclick="closeVideoPlayer()">✕</button>
+                </div>
+                <iframe 
+                    id="videoPlayerIframe" 
+                    class="video-player-iframe"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.APP_CONFIG = {
+            sessionDuration: parseInt('{{ session_duration }}') * 60 || 30 * 60,
+            endSessionUrl: '{{ url_for("end_session") }}'
+        };
+    </script>
+    <!-- PDF.js for Document Reader TTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+        // Configure PDF.js worker
+        if (typeof pdfjsLib !== 'undefined') {
+            pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+        }
+    </script>
+    <script src="{{ url_for('static', filename='js/monitor.js') }}"></script>
+</body>
+</html>

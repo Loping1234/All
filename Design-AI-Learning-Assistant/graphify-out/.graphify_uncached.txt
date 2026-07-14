@@ -1,0 +1,17 @@
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\API_SETUP.txt
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\render.yaml
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\requirements.txt
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\server\README_MUSIC.txt
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\static\images\games\create-thumbnails-guide.html
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\templates\analytics.html
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\templates\index.html
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\templates\start.html
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\README.md
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\index.html
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\src\Attributions.md
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\src\guidelines\Guidelines.md
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\static\images\games\2048.jpeg
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\static\images\games\block-puzzle.jpeg
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\static\images\games\candy-riddles.jpeg
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\static\images\games\helix-jump.jpeg
+C:\Users\PRANAY\OneDrive\Documents\Task_App\Design-AI-Learning-Assistant\Flask\static\images\games\word-search.png

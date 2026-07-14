@@ -1,0 +1,588 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rigveda'",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "112001",
+        "suburb": "RAI KA BAGH",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0201858,
+        "lat": 26.2709842,
+        "state_code": "RJ",
+        "formatted": "Rigveda', NH62, RAI KA BAGH, Jodhpur - 112001, Rajasthan, India",
+        "address_line1": "Rigveda'",
+        "address_line2": "NH62, RAI KA BAGH, Jodhpur - 112001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2709842,
+            "lon": 73.0201858,
+            "name": "Rigveda'",
+            "osm_id": 10885688114,
+            "amenity": "cafe",
+            "osm_type": "n"
+          }
+        },
+        "distance": 3578,
+        "place_id": "51fdb561b94a4152405994bb74385f453a40f00103f901326bd688020000009203085269677665646127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0201858,
+          26.2709842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brown Sugar",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "112001",
+        "suburb": "RAI KA BAGH",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0202716,
+        "lat": 26.2710068,
+        "state_code": "RJ",
+        "formatted": "Brown Sugar, NH62, RAI KA BAGH, Jodhpur - 112001, Rajasthan, India",
+        "address_line1": "Brown Sugar",
+        "address_line2": "NH62, RAI KA BAGH, Jodhpur - 112001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2710068,
+            "lon": 73.0202716,
+            "name": "Brown Sugar",
+            "osm_id": 10885684392,
+            "amenity": "cafe",
+            "osm_type": "n"
+          }
+        },
+        "distance": 3580,
+        "place_id": "5168c240214c415240595dfe9eb360453a40f00103f901a85cd6880200000092030b42726f776e205375676172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0202716,
+          26.2710068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rasraj",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "112001",
+        "suburb": "RAI KA BAGH",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0225601,
+        "lat": 26.2717256,
+        "state_code": "RJ",
+        "formatted": "Rasraj, NH62, RAI KA BAGH, Jodhpur - 112001, Rajasthan, India",
+        "address_line1": "Rasraj",
+        "address_line2": "NH62, RAI KA BAGH, Jodhpur - 112001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2717256,
+            "lon": 73.0225601,
+            "name": "Rasraj",
+            "osm_id": 10885699715,
+            "amenity": "cafe",
+            "osm_type": "n"
+          }
+        },
+        "distance": 3641,
+        "place_id": "5173ecea9f7141524059697c15cf8f453a40f00103f9018398d6880200000092030652617372616a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0225601,
+          26.2717256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "balaji",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342009",
+        "street": "garden road",
+        "iso3166_2": "IN-RJ",
+        "lon": 72.9978993,
+        "lat": 26.2686516,
+        "state_code": "RJ",
+        "formatted": "balaji, garden road, Jodhpur - 342009, Rajasthan, India",
+        "address_line1": "balaji",
+        "address_line2": "garden road, Jodhpur - 342009, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2686516,
+            "lon": 72.9978993,
+            "name": "balaji",
+            "osm_id": 5076836610,
+            "amenity": "cafe",
+            "osm_type": "n"
+          }
+        },
+        "distance": 4222,
+        "place_id": "51e28c0695dd3f524059a004ec59c6443a40f00103f90102619a2e0100000092030662616c616a69"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9978993,
+          26.2686516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe Coffee Day",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342001",
+        "suburb": "RAI KA BAGH",
+        "street": "NH62",
+        "housenumber": "east patel nager",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0394597,
+        "lat": 26.275235,
+        "state_code": "RJ",
+        "formatted": "Cafe Coffee Day, east patel nager, NH62, RAI KA BAGH, Jodhpur - 342001, Rajasthan, India",
+        "address_line1": "Cafe Coffee Day",
+        "address_line2": "east patel nager, NH62, RAI KA BAGH, Jodhpur - 342001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.275235,
+            "lon": 73.0394597,
+            "city": "Jodhpur",
+            "name": "Cafe Coffee Day",
+            "osm_id": 5657701760,
+            "street": "manerode",
+            "amenity": "cafe",
+            "cuisine": "coffee_shop;sandwich;pizza",
+            "osm_type": "n",
+            "postcode": 342001,
+            "housenumber": "east patel nager"
+          }
+        },
+        "catering": {
+          "cuisine": "coffee_shop;sandwich;pizza"
+        },
+        "distance": 4301,
+        "place_id": "51a340fa818642524059edb60bcd75463a40f00103f90180ad39510100000092030f4361666520436f6666656520446179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0394597,
+          26.275235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee Day",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342010",
+        "suburb": "RAI KA BAGH",
+        "street": "NH25",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0288053,
+        "lat": 26.289678,
+        "state_code": "RJ",
+        "formatted": "Coffee Day, NH25, RAI KA BAGH, Jodhpur - 342010, Rajasthan, India",
+        "address_line1": "Coffee Day",
+        "address_line2": "NH25, RAI KA BAGH, Jodhpur - 342010, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [
+          "details"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.289678,
+            "lon": 73.0288053,
+            "name": "Coffee Day",
+            "osm_id": 6266841785,
+            "amenity": "cafe",
+            "name:pa": "ਕੌਫੀ ਡੇ",
+            "name:ur": "کافی ڈے",
+            "osm_type": "n"
+          }
+        },
+        "name_international": {
+          "pa": "ਕੌਫੀ ਡੇ",
+          "ur": "کافی ڈے"
+        },
+        "distance": 5644,
+        "place_id": "51e55c2ff2d741524059e55e6056284a3a40f00103f901b96a88750100000092030a436f6666656520446179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0288053,
+          26.289678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best Chai",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342001",
+        "suburb": "Paota",
+        "street": "Nai Sarak",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0239938,
+        "lat": 26.2938721,
+        "state_code": "RJ",
+        "formatted": "Best Chai, Nai Sarak, Paota, Jodhpur - 342001, Rajasthan, India",
+        "address_line1": "Best Chai",
+        "address_line2": "Nai Sarak, Paota, Jodhpur - 342001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "catering.cafe.tea",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2938721,
+            "lon": 73.0239938,
+            "name": "Best Chai",
+            "osm_id": 4552274793,
+            "street": "Nai Sarak",
+            "amenity": "cafe",
+            "cuisine": "tea",
+            "name:hi": "धाकड़ चाय",
+            "name:ur": "دھکاد چائے",
+            "smoking": "separated",
+            "osm_type": "n",
+            "wheelchair": "yes",
+            "addr:street:ur": "نئی سرک"
+          }
+        },
+        "name_international": {
+          "hi": "धाकड़ चाय",
+          "ur": "دھکاد چائے"
+        },
+        "facilities": {
+          "wheelchair": true,
+          "smoking": true
+        },
+        "catering": {
+          "cuisine": "tea"
+        },
+        "distance": 6091,
+        "place_id": "51a2934a1d8941524059f4b4b2333b4b3a40f00103f9016933560f01000000920309426573742043686169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0239938,
+          26.2938721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Misrilal hotel Lassi",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342003",
+        "suburb": "Paota",
+        "street": "Nai Sarak",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0241828,
+        "lat": 26.2944084,
+        "state_code": "RJ",
+        "formatted": "Misrilal hotel Lassi, Nai Sarak, Paota, Jodhpur - 342003, Rajasthan, India",
+        "address_line1": "Misrilal hotel Lassi",
+        "address_line2": "Nai Sarak, Paota, Jodhpur - 342003, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "internet_access"
+        ],
+        "details": [
+          "details",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2944084,
+            "lon": 73.0241828,
+            "name": "Misrilal hotel Lassi",
+            "osm_id": 5002850121,
+            "amenity": "cafe",
+            "name:hi": "Misrilal hotel Lassi",
+            "osm_type": "n",
+            "internet_access": "wlan"
+          }
+        },
+        "name_international": {
+          "hi": "Misrilal hotel Lassi"
+        },
+        "facilities": {
+          "internet_access": true
+        },
+        "distance": 6150,
+        "place_id": "510cc803368c41524059edaa51595e4b3a40f00103f901496f312a010000009203144d697372696c616c20686f74656c204c61737369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0241828,
+          26.2944084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Café Royale",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342003",
+        "suburb": "Paota",
+        "street": "نئی سرک",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0240593,
+        "lat": 26.2953602,
+        "state_code": "RJ",
+        "formatted": "Café Royale, نئی سرک, Paota, Jodhpur - 342003, Rajasthan, India",
+        "address_line1": "Café Royale",
+        "address_line2": "نئی سرک, Paota, Jodhpur - 342003, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe",
+          "internet_access"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2953602,
+            "lon": 73.0240593,
+            "name": "Café Royale",
+            "phone": 7726823777,
+            "osm_id": 4500039091,
+            "amenity": "cafe",
+            "cuisine": "coffee_shop;tea;sandwich;indian;pancake;breakfast",
+            "name:ur": "کیفے رائل",
+            "website": "https://www.facebook.com/caferoyaleclocktower",
+            "osm_type": "n",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "internet_access": "wlan"
+          }
+        },
+        "website": "https://www.facebook.com/caferoyaleclocktower",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "name_international": {
+          "ur": "کیفے رائل"
+        },
+        "contact": {
+          "phone": 7726823777
+        },
+        "facilities": {
+          "internet_access": true
+        },
+        "catering": {
+          "cuisine": "coffee_shop;tea;sandwich;indian;pancake;breakfast"
+        },
+        "distance": 6255,
+        "place_id": "518aaa04308a415240593f8adfb99c4b3a40f00103f901b325390c0100000092030c436166c3a920526f79616c65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0240593,
+          26.2953602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sambhali Cafe & Boutique",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342003",
+        "suburb": "Paota",
+        "street": "Kutto Ki Paul",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0195262,
+        "lat": 26.2952069,
+        "state_code": "RJ",
+        "formatted": "Sambhali Cafe & Boutique, Kutto Ki Paul, Paota, Jodhpur - 342003, Rajasthan, India",
+        "address_line1": "Sambhali Cafe & Boutique",
+        "address_line2": "Kutto Ki Paul, Paota, Jodhpur - 342003, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.cafe"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2952069,
+            "lon": 73.0195262,
+            "name": "Sambhali Cafe & Boutique",
+            "osm_id": 12625084901,
+            "street": "Holi Chowk",
+            "amenity": "cafe",
+            "osm_type": "n",
+            "contact:instagram": "sambhali_cafe_boutique"
+          }
+        },
+        "distance": 6257,
+        "place_id": "51929ad1ea3f41524059b50dedad924b3a40f00103f901e58183f00200000092031853616d6268616c692043616665202620426f757469717565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0195262,
+          26.2952069
+        ]
+      }
+    }
+  ]
+}

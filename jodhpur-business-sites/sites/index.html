@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Jodhpur Demo Website Drafts</title>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <style>
+    :root {
+      --ink: #171714;
+      --paper: #f4f0e8;
+      --surface: #fffdf8;
+      --line: #d9d1c2;
+      --accent: #b84b35;
+      --muted: #6b655c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 16px/1.6 "Instrument Sans", system-ui, sans-serif;
+    }
+    .shell { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+    header { padding: 72px 0 40px; border-bottom: 1px solid var(--line); }
+    h1 { max-width: 760px; margin: 0 0 16px; font: 400 clamp(2.5rem, 7vw, 5.5rem)/.96 "Instrument Serif", Georgia, serif; }
+    header p { max-width: 680px; margin: 0; color: var(--muted); }
+    .notice { margin-top: 28px; padding: 14px 18px; border-left: 4px solid var(--accent); background: var(--surface); font-weight: 700; }
+    main { padding: 48px 0 72px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    article { min-height: 360px; padding: 28px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); display: flex; flex-direction: column; }
+    .number { color: var(--accent); font-size: .8rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    h2 { margin: 42px 0 12px; font: 400 2rem/1.05 "Instrument Serif", Georgia, serif; }
+    .template { color: var(--muted); margin: 0 0 26px; }
+    .category { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .78rem; color: var(--muted); }
+    a { margin-top: auto; color: #fff; background: var(--ink); padding: 13px 18px; border-radius: 999px; text-align: center; text-decoration: none; font-weight: 600; }
+    a:hover, a:focus-visible { background: var(--accent); }
+    footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 800px) { .grid { grid-template-columns: 1fr; } article { min-height: 290px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="shell">
+      <h1>Four Jodhpur demo website drafts</h1>
+      <p>Private, one-off concept sites built for owner preview. They are not owned, approved, or operated by the listed businesses.</p>
+      <div class="notice">Unofficial demo website draft.</div>
+    </div>
+  </header>
+  <main class="shell">
+    <div class="grid">
+      <article>
+        <span class="number">Demo 01</span>
+        <h2>RAJSHREE BOUTIQUE</h2>
+        <p class="template">Little Fashion inspired boutique presentation</p>
+        <p class="category">commercial.clothing</p>
+        <a href="rajshree-boutique/index.html">Open demo</a>
+      </article>
+      <article>
+        <span class="number">Demo 02</span>
+        <h2>Desi Bhoj</h2>
+        <p class="template">Klassy Cafe inspired restaurant presentation</p>
+        <p class="category">catering.restaurant</p>
+        <a href="desi-bhoj/index.html">Open demo</a>
+      </article>
+      <article>
+        <span class="number">Demo 03</span>
+        <h2>Rigveda'</h2>
+        <p class="template">Barista Cafe inspired cafe presentation</p>
+        <p class="category">catering.cafe</p>
+        <a href="rigveda/index.html">Open demo</a>
+      </article>
+      <article>
+        <span class="number">Demo 04</span>
+        <h2>15 A.D. Bakery</h2>
+        <p class="template">Custom bakery owner-verification draft</p>
+        <p class="category">bakery / multi-outlet record</p>
+        <a href="15-ad-bakery/index.html">Open demo</a>
+      </article>
+    </div>
+  </main>
+  <footer><div class="shell">Not deployed publicly. Owner approval and content verification are still required.</div></footer>
+</body>
+</html>

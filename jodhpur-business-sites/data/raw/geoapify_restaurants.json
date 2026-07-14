@@ -1,0 +1,623 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desi Bhoj",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342005",
+        "suburb": "Basni",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0356171,
+        "lat": 26.2304141,
+        "state_code": "RJ",
+        "formatted": "Desi Bhoj, NH62, Basni, Jodhpur - 342005, Rajasthan, India",
+        "address_line1": "Desi Bhoj",
+        "address_line2": "NH62, Basni, Jodhpur - 342005, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "vegetarian"
+        ],
+        "details": [
+          "details.catering"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2304141,
+            "lon": 73.0356171,
+            "city": "Jodhpur",
+            "name": "Desi Bhoj",
+            "osm_id": 10885684502,
+            "street": "Navdurga Colony Jhalamand",
+            "amenity": "restaurant",
+            "osm_type": "n",
+            "diet:vegetarian": "yes"
+          }
+        },
+        "catering": {
+          "diet": {
+            "vegetarian": true
+          }
+        },
+        "distance": 1471,
+        "place_id": "516aebf18c47425240598b09206bfc3a3a40f00103f901165dd68802000000920309446573692042686f6a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0356171,
+          26.2304141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mandap Garden and Restaurant",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342005",
+        "suburb": "Basni",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.035753,
+        "lat": 26.2300193,
+        "state_code": "RJ",
+        "formatted": "Mandap Garden and Restaurant, NH62, Basni, Jodhpur - 342005, Rajasthan, India",
+        "address_line1": "Mandap Garden and Restaurant",
+        "address_line2": "NH62, Basni, Jodhpur - 342005, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2300193,
+            "lon": 73.035753,
+            "name": "Mandap Garden and Restaurant",
+            "osm_id": 10886477905,
+            "amenity": "restaurant",
+            "osm_type": "n"
+          }
+        },
+        "distance": 1509,
+        "place_id": "51f86ef3c64942524059e5f27a8be23a3a40f00103f9015178e2880200000092031c4d616e6461702047617264656e20616e642052657374617572616e74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.035753,
+          26.2300193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Grand Turf",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342005",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0419798,
+        "lat": 26.2206233,
+        "state_code": "RJ",
+        "formatted": "The Grand Turf, NH62, Jodhpur - 342005, Rajasthan, India",
+        "address_line1": "The Grand Turf",
+        "address_line2": "NH62, Jodhpur - 342005, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "vegetarian",
+          "vegetarian.only"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2206233,
+            "lon": 73.0419798,
+            "name": "The Grand Turf",
+            "phone": "+91 96193 19099",
+            "osm_id": 6759131771,
+            "amenity": "restaurant",
+            "website": "https://www.thegrandturf.com",
+            "osm_type": "n",
+            "diet:vegetarian": "only"
+          }
+        },
+        "website": "https://www.thegrandturf.com",
+        "contact": {
+          "phone": "+91 96193 19099"
+        },
+        "catering": {
+          "diet": {
+            "vegetarian": true
+          }
+        },
+        "distance": 2687,
+        "place_id": "51ed050bccaf42524059503cc2c47a383a40f00103f9017b2ae0920100000092030e546865204772616e642054757266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0419798,
+          26.2206233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Subhdhra",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342001",
+        "suburb": "Basni",
+        "street": "Jodhpur Bypass",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0284755,
+        "lat": 26.2139375,
+        "state_code": "RJ",
+        "formatted": "Subhdhra, Jodhpur Bypass, Basni, Jodhpur - 342001, Rajasthan, India",
+        "address_line1": "Subhdhra",
+        "address_line2": "Jodhpur Bypass, Basni, Jodhpur - 342001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2139375,
+            "lon": 73.0284755,
+            "name": "Subhdhra",
+            "osm_id": 5068407015,
+            "amenity": "restaurant",
+            "osm_type": "n"
+          }
+        },
+        "distance": 2797,
+        "place_id": "512f4fe78ad24152405954e3a59bc4363a40f00103f901e7c0192e010000009203085375626864687261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0284755,
+          26.2139375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Veevah Marriage Palace",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342011",
+        "street": "Residency Road",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0346119,
+        "lat": 26.2656693,
+        "state_code": "RJ",
+        "formatted": "Veevah Marriage Palace, Residency Road, Jodhpur - 342011, Rajasthan, India",
+        "address_line1": "Veevah Marriage Palace",
+        "address_line2": "Residency Road, Jodhpur - 342011, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.265680813121836,
+            "lon": 73.03461072038769,
+            "name": "Veevah Marriage Palace",
+            "osm_id": 114496031,
+            "amenity": "restaurant",
+            "osm_type": "w"
+          }
+        },
+        "distance": 3141,
+        "place_id": "51fe09e20f3742524059718863a803443a40f00102f9011f12d30600000000920316566565766168204d617272696167652050616c616365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03461072038769,
+          26.265680813121836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krishna Softee & Softee",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "112001",
+        "street": "Shastri Circle",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0038552,
+        "lat": 26.2621259,
+        "state_code": "RJ",
+        "formatted": "Krishna Softee & Softee, Shastri Circle, Jodhpur - 112001, Rajasthan, India",
+        "address_line1": "Krishna Softee & Softee",
+        "address_line2": "Shastri Circle, Jodhpur - 112001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2621259,
+            "lon": 73.0038552,
+            "name": "Krishna Softee & Softee",
+            "osm_id": 2208339229,
+            "amenity": "restaurant",
+            "osm_type": "n"
+          }
+        },
+        "distance": 3285,
+        "place_id": "51da7ae1293f4052405940efd7ae1a433a40f00103f9011d95a083000000009203174b726973686e6120536f66746565202620536f66746565"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0038552,
+          26.2621259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "auntie's pizza",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "112001",
+        "street": "Shastri Circle",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0038861,
+        "lat": 26.2631606,
+        "state_code": "RJ",
+        "formatted": "auntie's pizza, Shastri Circle, Jodhpur - 112001, Rajasthan, India",
+        "address_line1": "auntie's pizza",
+        "address_line2": "Shastri Circle, Jodhpur - 112001, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details.catering",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2631606,
+            "lon": 73.0038861,
+            "name": "auntie's pizza",
+            "osm_id": 5657711003,
+            "amenity": "restaurant",
+            "capacity": 20,
+            "delivery": "yes",
+            "osm_type": "n"
+          }
+        },
+        "facilities": {
+          "delivery": true
+        },
+        "catering": {
+          "capacity": 20
+        },
+        "distance": 3374,
+        "place_id": "512d1a7cab3f4052405982983a7e5e433a40f00103f9019bd139510100000092030e61756e74696527732070697a7a61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0038861,
+          26.2631606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rajwadi Tadka",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342011",
+        "suburb": "RAI KA BAGH",
+        "street": "Old residency road",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0334757,
+        "lat": 26.2724337,
+        "state_code": "RJ",
+        "formatted": "Rajwadi Tadka, Old residency road, RAI KA BAGH, Jodhpur - 342011, Rajasthan, India",
+        "address_line1": "Rajwadi Tadka",
+        "address_line2": "Old residency road, RAI KA BAGH, Jodhpur - 342011, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2724337,
+            "lon": 73.0334757,
+            "name": "Rajwadi Tadka",
+            "osm_id": 12368998444,
+            "amenity": "restaurant",
+            "osm_type": "n",
+            "check_date": "2024-11-24"
+          }
+        },
+        "distance": 3827,
+        "place_id": "517c2d437724425240590ad40737be453a40f00103f9012cf03fe10200000092030d52616a77616469205461646b61"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0334757,
+          26.2724337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Sukh Sagar Restaurant",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342011",
+        "suburb": "RAI KA BAGH",
+        "street": "SH61",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.037164,
+        "lat": 26.2723202,
+        "state_code": "RJ",
+        "formatted": "Hotel Sukh Sagar Restaurant, SH61, RAI KA BAGH, Jodhpur - 342011, Rajasthan, India",
+        "address_line1": "Hotel Sukh Sagar Restaurant",
+        "address_line2": "SH61, RAI KA BAGH, Jodhpur - 342011, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant",
+          "vegetarian"
+        ],
+        "details": [
+          "details",
+          "details.catering",
+          "details.contact",
+          "details.facilities",
+          "details.payment"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2723202,
+            "lon": 73.037164,
+            "name": "Hotel Sukh Sagar Restaurant",
+            "phone": "+91 95713 39333; +91 96948 80181",
+            "osm_id": 13410192284,
+            "amenity": "restaurant",
+            "brewery": "no",
+            "name:en": "Hotel Sukh Sagar Restaurant",
+            "name:hi": "Hotel Sukh Sagar Restaurant",
+            "name:mr": "Hotel Sukh Sagar Restaurant",
+            "smoking": "no",
+            "toilets": "yes",
+            "osm_type": "n",
+            "check_date": "2025-12-27",
+            "wheelchair": "no",
+            "reservation": "yes",
+            "payment:cash": "yes",
+            "diet:vegetarian": "yes",
+            "internet_access": "no",
+            "outdoor_seating": "no",
+            "air_conditioning": "yes",
+            "toilets:wheelchair": "no",
+            "payment:debit_cards": "yes",
+            "payment:credit_cards": "yes",
+            "toilets:menstrual_products": "no"
+          }
+        },
+        "name_international": {
+          "en": "Hotel Sukh Sagar Restaurant",
+          "hi": "Hotel Sukh Sagar Restaurant",
+          "mr": "Hotel Sukh Sagar Restaurant"
+        },
+        "contact": {
+          "phone": "+91 95713 39333; +91 96948 80181"
+        },
+        "facilities": {
+          "internet_access": false,
+          "wheelchair": false,
+          "smoking": false,
+          "toilets": true,
+          "air_conditioning": true,
+          "outdoor_seating": false
+        },
+        "payment_options": {
+          "cash": true,
+          "debit_cards": true,
+          "credit_cards": true
+        },
+        "catering": {
+          "diet": {
+            "vegetarian": true
+          },
+          "reservation": "required"
+        },
+        "distance": 3919,
+        "place_id": "51ab251de56042524059490ad1c6b6453a40f00103f9019c4b4f1f0300000092031b486f74656c2053756b682053616761722052657374617572616e74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.037164,
+          26.2723202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cafe united",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342008",
+        "district": "Milkman Colony",
+        "suburb": "Nan",
+        "street": "Milkmen Colony Road",
+        "housenumber": "00",
+        "iso3166_2": "IN-RJ",
+        "lon": 72.9947856,
+        "lat": 26.2636468,
+        "state_code": "RJ",
+        "formatted": "Cafe united, 00, Milkmen Colony Road, Nan, Jodhpur - 342008, Rajasthan, India",
+        "address_line1": "Cafe united",
+        "address_line2": "00, Milkmen Colony Road, Nan, Jodhpur - 342008, Rajasthan, India",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "details": [
+          "details.catering",
+          "details.contact",
+          "details.facilities"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "lat": 26.2636468,
+            "lon": 72.9947856,
+            "city": "Jodhpur",
+            "name": "Cafe united",
+            "phone": 7014863870,
+            "osm_id": 5745153619,
+            "street": "Milkmen Colony Road",
+            "amenity": "restaurant",
+            "cuisine": "Hookah_Bar;cafe",
+            "smoking": "yes",
+            "capacity": 100,
+            "osm_type": "n",
+            "postcode": 342008,
+            "takeaway": "yes",
+            "housenumber": "00",
+            "outdoor_seating": "no"
+          }
+        },
+        "contact": {
+          "phone": 7014863870
+        },
+        "facilities": {
+          "smoking": true,
+          "outdoor_seating": false,
+          "takeaway": true
+        },
+        "catering": {
+          "cuisine": "Hookah_Bar;cafe",
+          "capacity": 100
+        },
+        "distance": 4026,
+        "place_id": "5108a23891aa3f524059efb14f5b7e433a40f00103f901531670560100000092030b4361666520756e69746564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9947856,
+          26.2636468
+        ]
+      }
+    }
+  ]
+}

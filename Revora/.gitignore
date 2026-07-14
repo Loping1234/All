@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+coverage/
+generated/
+logs/
+*.log
+npm-debug.log*
+Desktop.ini
+.DS_Store

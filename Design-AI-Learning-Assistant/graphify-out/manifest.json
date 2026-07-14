@@ -1,0 +1,717 @@
+{
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\app.py": {
+    "mtime": 1782988861.3978562,
+    "ast_hash": "afcb2c6d388126138cd863c2c04a219d",
+    "semantic_hash": "afcb2c6d388126138cd863c2c04a219d"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\package.json": {
+    "mtime": 1762101356.4386034,
+    "ast_hash": "64378ebc67a289778cf59d94054eac91",
+    "semantic_hash": "64378ebc67a289778cf59d94054eac91"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\ADAPTIVE_MODULAR_ROADMAP_SCHEMA.sql": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "d8190a9904f2c3c3b698f591afefd9f6",
+    "semantic_hash": "d8190a9904f2c3c3b698f591afefd9f6"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\ADAPTIVE_ROADMAP_SCHEMA.sql": {
+    "mtime": 1762101356.082948,
+    "ast_hash": "4489aa71c51d202a712d7080c180e480",
+    "semantic_hash": "4489aa71c51d202a712d7080c180e480"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\App.tsx": {
+    "mtime": 1783098801.1636167,
+    "ast_hash": "e85c4dea1b35e4d5fd351a27f6a11fd1",
+    "semantic_hash": "e85c4dea1b35e4d5fd351a27f6a11fd1"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\DEPLOY_MODULE_SCHEMA_FINAL.sql": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "3e5f6ff4421339769fd3c837cef443b8",
+    "semantic_hash": "3e5f6ff4421339769fd3c837cef443b8"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\FIX_ALL_SCHEMA_ERRORS.sql": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "3f1f2212e10c27c3a369913750731af2",
+    "semantic_hash": "3f1f2212e10c27c3a369913750731af2"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\MODULE_PROGRESS_SCHEMA.sql": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "42efb91aa3d75c589e9e44857a03ac24",
+    "semantic_hash": "42efb91aa3d75c589e9e44857a03ac24"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AITutor.tsx": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "097add4afe239e70c0a97bd16533d46e",
+    "semantic_hash": "097add4afe239e70c0a97bd16533d46e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AITutorCard.tsx": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "99a3709bdef31c797703e55f3e05b5bf",
+    "semantic_hash": "99a3709bdef31c797703e55f3e05b5bf"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AdaptiveRoadmap.tsx": {
+    "mtime": 1762101356.1853638,
+    "ast_hash": "7a51443f2897e0ba972ca71803c66d1a",
+    "semantic_hash": "7a51443f2897e0ba972ca71803c66d1a"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AdaptiveRoadmapTimeline.tsx": {
+    "mtime": 1762101356.1853638,
+    "ast_hash": "5e68ed9842be1260d8afa4725f5f8114",
+    "semantic_hash": "5e68ed9842be1260d8afa4725f5f8114"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AnimatedBackground.tsx": {
+    "mtime": 1762101356.1071894,
+    "ast_hash": "c83ad195d5cac17e9a284f5f79d71c22",
+    "semantic_hash": "c83ad195d5cac17e9a284f5f79d71c22"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AuthDebugger.tsx": {
+    "mtime": 1762101356.1071894,
+    "ast_hash": "36b18c3a8418f9a4cd5840a90ad55063",
+    "semantic_hash": "36b18c3a8418f9a4cd5840a90ad55063"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\AuthPage.tsx": {
+    "mtime": 1762101356.1071894,
+    "ast_hash": "e580c139f99985dd7a1a3a1a066aba3d",
+    "semantic_hash": "e580c139f99985dd7a1a3a1a066aba3d"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMap.tsx": {
+    "mtime": 1762101356.1071894,
+    "ast_hash": "a6391b7997123a74bdcbdfb8e939f0bd",
+    "semantic_hash": "a6391b7997123a74bdcbdfb8e939f0bd"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapCard.tsx": {
+    "mtime": 1762101356.1195023,
+    "ast_hash": "5a3a5d083da411f90f397f2662266c49",
+    "semantic_hash": "5a3a5d083da411f90f397f2662266c49"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapCircular.tsx": {
+    "mtime": 1762101356.1817153,
+    "ast_hash": "15299bd8fa5f226fde2f4bba92e3a6dd",
+    "semantic_hash": "15299bd8fa5f226fde2f4bba92e3a6dd"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapCluster.tsx": {
+    "mtime": 1762101356.1853638,
+    "ast_hash": "4c65f86e1e116ab19691fd4de02b94d3",
+    "semantic_hash": "4c65f86e1e116ab19691fd4de02b94d3"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapDiagnostic.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "a4691b001b1f960db03c03c35a857d09",
+    "semantic_hash": "a4691b001b1f960db03c03c35a857d09"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapGrid.tsx": {
+    "mtime": 1762101356.1748557,
+    "ast_hash": "ea204744e871ad11518b20bbd61953cd",
+    "semantic_hash": "ea204744e871ad11518b20bbd61953cd"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapHierarchical.tsx": {
+    "mtime": 1762101356.1694992,
+    "ast_hash": "ee56bd84cc6a91adbe3354eb8a3a23d1",
+    "semantic_hash": "ee56bd84cc6a91adbe3354eb8a3a23d1"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapMatrix.tsx": {
+    "mtime": 1762101356.1853638,
+    "ast_hash": "64fd374a246bd4d028458a806137d407",
+    "semantic_hash": "64fd374a246bd4d028458a806137d407"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapRadial.tsx": {
+    "mtime": 1762101356.1694992,
+    "ast_hash": "addb9b8b4f5cb44b34a11802656d2bad",
+    "semantic_hash": "addb9b8b4f5cb44b34a11802656d2bad"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapSankey.tsx": {
+    "mtime": 1762101356.1748557,
+    "ast_hash": "8214079855762a4872dcd51b74ad69f7",
+    "semantic_hash": "8214079855762a4872dcd51b74ad69f7"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapSimple.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "4f0c7e9878bb83831beb578cee007377",
+    "semantic_hash": "4f0c7e9878bb83831beb578cee007377"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ConceptMapTimeline.tsx": {
+    "mtime": 1762101356.1853638,
+    "ast_hash": "4496ebc472134db8db3c9fbd9d1bc2cc",
+    "semantic_hash": "4496ebc472134db8db3c9fbd9d1bc2cc"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\Dashboard.tsx": {
+    "mtime": 1783098783.119201,
+    "ast_hash": "490dc4541dbd22a8bc1079e5e6e8a74a",
+    "semantic_hash": "490dc4541dbd22a8bc1079e5e6e8a74a"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\DashboardCard.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "47874e8ad63285379acae078b5a3d33a",
+    "semantic_hash": "47874e8ad63285379acae078b5a3d33a"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\DatabaseDiagnostic.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "4ee242b897be6825a8ea2fdfb188568a",
+    "semantic_hash": "4ee242b897be6825a8ea2fdfb188568a"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\DocumentUploader.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "83b06949acb3c8555c0e8ed0550340e2",
+    "semantic_hash": "83b06949acb3c8555c0e8ed0550340e2"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\EnhancedFlashcard.tsx": {
+    "mtime": 1762101356.0894434,
+    "ast_hash": "c307791c7f83f572bf68150d7599efe3",
+    "semantic_hash": "c307791c7f83f572bf68150d7599efe3"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\FlashcardClusterView.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "61b9bf48ec563ef808e1f3cf7ebea126",
+    "semantic_hash": "61b9bf48ec563ef808e1f3cf7ebea126"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\FlashcardDebugger.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "c51d155b9b941c9d8e9d1ea7e40dfe1c",
+    "semantic_hash": "c51d155b9b941c9d8e9d1ea7e40dfe1c"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\FlashcardGeneratorAdvanced.tsx": {
+    "mtime": 1762101356.121694,
+    "ast_hash": "5aace558b3cc3aac712663d4830944b8",
+    "semantic_hash": "5aace558b3cc3aac712663d4830944b8"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\FloatingNav.tsx": {
+    "mtime": 1783098757.1782322,
+    "ast_hash": "df23d58945d54123ac936e142afc5da1",
+    "semantic_hash": "df23d58945d54123ac936e142afc5da1"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\GeminiErrorDisplay.tsx": {
+    "mtime": 1762101356.139705,
+    "ast_hash": "14871504bb14d3b5f8f7b12c79fd72cf",
+    "semantic_hash": "14871504bb14d3b5f8f7b12c79fd72cf"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\GlassButton.tsx": {
+    "mtime": 1762101356.139705,
+    "ast_hash": "540e93d7d4f7f2f1c8d6df22a644e20a",
+    "semantic_hash": "540e93d7d4f7f2f1c8d6df22a644e20a"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\HomePage.tsx": {
+    "mtime": 1762101356.139705,
+    "ast_hash": "fdceb5dc9fb5aa8472867e0d641f6db4",
+    "semantic_hash": "fdceb5dc9fb5aa8472867e0d641f6db4"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ModuleDetailPage.tsx": {
+    "mtime": 1762162287.889624,
+    "ast_hash": "685b20c3bde45e92fb354fc2985619ca",
+    "semantic_hash": "685b20c3bde45e92fb354fc2985619ca"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ProfilePage.tsx": {
+    "mtime": 1762101356.139705,
+    "ast_hash": "fd6c444a45ac478ebb35856a63683566",
+    "semantic_hash": "fd6c444a45ac478ebb35856a63683566"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\QuizConfigurator.tsx": {
+    "mtime": 1762101356.139705,
+    "ast_hash": "88a28164f6acdf174da5fc170e4c5971",
+    "semantic_hash": "88a28164f6acdf174da5fc170e4c5971"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\QuizGeneratorAdvanced.tsx": {
+    "mtime": 1762101356.139705,
+    "ast_hash": "e2872773a7753578fb4e2e00deefc464",
+    "semantic_hash": "e2872773a7753578fb4e2e00deefc464"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\QuizMetrics.tsx": {
+    "mtime": 1762101356.153696,
+    "ast_hash": "5493796a8fe174bc6713cff9e49a9b88",
+    "semantic_hash": "5493796a8fe174bc6713cff9e49a9b88"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\QuizTaker.tsx": {
+    "mtime": 1762101356.153696,
+    "ast_hash": "f7a104103f490ee221fdbd67dbe7e249",
+    "semantic_hash": "f7a104103f490ee221fdbd67dbe7e249"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\RateLimitIndicator.tsx": {
+    "mtime": 1782980991.601086,
+    "ast_hash": "9b9b3fd9d034a1945a2e060da269fd88",
+    "semantic_hash": "9b9b3fd9d034a1945a2e060da269fd88"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\RetryIndicator.tsx": {
+    "mtime": 1762101356.153696,
+    "ast_hash": "754840a423e6c8cea16cd8a72bbb05fb",
+    "semantic_hash": "754840a423e6c8cea16cd8a72bbb05fb"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\RoadmapCard.tsx": {
+    "mtime": 1762101356.1853638,
+    "ast_hash": "a224e91429912127e60cf8d8b8f4ad51",
+    "semantic_hash": "a224e91429912127e60cf8d8b8f4ad51"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\StudyHeatmap.tsx": {
+    "mtime": 1762101356.153696,
+    "ast_hash": "1f6031cfe924cebb653a8b2a671d78a1",
+    "semantic_hash": "1f6031cfe924cebb653a8b2a671d78a1"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\UploadZone.tsx": {
+    "mtime": 1762101356.153696,
+    "ast_hash": "3fef46e5d6873fb524648a20ed9ecd47",
+    "semantic_hash": "3fef46e5d6873fb524648a20ed9ecd47"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\figma\\ImageWithFallback.tsx": {
+    "mtime": 1762101356.2019749,
+    "ast_hash": "cf265545a904ec8dfc50a4dd25209a79",
+    "semantic_hash": "cf265545a904ec8dfc50a4dd25209a79"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\accordion.tsx": {
+    "mtime": 1762101356.2059855,
+    "ast_hash": "17db7888ac79cd0b1162d14ace1bb73b",
+    "semantic_hash": "17db7888ac79cd0b1162d14ace1bb73b"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\alert-dialog.tsx": {
+    "mtime": 1762101356.2059855,
+    "ast_hash": "8477e08bd281f6fb9dacf7e6a30bec38",
+    "semantic_hash": "8477e08bd281f6fb9dacf7e6a30bec38"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\alert.tsx": {
+    "mtime": 1762101356.2157521,
+    "ast_hash": "1c8671911db66d7e721233370818cf21",
+    "semantic_hash": "1c8671911db66d7e721233370818cf21"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\aspect-ratio.tsx": {
+    "mtime": 1762101356.216757,
+    "ast_hash": "40da879a87d64733bfa7ae6f9539d0b1",
+    "semantic_hash": "40da879a87d64733bfa7ae6f9539d0b1"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\avatar.tsx": {
+    "mtime": 1762101356.2187662,
+    "ast_hash": "b281e1769eaa62dd5547678889f25a5c",
+    "semantic_hash": "b281e1769eaa62dd5547678889f25a5c"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\badge.tsx": {
+    "mtime": 1762101356.2187662,
+    "ast_hash": "cd6f40c0843174e72d89720212eaab6c",
+    "semantic_hash": "cd6f40c0843174e72d89720212eaab6c"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\breadcrumb.tsx": {
+    "mtime": 1762101356.223459,
+    "ast_hash": "16c5012a8965d8b5fc048c6248771e2e",
+    "semantic_hash": "16c5012a8965d8b5fc048c6248771e2e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\button.tsx": {
+    "mtime": 1762101356.223459,
+    "ast_hash": "b1e5337da42797465f7cff7d87798cea",
+    "semantic_hash": "b1e5337da42797465f7cff7d87798cea"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\calendar.tsx": {
+    "mtime": 1762101356.225464,
+    "ast_hash": "f67f8b0aab2c48cac6aede992e6dd9eb",
+    "semantic_hash": "f67f8b0aab2c48cac6aede992e6dd9eb"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\card.tsx": {
+    "mtime": 1762101356.225464,
+    "ast_hash": "1c1ec988ee2908e66b010798309baa58",
+    "semantic_hash": "1c1ec988ee2908e66b010798309baa58"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\carousel.tsx": {
+    "mtime": 1762101356.229705,
+    "ast_hash": "e6beb29e7664b38c8df8eceee4d4e5bf",
+    "semantic_hash": "e6beb29e7664b38c8df8eceee4d4e5bf"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\chart.tsx": {
+    "mtime": 1762101356.229705,
+    "ast_hash": "d0e7a3eb39ee48fa11a9aac4fe3bfe6c",
+    "semantic_hash": "d0e7a3eb39ee48fa11a9aac4fe3bfe6c"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\checkbox.tsx": {
+    "mtime": 1762101356.2325435,
+    "ast_hash": "451af88aad310f8fb36a06f316b18857",
+    "semantic_hash": "451af88aad310f8fb36a06f316b18857"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\collapsible.tsx": {
+    "mtime": 1762101356.2345507,
+    "ast_hash": "841cbea2e0c2b0fcdeccebe2dd460b97",
+    "semantic_hash": "841cbea2e0c2b0fcdeccebe2dd460b97"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\command.tsx": {
+    "mtime": 1762101356.2345507,
+    "ast_hash": "6dd56a4808ce07cb92b1a4cf68c6b5a8",
+    "semantic_hash": "6dd56a4808ce07cb92b1a4cf68c6b5a8"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\context-menu.tsx": {
+    "mtime": 1762101356.2345507,
+    "ast_hash": "c2fe9de84744d5cf1b407430ead12705",
+    "semantic_hash": "c2fe9de84744d5cf1b407430ead12705"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\dialog.tsx": {
+    "mtime": 1762101356.2345507,
+    "ast_hash": "35441457d17ae0efbaa814fc8bf3b968",
+    "semantic_hash": "35441457d17ae0efbaa814fc8bf3b968"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\drawer.tsx": {
+    "mtime": 1762101356.2345507,
+    "ast_hash": "de9236b2bf161de87e709a9a9cf24069",
+    "semantic_hash": "de9236b2bf161de87e709a9a9cf24069"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\dropdown-menu.tsx": {
+    "mtime": 1762101356.2483182,
+    "ast_hash": "fae2971f87cc232386703fac6979404e",
+    "semantic_hash": "fae2971f87cc232386703fac6979404e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\form.tsx": {
+    "mtime": 1762101356.2483182,
+    "ast_hash": "4db992d2e8a60a5257d8ff2b4d1c5cd3",
+    "semantic_hash": "4db992d2e8a60a5257d8ff2b4d1c5cd3"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\hover-card.tsx": {
+    "mtime": 1762101356.2520635,
+    "ast_hash": "282d88a79d02e3a42faa02c182c6236f",
+    "semantic_hash": "282d88a79d02e3a42faa02c182c6236f"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\input-otp.tsx": {
+    "mtime": 1762101356.2540667,
+    "ast_hash": "9879ec8179dd6683f5c591b1ab9d06cc",
+    "semantic_hash": "9879ec8179dd6683f5c591b1ab9d06cc"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\input.tsx": {
+    "mtime": 1762101356.256069,
+    "ast_hash": "3a32dac1fb72ab6a6893f806aac049e0",
+    "semantic_hash": "3a32dac1fb72ab6a6893f806aac049e0"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\label.tsx": {
+    "mtime": 1762101356.2580726,
+    "ast_hash": "f8d9397d46db56342f3d950f20895f2f",
+    "semantic_hash": "f8d9397d46db56342f3d950f20895f2f"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\menubar.tsx": {
+    "mtime": 1762101356.2600749,
+    "ast_hash": "1f63ddd93f3d0d4dcf1dc24d58841657",
+    "semantic_hash": "1f63ddd93f3d0d4dcf1dc24d58841657"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\navigation-menu.tsx": {
+    "mtime": 1762101356.262077,
+    "ast_hash": "367ee5ddd13d56ec6ccbbad710f2c293",
+    "semantic_hash": "367ee5ddd13d56ec6ccbbad710f2c293"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\pagination.tsx": {
+    "mtime": 1762101356.2660832,
+    "ast_hash": "8157165045742e9258633cc5debd444c",
+    "semantic_hash": "8157165045742e9258633cc5debd444c"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\popover.tsx": {
+    "mtime": 1762101356.268087,
+    "ast_hash": "2905aab7b4d92d3505b0ffb5a188fd3e",
+    "semantic_hash": "2905aab7b4d92d3505b0ffb5a188fd3e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\progress.tsx": {
+    "mtime": 1762101356.2751036,
+    "ast_hash": "eb7868611f30aa7f3583f3e411f8523e",
+    "semantic_hash": "eb7868611f30aa7f3583f3e411f8523e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\radio-group.tsx": {
+    "mtime": 1762101356.2771082,
+    "ast_hash": "f39f90b4529728b0d8d40cd81f1cf40d",
+    "semantic_hash": "f39f90b4529728b0d8d40cd81f1cf40d"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\resizable.tsx": {
+    "mtime": 1762101356.2801187,
+    "ast_hash": "b54b56d6c76c840e3320e7b39197e784",
+    "semantic_hash": "b54b56d6c76c840e3320e7b39197e784"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\scroll-area.tsx": {
+    "mtime": 1762101356.282126,
+    "ast_hash": "54a1679e6ea8d218f671188ca4565375",
+    "semantic_hash": "54a1679e6ea8d218f671188ca4565375"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\select.tsx": {
+    "mtime": 1762101356.2841334,
+    "ast_hash": "b8b73b2f48b397f812a5b9c063ddc3c4",
+    "semantic_hash": "b8b73b2f48b397f812a5b9c063ddc3c4"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\separator.tsx": {
+    "mtime": 1762101356.2861402,
+    "ast_hash": "e61f74359303a9fb87cfbb8b5c712983",
+    "semantic_hash": "e61f74359303a9fb87cfbb8b5c712983"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\sheet.tsx": {
+    "mtime": 1762101356.2881494,
+    "ast_hash": "feaadc36573f17639157618a9b78fc9f",
+    "semantic_hash": "feaadc36573f17639157618a9b78fc9f"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\sidebar.tsx": {
+    "mtime": 1762101356.2901576,
+    "ast_hash": "143f487ab72f99efb1db031f999d1b56",
+    "semantic_hash": "143f487ab72f99efb1db031f999d1b56"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\skeleton.tsx": {
+    "mtime": 1762101356.2901576,
+    "ast_hash": "a71aca7b1a33fbf0e5ecd93015c7804f",
+    "semantic_hash": "a71aca7b1a33fbf0e5ecd93015c7804f"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\slider.tsx": {
+    "mtime": 1762101356.2921672,
+    "ast_hash": "563e55725d425235bc98e5081e577f45",
+    "semantic_hash": "563e55725d425235bc98e5081e577f45"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\sonner.tsx": {
+    "mtime": 1762101356.297947,
+    "ast_hash": "863f904998c651dc17c5f7469256123e",
+    "semantic_hash": "863f904998c651dc17c5f7469256123e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\switch.tsx": {
+    "mtime": 1762101356.2999604,
+    "ast_hash": "bee2a60655e83b3a78215a3845af1432",
+    "semantic_hash": "bee2a60655e83b3a78215a3845af1432"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\table.tsx": {
+    "mtime": 1762101356.3019755,
+    "ast_hash": "2066531279772875cba1f2c269fe23b4",
+    "semantic_hash": "2066531279772875cba1f2c269fe23b4"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\tabs.tsx": {
+    "mtime": 1762101356.3039913,
+    "ast_hash": "878b039cac1ae17ba18bdc7918a4b29b",
+    "semantic_hash": "878b039cac1ae17ba18bdc7918a4b29b"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\textarea.tsx": {
+    "mtime": 1762101356.3060088,
+    "ast_hash": "9aa996cfdc9b59dd5e9cce00e5fb8280",
+    "semantic_hash": "9aa996cfdc9b59dd5e9cce00e5fb8280"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\toggle-group.tsx": {
+    "mtime": 1762101356.3080273,
+    "ast_hash": "f18c96c7185e6063daacea017f3f404d",
+    "semantic_hash": "f18c96c7185e6063daacea017f3f404d"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\toggle.tsx": {
+    "mtime": 1762101356.3118105,
+    "ast_hash": "67c18455346919f4a3b387885307f495",
+    "semantic_hash": "67c18455346919f4a3b387885307f495"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\tooltip.tsx": {
+    "mtime": 1762101356.3138318,
+    "ast_hash": "57691ba93b78eff52771eaefac8ba09b",
+    "semantic_hash": "57691ba93b78eff52771eaefac8ba09b"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\use-mobile.ts": {
+    "mtime": 1762101356.3158517,
+    "ast_hash": "21f0293b823c5298aa735fc013840cff",
+    "semantic_hash": "21f0293b823c5298aa735fc013840cff"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\components\\ui\\utils.ts": {
+    "mtime": 1762101356.3398273,
+    "ast_hash": "d9837f38cc05303254571985e3164050",
+    "semantic_hash": "d9837f38cc05303254571985e3164050"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\adaptive-roadmap-engine.ts": {
+    "mtime": 1762101356.4150305,
+    "ast_hash": "96ce5316c4dbf8b424a06c3cc2f917f6",
+    "semantic_hash": "96ce5316c4dbf8b424a06c3cc2f917f6"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\ai-client.ts": {
+    "mtime": 1782980415.114255,
+    "ast_hash": "befd8f2ff0eba4a43619f0488f75603d",
+    "semantic_hash": "befd8f2ff0eba4a43619f0488f75603d"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\ai-tutor.ts": {
+    "mtime": 1782980866.0884933,
+    "ast_hash": "8b5a154fb80e32d960300f37556a7a71",
+    "semantic_hash": "8b5a154fb80e32d960300f37556a7a71"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\cognitive-framework.ts": {
+    "mtime": 1762101356.359509,
+    "ast_hash": "7df60c568016502c9254d3d7878f2ab1",
+    "semantic_hash": "7df60c568016502c9254d3d7878f2ab1"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\concept-map-generator.ts": {
+    "mtime": 1782980940.4654758,
+    "ast_hash": "7c97f66e25e4862984be09fafdcf18b6",
+    "semantic_hash": "7c97f66e25e4862984be09fafdcf18b6"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\content-analyzer.ts": {
+    "mtime": 1762101356.3675878,
+    "ast_hash": "f203ff14795a876f0ca70faa5694a1d6",
+    "semantic_hash": "f203ff14795a876f0ca70faa5694a1d6"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\database.ts": {
+    "mtime": 1762101356.3696063,
+    "ast_hash": "4b0b87303e93e1c8d50f2e68b86f9f36",
+    "semantic_hash": "4b0b87303e93e1c8d50f2e68b86f9f36"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\example-questions.ts": {
+    "mtime": 1762101356.3716254,
+    "ast_hash": "a59bccf8c4b3a7819cdf92da82003181",
+    "semantic_hash": "a59bccf8c4b3a7819cdf92da82003181"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\file-processor.ts": {
+    "mtime": 1762101356.3771844,
+    "ast_hash": "96a8611801a27b4791049813b8426fc9",
+    "semantic_hash": "96a8611801a27b4791049813b8426fc9"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\flashcard-generator-advanced.ts": {
+    "mtime": 1762101356.3792057,
+    "ast_hash": "da9a56fa3c53a4fbcfb74101afa07e64",
+    "semantic_hash": "da9a56fa3c53a4fbcfb74101afa07e64"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\gemini-error-handler.ts": {
+    "mtime": 1762101356.3812237,
+    "ast_hash": "1e57e0261a48a1b88e489f0d5a9eb17d",
+    "semantic_hash": "1e57e0261a48a1b88e489f0d5a9eb17d"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\gemini.ts": {
+    "mtime": 1782980437.095715,
+    "ast_hash": "a5164d226347b6b3b03c129b0b0c0d0a",
+    "semantic_hash": "a5164d226347b6b3b03c129b0b0c0d0a"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\json-parser-robust.ts": {
+    "mtime": 1762101356.4031718,
+    "ast_hash": "1475d8c397e25826893fbf2faba71ae7",
+    "semantic_hash": "1475d8c397e25826893fbf2faba71ae7"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\layout-optimizer.ts": {
+    "mtime": 1762101356.4051893,
+    "ast_hash": "8ddae04e4effe5b13a435cb875a0f6d6",
+    "semantic_hash": "8ddae04e4effe5b13a435cb875a0f6d6"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\module-content-generator.ts": {
+    "mtime": 1782980903.4623551,
+    "ast_hash": "16c5d36d6911e3ec3306d0eb60f766d9",
+    "semantic_hash": "16c5d36d6911e3ec3306d0eb60f766d9"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\module-progress-service.ts": {
+    "mtime": 1762101356.422704,
+    "ast_hash": "0c01481a945a7b6bb9a596e04e353ba7",
+    "semantic_hash": "0c01481a945a7b6bb9a596e04e353ba7"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\profile-utils.ts": {
+    "mtime": 1762101356.3872783,
+    "ast_hash": "322b7ed577e19c60ec71c869a284da45",
+    "semantic_hash": "322b7ed577e19c60ec71c869a284da45"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\quiz-config.ts": {
+    "mtime": 1762101356.3892958,
+    "ast_hash": "4729fbdaa4adb2567fc58eabd800fc2f",
+    "semantic_hash": "4729fbdaa4adb2567fc58eabd800fc2f"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\quiz-generator-advanced.ts": {
+    "mtime": 1762101356.3910608,
+    "ast_hash": "1e8e4be98ee93e9d5c23e1f3a45da198",
+    "semantic_hash": "1e8e4be98ee93e9d5c23e1f3a45da198"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\quiz-orchestrator.ts": {
+    "mtime": 1762101356.3930812,
+    "ast_hash": "f437a9b6af531d148dd42a1370301bb4",
+    "semantic_hash": "f437a9b6af531d148dd42a1370301bb4"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\quiz-validator.ts": {
+    "mtime": 1762101356.3950996,
+    "ast_hash": "a6730fa4321e207f69da8c044e1c6dc2",
+    "semantic_hash": "a6730fa4321e207f69da8c044e1c6dc2"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\rate-limiter.ts": {
+    "mtime": 1782980425.7872512,
+    "ast_hash": "c4962c509c4cecafa54be41b1ea16bcf",
+    "semantic_hash": "c4962c509c4cecafa54be41b1ea16bcf"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\roadmap-generator.ts": {
+    "mtime": 1762101356.4069564,
+    "ast_hash": "a003d7f1c7f63c513013315e33c64163",
+    "semantic_hash": "a003d7f1c7f63c513013315e33c64163"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\storage.ts": {
+    "mtime": 1762101356.3971179,
+    "ast_hash": "2f993b47a09546f0c4d2629e224b49e2",
+    "semantic_hash": "2f993b47a09546f0c4d2629e224b49e2"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\lib\\supabase.ts": {
+    "mtime": 1762101356.401154,
+    "ast_hash": "c73dc6e0bbb92cc86ff25f2b1090671e",
+    "semantic_hash": "c73dc6e0bbb92cc86ff25f2b1090671e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\main.tsx": {
+    "mtime": 1762101356.0578356,
+    "ast_hash": "e38c3ff0af31ec2198ab0b693e6642a7",
+    "semantic_hash": "e38c3ff0af31ec2198ab0b693e6642a7"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\vite.config.ts": {
+    "mtime": 1762101356.422704,
+    "ast_hash": "2aff97dca8a17b70e2fdc3fe7f038547",
+    "semantic_hash": "2aff97dca8a17b70e2fdc3fe7f038547"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\API_SETUP.txt": {
+    "mtime": 1782982016.0306695,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\render.yaml": {
+    "mtime": 1782982016.0804634,
+    "ast_hash": "7d84d8adbc94f9f1df50ef710b5d3bb4",
+    "semantic_hash": "7d84d8adbc94f9f1df50ef710b5d3bb4"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\requirements.txt": {
+    "mtime": 1782985262.7860253,
+    "ast_hash": "92e0e0f0e5f2794808a337d18c3c6624",
+    "semantic_hash": "92e0e0f0e5f2794808a337d18c3c6624"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\server\\README_MUSIC.txt": {
+    "mtime": 1782982016.0839417,
+    "ast_hash": "c1faa2c2a3c01c42789b76d0e3afeef5",
+    "semantic_hash": "c1faa2c2a3c01c42789b76d0e3afeef5"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\static\\images\\games\\create-thumbnails-guide.html": {
+    "mtime": 1782982016.7635727,
+    "ast_hash": "e9181d76ba7a06c7c1100387b8f4cdba",
+    "semantic_hash": "e9181d76ba7a06c7c1100387b8f4cdba"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\templates\\analytics.html": {
+    "mtime": 1782982016.7706285,
+    "ast_hash": "792fd342a533e1832229851c9bbb5aac",
+    "semantic_hash": "792fd342a533e1832229851c9bbb5aac"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\templates\\index.html": {
+    "mtime": 1782982016.7730248,
+    "ast_hash": "37a8c4d8df8e4fb4ec301ec9f83a2eee",
+    "semantic_hash": "37a8c4d8df8e4fb4ec301ec9f83a2eee"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\templates\\start.html": {
+    "mtime": 1782982016.7735312,
+    "ast_hash": "5d9a0d72fb92707a41818b4b1fcd6d41",
+    "semantic_hash": "5d9a0d72fb92707a41818b4b1fcd6d41"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\README.md": {
+    "mtime": 1762101356.4519908,
+    "ast_hash": "41c498470b9fbccab35d3a4119773259",
+    "semantic_hash": "41c498470b9fbccab35d3a4119773259"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\index.html": {
+    "mtime": 1762101356.4386034,
+    "ast_hash": "c5d8e1d2340a2fe49e807464238a0bdc",
+    "semantic_hash": "c5d8e1d2340a2fe49e807464238a0bdc"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\Attributions.md": {
+    "mtime": 1762101356.0807774,
+    "ast_hash": "78e2331edb6206a683f31f6b4c515af2",
+    "semantic_hash": "78e2331edb6206a683f31f6b4c515af2"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\src\\guidelines\\Guidelines.md": {
+    "mtime": 1762101356.3476496,
+    "ast_hash": "5af43702d745a31480e9a483616bf246",
+    "semantic_hash": "5af43702d745a31480e9a483616bf246"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\static\\images\\games\\2048.jpeg": {
+    "mtime": 1782982016.7587924,
+    "ast_hash": "d960d4720463990d58841d3b63775065",
+    "semantic_hash": "d960d4720463990d58841d3b63775065"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\static\\images\\games\\block-puzzle.jpeg": {
+    "mtime": 1782982016.7605443,
+    "ast_hash": "e8297c2d4add35b5d4bb6fa063b2aac8",
+    "semantic_hash": "e8297c2d4add35b5d4bb6fa063b2aac8"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\static\\images\\games\\candy-riddles.jpeg": {
+    "mtime": 1782982016.762171,
+    "ast_hash": "c0011f2fda7906f057536f27dd5f6d0b",
+    "semantic_hash": "c0011f2fda7906f057536f27dd5f6d0b"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\static\\images\\games\\helix-jump.jpeg": {
+    "mtime": 1782982016.765185,
+    "ast_hash": "2a33041c5deb4b59e5d8ce220c31667f",
+    "semantic_hash": "2a33041c5deb4b59e5d8ce220c31667f"
+  },
+  "C:\\Users\\PRANAY\\OneDrive\\Documents\\Task_App\\Design-AI-Learning-Assistant\\Flask\\static\\images\\games\\word-search.png": {
+    "mtime": 1782982016.7679093,
+    "ast_hash": "1c7cd96d5269018bac4d93d44f5413ef",
+    "semantic_hash": "1c7cd96d5269018bac4d93d44f5413ef"
+  }
+}

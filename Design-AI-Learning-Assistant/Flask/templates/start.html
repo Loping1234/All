@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnAI — Start Session</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/theme.css') }}">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 1160px;
+            margin: 0 auto;
+            padding: 48px 24px 64px;
+            animation: pageIn 0.6s ease-out;
+        }
+
+        @keyframes pageIn {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ---------- Header ---------- */
+
+        .brand-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .brand-mark {
+            width: 44px;
+            height: 44px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            box-shadow: var(--shadow-glow);
+            color: #fff;
+        }
+
+        .brand-mark svg {
+            width: 22px;
+            height: 22px;
+        }
+
+        .brand-name {
+            font-size: 1.35rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-tag {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            padding: 4px 10px;
+            border: 1px solid var(--border-soft);
+            border-radius: 999px;
+            background: var(--bg-surface);
+        }
+
+        .page-title h1 {
+            font-size: clamp(1.9rem, 4vw, 2.8rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.15;
+            background: linear-gradient(90deg, #ffffff, #d8ccff 55%, #9ecbff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        .page-title p {
+            margin-top: 10px;
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 640px;
+        }
+
+        /* ---------- Flash messages ---------- */
+
+        .flash-messages {
+            margin: 24px 0 0;
+        }
+
+        .flash-message {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 14px 16px;
+            border-radius: var(--radius-btn);
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+            animation: pageIn 0.4s ease-out;
+        }
+
+        .flash-message svg {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .flash-error {
+            background: rgba(239, 68, 68, 0.12);
+            border: 1px solid rgba(239, 68, 68, 0.35);
+            color: #fca5a5;
+        }
+
+        /* ---------- Cockpit grid ---------- */
+
+        .cockpit-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 24px;
+            align-items: start;
+            margin-top: 32px;
+        }
+
+        .config-card,
+        .upload-card,
+        .features-card {
+            padding: 28px;
+        }
+
+        /* Cards shouldn't jump on hover on a form page */
+        .glass-card:hover {
+            transform: none;
+        }
+
+        .card-heading {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 22px;
+        }
+
+        .card-heading h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .card-heading p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ---------- Upload dropzone ---------- */
+
+        .file-upload-area {
+            border: 2px dashed var(--border-soft);
+            border-radius: var(--radius-btn);
+            padding: 34px 20px;
+            text-align: center;
+            transition: all 0.25s ease;
+            cursor: pointer;
+            background: var(--bg-surface);
+        }
+
+        .file-upload-area:hover,
+        .file-upload-area.dragover {
+            border-color: var(--border-highlight);
+            background: rgba(139, 92, 246, 0.08);
+        }
+
+        .file-upload-area.dragover {
+            transform: scale(1.01);
+        }
+
+        .upload-icon {
+            width: 52px;
+            height: 52px;
+            margin: 0 auto 12px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(59, 130, 246, 0.2));
+            border: 1px solid var(--border-soft);
+            color: var(--primary);
+            transition: color 0.25s ease;
+        }
+
+        .upload-icon svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .file-upload-area:hover .upload-icon {
+            color: var(--accent);
+        }
+
+        .upload-text {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 6px;
+        }
+
+        .upload-hint {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .selected-files {
+            margin-top: 14px;
+            text-align: left;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-soft);
+            border-radius: 10px;
+            margin-bottom: 8px;
+        }
+
+        .file-item .file-icon {
+            display: flex;
+            color: var(--secondary);
+        }
+
+        .file-item .file-icon svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .file-item .file-name {
+            flex-grow: 1;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            min-width: 0;
+        }
+
+        .file-item .remove-file {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 8px;
+            color: var(--danger);
+            cursor: pointer;
+            transition: background 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .file-item .remove-file:hover {
+            background: rgba(239, 68, 68, 0.15);
+        }
+
+        .file-item .remove-file svg {
+            width: 14px;
+            height: 14px;
+        }
+
+        /* ---------- Features list ---------- */
+
+        .features-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 14px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+        }
+
+        .feature-copy .feature-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--text-main);
+        }
+
+        .feature-copy .feature-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* ---------- Launch button ---------- */
+
+        .launch-btn {
+            width: 100%;
+            padding: 18px;
+            font-size: 1.05rem;
+            letter-spacing: 0.02em;
+            margin-top: 24px;
+        }
+
+        .launch-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .right-col {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* ---------- Interactive feedback ---------- */
+
+        .form-group {
+            transition: transform 0.2s ease;
+        }
+
+        /* ---------- Responsive ---------- */
+
+        @media (max-width: 900px) {
+            .cockpit-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .page {
+                padding: 32px 16px 48px;
+            }
+
+            .config-card,
+            .upload-card,
+            .features-card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+<body class="learnai-bg">
+    <div class="page">
+        <header>
+            <div class="brand-row">
+                <div class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                </div>
+                <span class="brand-name">LearnAI</span>
+                <span class="brand-tag">Focus Monitoring</span>
+            </div>
+            <div class="page-title">
+                <h1>Set up your focus session</h1>
+                <p>Configure your study cockpit. LearnAI tracks your attention in real time, flags drowsiness, and turns your session into actionable analytics.</p>
+            </div>
+        </header>
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="flash-messages">
+                    {% for message in messages %}
+                        <div class="flash-message flash-error">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                            <span>{{ message }}</span>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('start_session') }}" method="POST" enctype="multipart/form-data" id="sessionForm">
+            <div class="cockpit-grid">
+                <!-- Left column: session configuration -->
+                <section class="glass-card config-card">
+                    <div class="card-heading">
+                        <span class="icon-chip" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </span>
+                        <div>
+                            <h2>Session Configuration</h2>
+                            <p>Who's studying, and for how long</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="username" class="field-label">Your Name *</label>
+                        <input type="text" id="username" name="username" class="glass-input"
+                               placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="session_purpose" class="field-label">Session Purpose</label>
+                        <select id="session_purpose" name="session_purpose" class="glass-input">
+                            <option value="study">Study Session</option>
+                            <option value="work">Work/Meeting</option>
+                            <option value="reading">Reading</option>
+                            <option value="research">Research</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="session_duration" class="field-label">Session Duration (minutes)</label>
+                        <input type="number" id="session_duration" name="session_duration" class="glass-input"
+                               placeholder="Enter session duration in minutes" value="30" min="1" max="300" required>
+                        <small class="field-hint">Recommended: 25&ndash;45 minutes for optimal focus</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="parent_email" class="field-label">Parent's Email (Optional)</label>
+                        <input type="email" id="parent_email" name="parent_email" class="glass-input"
+                               placeholder="parent@example.com">
+                        <small class="field-hint">Enter parent's email to receive session reports automatically</small>
+                    </div>
+                </section>
+
+                <!-- Right column: documents + what happens next + launch -->
+                <div class="right-col">
+                    <section class="glass-card upload-card">
+                        <div class="card-heading">
+                            <span class="icon-chip" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            </span>
+                            <div>
+                                <h2>Study Documents</h2>
+                                <p>Optional &mdash; view them during the session</p>
+                            </div>
+                        </div>
+
+                        <div class="file-upload-area" onclick="document.getElementById('documents').click()">
+                            <div class="upload-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/></svg>
+                            </div>
+                            <div class="upload-text">Click to select files or drag and drop</div>
+                            <div class="upload-hint">Supported: PDF, DOC, DOCX, PPT, PPTX, TXT, Images (Max 16MB each)</div>
+                            <input type="file" id="documents" name="documents" class="file-input"
+                                   multiple accept=".pdf,.doc,.docx,.ppt,.pptx,.txt,.jpg,.jpeg,.png,.gif">
+                        </div>
+
+                        <div class="selected-files" id="selectedFiles"></div>
+                    </section>
+
+                    <section class="glass-card features-card">
+                        <div class="card-heading">
+                            <span class="icon-chip" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                            </span>
+                            <div>
+                                <h2>What Happens During Your Session</h2>
+                                <p>Everything runs locally on your webcam</p>
+                            </div>
+                        </div>
+
+                        <div class="features-list">
+                            <div class="feature">
+                                <span class="icon-chip" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                                </span>
+                                <div class="feature-copy">
+                                    <div class="feature-title">Eye Tracking</div>
+                                    <div class="feature-desc">Real-time attention monitoring</div>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <span class="icon-chip" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                                </span>
+                                <div class="feature-copy">
+                                    <div class="feature-title">Drowsiness Detection</div>
+                                    <div class="feature-desc">Alert when you get drowsy</div>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <span class="icon-chip" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>
+                                </span>
+                                <div class="feature-copy">
+                                    <div class="feature-title">Session Analytics</div>
+                                    <div class="feature-desc">Track your focus patterns</div>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <span class="icon-chip" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/></svg>
+                                </span>
+                                <div class="feature-copy">
+                                    <div class="feature-title">Document Support</div>
+                                    <div class="feature-desc">Upload study materials</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <button type="submit" class="gradient-btn launch-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                        Launch Study Session
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // File upload handling
+        const fileInput = document.getElementById('documents');
+        const uploadArea = document.querySelector('.file-upload-area');
+        const selectedFilesDiv = document.getElementById('selectedFiles');
+        let selectedFiles = [];
+
+        const FILE_ICON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>';
+        const REMOVE_ICON_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+
+        // Prevent default drag behaviors
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        // Highlight drop area when item is dragged over it
+        ['dragenter', 'dragover'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            uploadArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        // Handle dropped files
+        uploadArea.addEventListener('drop', handleDrop, false);
+        fileInput.addEventListener('change', handleFiles, false);
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        function highlight(e) {
+            uploadArea.classList.add('dragover');
+        }
+
+        function unhighlight(e) {
+            uploadArea.classList.remove('dragover');
+        }
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            fileInput.files = files;
+            handleFiles();
+        }
+
+        function handleFiles() {
+            selectedFiles = Array.from(fileInput.files);
+            displaySelectedFiles();
+        }
+
+        function displaySelectedFiles() {
+            selectedFilesDiv.innerHTML = '';
+            selectedFiles.forEach((file, index) => {
+                const fileItem = document.createElement('div');
+                fileItem.className = 'file-item';
+
+                const icon = document.createElement('span');
+                icon.className = 'file-icon';
+                icon.innerHTML = FILE_ICON_SVG;
+
+                const name = document.createElement('span');
+                name.className = 'file-name';
+                name.textContent = file.name + ' (' + formatFileSize(file.size) + ')';
+
+                const remove = document.createElement('span');
+                remove.className = 'remove-file';
+                remove.setAttribute('role', 'button');
+                remove.setAttribute('aria-label', 'Remove ' + file.name);
+                remove.innerHTML = REMOVE_ICON_SVG;
+                remove.addEventListener('click', () => removeFile(index));
+
+                fileItem.appendChild(icon);
+                fileItem.appendChild(name);
+                fileItem.appendChild(remove);
+                selectedFilesDiv.appendChild(fileItem);
+            });
+        }
+
+        function removeFile(index) {
+            selectedFiles.splice(index, 1);
+
+            // Create a new FileList from remaining files
+            const dt = new DataTransfer();
+            selectedFiles.forEach(file => dt.items.add(file));
+            fileInput.files = dt.files;
+
+            displaySelectedFiles();
+        }
+
+        function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        // Form validation
+        document.getElementById('sessionForm').addEventListener('submit', function(e) {
+            const username = document.getElementById('username').value.trim();
+            if (!username) {
+                e.preventDefault();
+                alert('Please enter your name to continue.');
+                document.getElementById('username').focus();
+            }
+        });
+
+        // Subtle lift on focused fields
+        document.querySelectorAll('.glass-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.style.transform = 'translateY(-2px)';
+            });
+
+            input.addEventListener('blur', function() {
+                this.parentElement.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>

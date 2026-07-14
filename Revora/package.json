@@ -1,0 +1,31 @@
+{
+  "name": "dynamic-pricing-demand-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dynamic Pricing & Demand Intelligence System monorepo.",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client,flask -c cyan,magenta,yellow \"npm run dev -w server\" \"npm run dev -w client\" \"cd python_service && python app.py\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "seed": "npm run seed -w server",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "test:matching": "node server/src/test/product-matching.test.mjs",
+    "test:fitness": "node server/src/test/data-fitness.test.mjs",
+    "test:trust": "node server/src/test/trust-policy.test.mjs",
+    "test:assistant": "node server/src/test/assistant.test.mjs && node server/src/test/assistant-state.test.mjs && node server/src/test/assistant-controller.test.mjs && node server/src/test/assistant-milk-flow.test.mjs",
+    "test:quality-gate": "node server/src/test/data-quality-gate.test.mjs",
+    "test:reliability": "npm run test:matching && npm run test:fitness && npm run test:trust && npm run test:quality-gate && npm run test:assistant",
+    "ml:train": "python scripts/ml_decision_pipeline.py",
+    "test:ml-pipeline": "python scripts/ml_decision_pipeline.py --self-test",
+    "smoke": "node scripts/smoke-test.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "sinon": "^22.0.0"
+  }
+}

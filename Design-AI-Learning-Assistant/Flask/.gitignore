@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Models
+*.h5
+*.pkl
+
+# Research papers
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db

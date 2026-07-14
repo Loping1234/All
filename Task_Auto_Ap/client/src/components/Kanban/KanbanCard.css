@@ -1,0 +1,52 @@
+.kanban-card {
+    cursor: grab;
+    touch-action: none;
+}
+
+.kanban-card:active {
+    cursor: grabbing;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    padding-left: 8px;
+    margin-bottom: 0 !important;
+}
+
+.card-image-indicator {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--primary);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.card-image-indicator:hover {
+    background: var(--primary);
+    color: white;
+    transform: scale(1.1);
+}
+
+.card-image-indicator i {
+    font-size: 0.85rem;
+}
+
+.card-due.overdue {
+    color: #ef4444;
+    font-weight: bold;
+}

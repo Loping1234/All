@@ -1,0 +1,1560 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "AdaptiveRoadmap",
+      "file_type": "code",
+      "source_file": "src/components/AdaptiveRoadmap.tsx",
+      "source_location": "L21",
+      "id": "components_adaptiveroadmap_adaptiveroadmap",
+      "community": 3,
+      "norm_label": "adaptiveroadmap"
+    },
+    {
+      "label": "AdaptiveRoadmapTimeline",
+      "file_type": "code",
+      "source_file": "src/components/AdaptiveRoadmapTimeline.tsx",
+      "source_location": "L21",
+      "id": "components_adaptiveroadmaptimeline_adaptiveroadmaptimeline",
+      "community": 4,
+      "norm_label": "adaptiveroadmaptimeline"
+    },
+    {
+      "label": "ConceptMapDiagnostic",
+      "file_type": "code",
+      "source_file": "src/components/ConceptMapDiagnostic.tsx",
+      "source_location": "L10",
+      "id": "components_conceptmapdiagnostic_conceptmapdiagnostic",
+      "community": 5,
+      "norm_label": "conceptmapdiagnostic"
+    },
+    {
+      "label": "ConceptMapSankey",
+      "file_type": "code",
+      "source_file": "src/components/ConceptMapSankey.tsx",
+      "source_location": "L37",
+      "id": "components_conceptmapsankey_conceptmapsankey",
+      "community": 6,
+      "norm_label": "conceptmapsankey"
+    },
+    {
+      "label": "DashboardCard",
+      "file_type": "code",
+      "source_file": "src/components/DashboardCard.tsx",
+      "source_location": "L17",
+      "id": "components_dashboardcard_dashboardcard",
+      "community": 7,
+      "norm_label": "dashboardcard"
+    },
+    {
+      "label": "DatabaseDiagnostic",
+      "file_type": "code",
+      "source_file": "src/components/DatabaseDiagnostic.tsx",
+      "source_location": "L12",
+      "id": "components_databasediagnostic_databasediagnostic",
+      "community": 8,
+      "norm_label": "databasediagnostic"
+    },
+    {
+      "label": "EnhancedFlashcard",
+      "file_type": "code",
+      "source_file": "src/components/EnhancedFlashcard.tsx",
+      "source_location": "L47",
+      "id": "components_enhancedflashcard_enhancedflashcard",
+      "community": 9,
+      "norm_label": "enhancedflashcard"
+    },
+    {
+      "label": "FlashcardDebugger",
+      "file_type": "code",
+      "source_file": "src/components/FlashcardDebugger.tsx",
+      "source_location": "L11",
+      "id": "components_flashcarddebugger_flashcarddebugger",
+      "community": 10,
+      "norm_label": "flashcarddebugger"
+    },
+    {
+      "label": "FloatingNav",
+      "file_type": "code",
+      "source_file": "src/components/FloatingNav.tsx",
+      "source_location": "L10",
+      "id": "components_floatingnav_floatingnav",
+      "community": 11,
+      "norm_label": "floatingnav"
+    },
+    {
+      "label": "GeminiErrorDisplay",
+      "file_type": "code",
+      "source_file": "src/components/GeminiErrorDisplay.tsx",
+      "source_location": "L17",
+      "id": "components_geminierrordisplay_geminierrordisplay",
+      "community": 12,
+      "norm_label": "geminierrordisplay"
+    },
+    {
+      "label": "ProfilePage",
+      "file_type": "code",
+      "source_file": "src/components/ProfilePage.tsx",
+      "source_location": "L56",
+      "id": "components_profilepage_profilepage",
+      "community": 13,
+      "norm_label": "profilepage"
+    },
+    {
+      "label": "QuizMetrics",
+      "file_type": "code",
+      "source_file": "src/components/QuizMetrics.tsx",
+      "source_location": "L14",
+      "id": "components_quizmetrics_quizmetrics",
+      "community": 14,
+      "norm_label": "quizmetrics"
+    },
+    {
+      "label": "ImageWithFallback",
+      "file_type": "code",
+      "source_file": "src/components/figma/ImageWithFallback.tsx",
+      "source_location": "L6",
+      "id": "figma_imagewithfallback_imagewithfallback",
+      "community": 22,
+      "norm_label": "imagewithfallback"
+    },
+    {
+      "label": "ChartConfig",
+      "file_type": "code",
+      "source_file": "src/components/ui/chart.tsx",
+      "source_location": "L11",
+      "id": "ui_chart_chartconfig",
+      "community": 155,
+      "norm_label": "chartconfig"
+    },
+    {
+      "label": "useIsMobile",
+      "file_type": "code",
+      "source_file": "src/components/ui/use-mobile.ts",
+      "source_location": "L5",
+      "id": "ui_use_mobile_useismobile",
+      "community": 156,
+      "norm_label": "useismobile"
+    },
+    {
+      "label": "cn",
+      "file_type": "code",
+      "source_file": "src/components/ui/utils.ts",
+      "source_location": "L4",
+      "id": "ui_utils_cn",
+      "community": 157,
+      "norm_label": "cn"
+    },
+    {
+      "label": "LearningModule",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L6",
+      "id": "lib_adaptive_roadmap_engine_learningmodule",
+      "community": 29,
+      "norm_label": "learningmodule"
+    },
+    {
+      "label": "ModuleStatus",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L25",
+      "id": "lib_adaptive_roadmap_engine_modulestatus",
+      "community": 31,
+      "norm_label": "modulestatus"
+    },
+    {
+      "label": "AdaptiveRoadmap",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L27",
+      "id": "lib_adaptive_roadmap_engine_adaptiveroadmap",
+      "community": 23,
+      "norm_label": "adaptiveroadmap"
+    },
+    {
+      "label": "ModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L39",
+      "id": "lib_adaptive_roadmap_engine_moduleprogress",
+      "community": 30,
+      "norm_label": "moduleprogress"
+    },
+    {
+      "label": "generateModularRoadmap",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L55",
+      "id": "lib_adaptive_roadmap_engine_generatemodularroadmap",
+      "community": 26,
+      "norm_label": "generatemodularroadmap"
+    },
+    {
+      "label": "calculateModuleStatus",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L195",
+      "id": "lib_adaptive_roadmap_engine_calculatemodulestatus",
+      "community": 25,
+      "norm_label": "calculatemodulestatus"
+    },
+    {
+      "label": "calculateModuleMastery",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L232",
+      "id": "lib_adaptive_roadmap_engine_calculatemodulemastery",
+      "community": 24,
+      "norm_label": "calculatemodulemastery"
+    },
+    {
+      "label": "updateRoadmapWithProgress",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L255",
+      "id": "lib_adaptive_roadmap_engine_updateroadmapwithprogress",
+      "community": 32,
+      "norm_label": "updateroadmapwithprogress"
+    },
+    {
+      "label": "getStatusColor",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L300",
+      "id": "lib_adaptive_roadmap_engine_getstatuscolor",
+      "community": 28,
+      "norm_label": "getstatuscolor"
+    },
+    {
+      "label": "getNextAction",
+      "file_type": "code",
+      "source_file": "src/lib/adaptive-roadmap-engine.ts",
+      "source_location": "L348",
+      "id": "lib_adaptive_roadmap_engine_getnextaction",
+      "community": 27,
+      "norm_label": "getnextaction"
+    },
+    {
+      "label": "GenerationOptions",
+      "file_type": "code",
+      "source_file": "src/lib/ai-client.ts",
+      "source_location": "L15",
+      "id": "lib_ai_client_generationoptions",
+      "community": 33,
+      "norm_label": "generationoptions"
+    },
+    {
+      "label": "TutorMode",
+      "file_type": "code",
+      "source_file": "src/lib/ai-tutor.ts",
+      "source_location": "L6",
+      "id": "lib_ai_tutor_tutormode",
+      "community": 37,
+      "norm_label": "tutormode"
+    },
+    {
+      "label": "TutorMessage",
+      "file_type": "code",
+      "source_file": "src/lib/ai-tutor.ts",
+      "source_location": "L8",
+      "id": "lib_ai_tutor_tutormessage",
+      "community": 36,
+      "norm_label": "tutormessage"
+    },
+    {
+      "label": "DocumentContext",
+      "file_type": "code",
+      "source_file": "src/lib/ai-tutor.ts",
+      "source_location": "L18",
+      "id": "lib_ai_tutor_documentcontext",
+      "community": 34,
+      "norm_label": "documentcontext"
+    },
+    {
+      "label": "generateTutorResponse",
+      "file_type": "code",
+      "source_file": "src/lib/ai-tutor.ts",
+      "source_location": "L283",
+      "id": "lib_ai_tutor_generatetutorresponse",
+      "community": 35,
+      "norm_label": "generatetutorresponse"
+    },
+    {
+      "label": "CognitiveLevel",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L6",
+      "id": "lib_cognitive_framework_cognitivelevel",
+      "community": 40,
+      "norm_label": "cognitivelevel"
+    },
+    {
+      "label": "CognitiveFramework",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L8",
+      "id": "lib_cognitive_framework_cognitiveframework",
+      "community": 39,
+      "norm_label": "cognitiveframework"
+    },
+    {
+      "label": "classifyQuestionLevel",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L134",
+      "id": "lib_cognitive_framework_classifyquestionlevel",
+      "community": 38,
+      "norm_label": "classifyquestionlevel"
+    },
+    {
+      "label": "isNonTechnical",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L169",
+      "id": "lib_cognitive_framework_isnontechnical",
+      "community": 43,
+      "norm_label": "isnontechnical"
+    },
+    {
+      "label": "isShallowQuestion",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L176",
+      "id": "lib_cognitive_framework_isshallowquestion",
+      "community": 44,
+      "norm_label": "isshallowquestion"
+    },
+    {
+      "label": "isDeepQuestion",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L183",
+      "id": "lib_cognitive_framework_isdeepquestion",
+      "community": 42,
+      "norm_label": "isdeepquestion"
+    },
+    {
+      "label": "validateQuestionForLevel",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L190",
+      "id": "lib_cognitive_framework_validatequestionforlevel",
+      "community": 45,
+      "norm_label": "validatequestionforlevel"
+    },
+    {
+      "label": "getCognitiveFramework",
+      "file_type": "code",
+      "source_file": "src/lib/cognitive-framework.ts",
+      "source_location": "L273",
+      "id": "lib_cognitive_framework_getcognitiveframework",
+      "community": 41,
+      "norm_label": "getcognitiveframework"
+    },
+    {
+      "label": "NodeType",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L12",
+      "id": "lib_concept_map_generator_nodetype",
+      "community": 56,
+      "norm_label": "nodetype"
+    },
+    {
+      "label": "CategoryType",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L15",
+      "id": "lib_concept_map_generator_categorytype",
+      "community": 47,
+      "norm_label": "categorytype"
+    },
+    {
+      "label": "ConceptNode",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L24",
+      "id": "lib_concept_map_generator_conceptnode",
+      "community": 50,
+      "norm_label": "conceptnode"
+    },
+    {
+      "label": "ConceptEdge",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L37",
+      "id": "lib_concept_map_generator_conceptedge",
+      "community": 48,
+      "norm_label": "conceptedge"
+    },
+    {
+      "label": "ConceptMapData",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L44",
+      "id": "lib_concept_map_generator_conceptmapdata",
+      "community": 49,
+      "norm_label": "conceptmapdata"
+    },
+    {
+      "label": "generateConceptMap",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L153",
+      "id": "lib_concept_map_generator_generateconceptmap",
+      "community": 52,
+      "norm_label": "generateconceptmap"
+    },
+    {
+      "label": "getNodeColor",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L460",
+      "id": "lib_concept_map_generator_getnodecolor",
+      "community": 54,
+      "norm_label": "getnodecolor"
+    },
+    {
+      "label": "getCategoryColor",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L475",
+      "id": "lib_concept_map_generator_getcategorycolor",
+      "community": 53,
+      "norm_label": "getcategorycolor"
+    },
+    {
+      "label": "getNodeIcon",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L491",
+      "id": "lib_concept_map_generator_getnodeicon",
+      "community": 55,
+      "norm_label": "getnodeicon"
+    },
+    {
+      "label": "calculateNodeImportance",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L506",
+      "id": "lib_concept_map_generator_calculatenodeimportance",
+      "community": 46,
+      "norm_label": "calculatenodeimportance"
+    },
+    {
+      "label": "createMockConceptMap",
+      "file_type": "code",
+      "source_file": "src/lib/concept-map-generator.ts",
+      "source_location": "L675",
+      "id": "lib_concept_map_generator_createmockconceptmap",
+      "community": 51,
+      "norm_label": "createmockconceptmap"
+    },
+    {
+      "label": "ContentAnalysis",
+      "file_type": "code",
+      "source_file": "src/lib/content-analyzer.ts",
+      "source_location": "L5",
+      "id": "lib_content_analyzer_contentanalysis",
+      "community": 0,
+      "norm_label": "contentanalysis"
+    },
+    {
+      "label": "ContentAnalyzer",
+      "file_type": "code",
+      "source_file": "src/lib/content-analyzer.ts",
+      "source_location": "L16",
+      "id": "lib_content_analyzer_contentanalyzer",
+      "community": 57,
+      "norm_label": "contentanalyzer"
+    },
+    {
+      "label": "Document",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L4",
+      "id": "lib_database_document",
+      "community": 61,
+      "norm_label": "document"
+    },
+    {
+      "label": "Quiz",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L13",
+      "id": "lib_database_quiz",
+      "community": 62,
+      "norm_label": "quiz"
+    },
+    {
+      "label": "QuizQuestion",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L24",
+      "id": "lib_database_quizquestion",
+      "community": 63,
+      "norm_label": "quizquestion"
+    },
+    {
+      "label": "ClusterType",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L31",
+      "id": "lib_database_clustertype",
+      "community": 1,
+      "norm_label": "clustertype"
+    },
+    {
+      "label": "DifficultyLevel",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L39",
+      "id": "lib_database_difficultylevel",
+      "community": 60,
+      "norm_label": "difficultylevel"
+    },
+    {
+      "label": "VisualizationMetadata",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L41",
+      "id": "lib_database_visualizationmetadata",
+      "community": 66,
+      "norm_label": "visualizationmetadata"
+    },
+    {
+      "label": "Flashcard",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L53",
+      "id": "lib_database_flashcard",
+      "community": 2,
+      "norm_label": "flashcard"
+    },
+    {
+      "label": "TutorChat",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L72",
+      "id": "lib_database_tutorchat",
+      "community": 65,
+      "norm_label": "tutorchat"
+    },
+    {
+      "label": "ConceptMap",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L310",
+      "id": "lib_database_conceptmap",
+      "community": 58,
+      "norm_label": "conceptmap"
+    },
+    {
+      "label": "ConceptMastery",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L424",
+      "id": "lib_database_conceptmastery",
+      "community": 59,
+      "norm_label": "conceptmastery"
+    },
+    {
+      "label": "StudyPlan",
+      "file_type": "code",
+      "source_file": "src/lib/database.ts",
+      "source_location": "L437",
+      "id": "lib_database_studyplan",
+      "community": 64,
+      "norm_label": "studyplan"
+    },
+    {
+      "label": "ExampleQuestion",
+      "file_type": "code",
+      "source_file": "src/lib/example-questions.ts",
+      "source_location": "L6",
+      "id": "lib_example_questions_examplequestion",
+      "community": 67,
+      "norm_label": "examplequestion"
+    },
+    {
+      "label": "getExamplesForLevel",
+      "file_type": "code",
+      "source_file": "src/lib/example-questions.ts",
+      "source_location": "L133",
+      "id": "lib_example_questions_getexamplesforlevel",
+      "community": 69,
+      "norm_label": "getexamplesforlevel"
+    },
+    {
+      "label": "formatExamplesForPrompt",
+      "file_type": "code",
+      "source_file": "src/lib/example-questions.ts",
+      "source_location": "L146",
+      "id": "lib_example_questions_formatexamplesforprompt",
+      "community": 68,
+      "norm_label": "formatexamplesforprompt"
+    },
+    {
+      "label": "ProcessedFile",
+      "file_type": "code",
+      "source_file": "src/lib/file-processor.ts",
+      "source_location": "L24",
+      "id": "lib_file_processor_processedfile",
+      "community": 71,
+      "norm_label": "processedfile"
+    },
+    {
+      "label": "FileProcessor",
+      "file_type": "code",
+      "source_file": "src/lib/file-processor.ts",
+      "source_location": "L34",
+      "id": "lib_file_processor_fileprocessor",
+      "community": 70,
+      "norm_label": "fileprocessor"
+    },
+    {
+      "label": "FlashcardGenerationOptions",
+      "file_type": "code",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L9",
+      "id": "lib_flashcard_generator_advanced_flashcardgenerationoptions",
+      "community": 74,
+      "norm_label": "flashcardgenerationoptions"
+    },
+    {
+      "label": "ClusterDistribution",
+      "file_type": "code",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L16",
+      "id": "lib_flashcard_generator_advanced_clusterdistribution",
+      "community": 73,
+      "norm_label": "clusterdistribution"
+    },
+    {
+      "label": "GenerationProgress",
+      "file_type": "code",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L25",
+      "id": "lib_flashcard_generator_advanced_generationprogress",
+      "community": 1,
+      "norm_label": "generationprogress"
+    },
+    {
+      "label": "FlashcardGenerationResult",
+      "file_type": "code",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L32",
+      "id": "lib_flashcard_generator_advanced_flashcardgenerationresult",
+      "community": 2,
+      "norm_label": "flashcardgenerationresult"
+    },
+    {
+      "label": "AdvancedFlashcardGenerator",
+      "file_type": "code",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L127",
+      "id": "lib_flashcard_generator_advanced_advancedflashcardgenerator",
+      "community": 72,
+      "norm_label": "advancedflashcardgenerator"
+    },
+    {
+      "label": "GeminiErrorInfo",
+      "file_type": "code",
+      "source_file": "src/lib/gemini-error-handler.ts",
+      "source_location": "L6",
+      "id": "lib_gemini_error_handler_geminierrorinfo",
+      "community": 75,
+      "norm_label": "geminierrorinfo"
+    },
+    {
+      "label": "GenerationConfig",
+      "file_type": "code",
+      "source_file": "src/lib/gemini.ts",
+      "source_location": "L4",
+      "id": "lib_gemini_generationconfig",
+      "community": 76,
+      "norm_label": "generationconfig"
+    },
+    {
+      "label": "parseConceptMapJSON",
+      "file_type": "code",
+      "source_file": "src/lib/json-parser-robust.ts",
+      "source_location": "L299",
+      "id": "lib_json_parser_robust_parseconceptmapjson",
+      "community": 77,
+      "norm_label": "parseconceptmapjson"
+    },
+    {
+      "label": "parseJSONResponse",
+      "file_type": "code",
+      "source_file": "src/lib/json-parser-robust.ts",
+      "source_location": "L353",
+      "id": "lib_json_parser_robust_parsejsonresponse",
+      "community": 78,
+      "norm_label": "parsejsonresponse"
+    },
+    {
+      "label": "LayoutType",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L9",
+      "id": "lib_layout_optimizer_layouttype",
+      "community": 92,
+      "norm_label": "layouttype"
+    },
+    {
+      "label": "GraphDensity",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L20",
+      "id": "lib_layout_optimizer_graphdensity",
+      "community": 90,
+      "norm_label": "graphdensity"
+    },
+    {
+      "label": "GraphAnalysis",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L22",
+      "id": "lib_layout_optimizer_graphanalysis",
+      "community": 89,
+      "norm_label": "graphanalysis"
+    },
+    {
+      "label": "LayoutDimensions",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L33",
+      "id": "lib_layout_optimizer_layoutdimensions",
+      "community": 91,
+      "norm_label": "layoutdimensions"
+    },
+    {
+      "label": "OptimalSettings",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L42",
+      "id": "lib_layout_optimizer_optimalsettings",
+      "community": 93,
+      "norm_label": "optimalsettings"
+    },
+    {
+      "label": "analyzeGraph",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L55",
+      "id": "lib_layout_optimizer_analyzegraph",
+      "community": 79,
+      "norm_label": "analyzegraph"
+    },
+    {
+      "label": "calculateOptimalZoom",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L109",
+      "id": "lib_layout_optimizer_calculateoptimalzoom",
+      "community": 84,
+      "norm_label": "calculateoptimalzoom"
+    },
+    {
+      "label": "calculateOptimalSpacing",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L161",
+      "id": "lib_layout_optimizer_calculateoptimalspacing",
+      "community": 83,
+      "norm_label": "calculateoptimalspacing"
+    },
+    {
+      "label": "calculateResponsiveDimensions",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L203",
+      "id": "lib_layout_optimizer_calculateresponsivedimensions",
+      "community": 85,
+      "norm_label": "calculateresponsivedimensions"
+    },
+    {
+      "label": "shouldBundleEdges",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L242",
+      "id": "lib_layout_optimizer_shouldbundleedges",
+      "community": 95,
+      "norm_label": "shouldbundleedges"
+    },
+    {
+      "label": "shouldShowAllEdges",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L253",
+      "id": "lib_layout_optimizer_shouldshowalledges",
+      "community": 96,
+      "norm_label": "shouldshowalledges"
+    },
+    {
+      "label": "recommendLayout",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L265",
+      "id": "lib_layout_optimizer_recommendlayout",
+      "community": 94,
+      "norm_label": "recommendlayout"
+    },
+    {
+      "label": "assessLayoutQuality",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L308",
+      "id": "lib_layout_optimizer_assesslayoutquality",
+      "community": 80,
+      "norm_label": "assesslayoutquality"
+    },
+    {
+      "label": "getOptimalSettings",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L357",
+      "id": "lib_layout_optimizer_getoptimalsettings",
+      "community": 88,
+      "norm_label": "getoptimalsettings"
+    },
+    {
+      "label": "calculateFitBounds",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L393",
+      "id": "lib_layout_optimizer_calculatefitbounds",
+      "community": 81,
+      "norm_label": "calculatefitbounds"
+    },
+    {
+      "label": "calculateFitTransform",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L428",
+      "id": "lib_layout_optimizer_calculatefittransform",
+      "community": 82,
+      "norm_label": "calculatefittransform"
+    },
+    {
+      "label": "detectGraphPattern",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L450",
+      "id": "lib_layout_optimizer_detectgraphpattern",
+      "community": 86,
+      "norm_label": "detectgraphpattern"
+    },
+    {
+      "label": "getLayoutRecommendations",
+      "file_type": "code",
+      "source_file": "src/lib/layout-optimizer.ts",
+      "source_location": "L487",
+      "id": "lib_layout_optimizer_getlayoutrecommendations",
+      "community": 87,
+      "norm_label": "getlayoutrecommendations"
+    },
+    {
+      "label": "ModuleContentConfig",
+      "file_type": "code",
+      "source_file": "src/lib/module-content-generator.ts",
+      "source_location": "L12",
+      "id": "lib_module_content_generator_modulecontentconfig",
+      "community": 100,
+      "norm_label": "modulecontentconfig"
+    },
+    {
+      "label": "GeneratedModuleContent",
+      "file_type": "code",
+      "source_file": "src/lib/module-content-generator.ts",
+      "source_location": "L22",
+      "id": "lib_module_content_generator_generatedmodulecontent",
+      "community": 97,
+      "norm_label": "generatedmodulecontent"
+    },
+    {
+      "label": "generateModuleContent",
+      "file_type": "code",
+      "source_file": "src/lib/module-content-generator.ts",
+      "source_location": "L32",
+      "id": "lib_module_content_generator_generatemodulecontent",
+      "community": 98,
+      "norm_label": "generatemodulecontent"
+    },
+    {
+      "label": "hasModuleContent",
+      "file_type": "code",
+      "source_file": "src/lib/module-content-generator.ts",
+      "source_location": "L224",
+      "id": "lib_module_content_generator_hasmodulecontent",
+      "community": 99,
+      "norm_label": "hasmodulecontent"
+    },
+    {
+      "label": "ModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L8",
+      "id": "lib_module_progress_service_moduleprogress",
+      "community": 111,
+      "norm_label": "moduleprogress"
+    },
+    {
+      "label": "MasteryStatus",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L29",
+      "id": "lib_module_progress_service_masterystatus",
+      "community": 110,
+      "norm_label": "masterystatus"
+    },
+    {
+      "label": "initializeModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L40",
+      "id": "lib_module_progress_service_initializemoduleprogress",
+      "community": 108,
+      "norm_label": "initializemoduleprogress"
+    },
+    {
+      "label": "getModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L79",
+      "id": "lib_module_progress_service_getmoduleprogress",
+      "community": 104,
+      "norm_label": "getmoduleprogress"
+    },
+    {
+      "label": "getSingleModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L102",
+      "id": "lib_module_progress_service_getsinglemoduleprogress",
+      "community": 107,
+      "norm_label": "getsinglemoduleprogress"
+    },
+    {
+      "label": "getOrCreateModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L130",
+      "id": "lib_module_progress_service_getorcreatemoduleprogress",
+      "community": 106,
+      "norm_label": "getorcreatemoduleprogress"
+    },
+    {
+      "label": "calculateModuleMastery",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L171",
+      "id": "lib_module_progress_service_calculatemodulemastery",
+      "community": 101,
+      "norm_label": "calculatemodulemastery"
+    },
+    {
+      "label": "getMasteryStatus",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L236",
+      "id": "lib_module_progress_service_getmasterystatus",
+      "community": 102,
+      "norm_label": "getmasterystatus"
+    },
+    {
+      "label": "updateModuleProgress",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L267",
+      "id": "lib_module_progress_service_updatemoduleprogress",
+      "community": 112,
+      "norm_label": "updatemoduleprogress"
+    },
+    {
+      "label": "markContentGenerated",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L371",
+      "id": "lib_module_progress_service_markcontentgenerated",
+      "community": 109,
+      "norm_label": "markcontentgenerated"
+    },
+    {
+      "label": "getModuleQuizzes",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L394",
+      "id": "lib_module_progress_service_getmodulequizzes",
+      "community": 105,
+      "norm_label": "getmodulequizzes"
+    },
+    {
+      "label": "getModuleFlashcards",
+      "file_type": "code",
+      "source_file": "src/lib/module-progress-service.ts",
+      "source_location": "L414",
+      "id": "lib_module_progress_service_getmoduleflashcards",
+      "community": 103,
+      "norm_label": "getmoduleflashcards"
+    },
+    {
+      "label": "UserProfile",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L9",
+      "id": "lib_profile_utils_userprofile",
+      "community": 131,
+      "norm_label": "userprofile"
+    },
+    {
+      "label": "LearningStats",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L25",
+      "id": "lib_profile_utils_learningstats",
+      "community": 127,
+      "norm_label": "learningstats"
+    },
+    {
+      "label": "DocumentMastery",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L34",
+      "id": "lib_profile_utils_documentmastery",
+      "community": 117,
+      "norm_label": "documentmastery"
+    },
+    {
+      "label": "ActivityEvent",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L45",
+      "id": "lib_profile_utils_activityevent",
+      "community": 113,
+      "norm_label": "activityevent"
+    },
+    {
+      "label": "Badge",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L54",
+      "id": "lib_profile_utils_badge",
+      "community": 114,
+      "norm_label": "badge"
+    },
+    {
+      "label": "QuizTrendData",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L64",
+      "id": "lib_profile_utils_quiztrenddata",
+      "community": 128,
+      "norm_label": "quiztrenddata"
+    },
+    {
+      "label": "StudyTimeData",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L70",
+      "id": "lib_profile_utils_studytimedata",
+      "community": 129,
+      "norm_label": "studytimedata"
+    },
+    {
+      "label": "getUserProfile",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L79",
+      "id": "lib_profile_utils_getuserprofile",
+      "community": 126,
+      "norm_label": "getuserprofile"
+    },
+    {
+      "label": "updateUserProfile",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L94",
+      "id": "lib_profile_utils_updateuserprofile",
+      "community": 130,
+      "norm_label": "updateuserprofile"
+    },
+    {
+      "label": "ensureUserProfile",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L111",
+      "id": "lib_profile_utils_ensureuserprofile",
+      "community": 118,
+      "norm_label": "ensureuserprofile"
+    },
+    {
+      "label": "getLearningStats",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L135",
+      "id": "lib_profile_utils_getlearningstats",
+      "community": 120,
+      "norm_label": "getlearningstats"
+    },
+    {
+      "label": "calculateDocumentMastery",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L183",
+      "id": "lib_profile_utils_calculatedocumentmastery",
+      "community": 115,
+      "norm_label": "calculatedocumentmastery"
+    },
+    {
+      "label": "getAllDocumentMastery",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L256",
+      "id": "lib_profile_utils_getalldocumentmastery",
+      "community": 119,
+      "norm_label": "getalldocumentmastery"
+    },
+    {
+      "label": "getRecentActivity",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L299",
+      "id": "lib_profile_utils_getrecentactivity",
+      "community": 122,
+      "norm_label": "getrecentactivity"
+    },
+    {
+      "label": "getUserBadges",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L442",
+      "id": "lib_profile_utils_getuserbadges",
+      "community": 125,
+      "norm_label": "getuserbadges"
+    },
+    {
+      "label": "checkAndAwardBadges",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L468",
+      "id": "lib_profile_utils_checkandawardbadges",
+      "community": 116,
+      "norm_label": "checkandawardbadges"
+    },
+    {
+      "label": "getQuizTrendData",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L518",
+      "id": "lib_profile_utils_getquiztrenddata",
+      "community": 121,
+      "norm_label": "getquiztrenddata"
+    },
+    {
+      "label": "getStudyTimeData",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L536",
+      "id": "lib_profile_utils_getstudytimedata",
+      "community": 123,
+      "norm_label": "getstudytimedata"
+    },
+    {
+      "label": "getSuggestedNextAction",
+      "file_type": "code",
+      "source_file": "src/lib/profile-utils.ts",
+      "source_location": "L567",
+      "id": "lib_profile_utils_getsuggestednextaction",
+      "community": 124,
+      "norm_label": "getsuggestednextaction"
+    },
+    {
+      "label": "getGenerationConfig",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-config.ts",
+      "source_location": "L91",
+      "id": "lib_quiz_config_getgenerationconfig",
+      "community": 133,
+      "norm_label": "getgenerationconfig"
+    },
+    {
+      "label": "getTargetDistribution",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-config.ts",
+      "source_location": "L102",
+      "id": "lib_quiz_config_gettargetdistribution",
+      "community": 134,
+      "norm_label": "gettargetdistribution"
+    },
+    {
+      "label": "meetsQualityStandards",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-config.ts",
+      "source_location": "L112",
+      "id": "lib_quiz_config_meetsqualitystandards",
+      "community": 135,
+      "norm_label": "meetsqualitystandards"
+    },
+    {
+      "label": "getConfigSummary",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-config.ts",
+      "source_location": "L136",
+      "id": "lib_quiz_config_getconfigsummary",
+      "community": 132,
+      "norm_label": "getconfigsummary"
+    },
+    {
+      "label": "DifficultyLevel",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L14",
+      "id": "lib_quiz_generator_advanced_difficultylevel",
+      "community": 137,
+      "norm_label": "difficultylevel"
+    },
+    {
+      "label": "QuizGenerationOptions",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L16",
+      "id": "lib_quiz_generator_advanced_quizgenerationoptions",
+      "community": 139,
+      "norm_label": "quizgenerationoptions"
+    },
+    {
+      "label": "GenerationProgress",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L23",
+      "id": "lib_quiz_generator_advanced_generationprogress",
+      "community": 138,
+      "norm_label": "generationprogress"
+    },
+    {
+      "label": "QuizGenerationResult",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L31",
+      "id": "lib_quiz_generator_advanced_quizgenerationresult",
+      "community": 0,
+      "norm_label": "quizgenerationresult"
+    },
+    {
+      "label": "AdvancedQuizGenerator",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L69",
+      "id": "lib_quiz_generator_advanced_advancedquizgenerator",
+      "community": 136,
+      "norm_label": "advancedquizgenerator"
+    },
+    {
+      "label": "EnhancedQuizResult",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-orchestrator.ts",
+      "source_location": "L18",
+      "id": "lib_quiz_orchestrator_enhancedquizresult",
+      "community": 0,
+      "norm_label": "enhancedquizresult"
+    },
+    {
+      "label": "generateAndValidateQuiz",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-orchestrator.ts",
+      "source_location": "L27",
+      "id": "lib_quiz_orchestrator_generateandvalidatequiz",
+      "community": 140,
+      "norm_label": "generateandvalidatequiz"
+    },
+    {
+      "label": "getQualityMessage",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-orchestrator.ts",
+      "source_location": "L190",
+      "id": "lib_quiz_orchestrator_getqualitymessage",
+      "community": 141,
+      "norm_label": "getqualitymessage"
+    },
+    {
+      "label": "QuizQuestion",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L5",
+      "id": "lib_quiz_validator_quizquestion",
+      "community": 0,
+      "norm_label": "quizquestion"
+    },
+    {
+      "label": "ValidationResult",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L13",
+      "id": "lib_quiz_validator_validationresult",
+      "community": 0,
+      "norm_label": "validationresult"
+    },
+    {
+      "label": "QualityScoreCard",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L27",
+      "id": "lib_quiz_validator_qualityscorecard",
+      "community": 143,
+      "norm_label": "qualityscorecard"
+    },
+    {
+      "label": "QuizValidator",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L36",
+      "id": "lib_quiz_validator_quizvalidator",
+      "community": 144,
+      "norm_label": "quizvalidator"
+    },
+    {
+      "label": "shuffleOptionsWithTracking",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L385",
+      "id": "lib_quiz_validator_shuffleoptionswithtracking",
+      "community": 145,
+      "norm_label": "shuffleoptionswithtracking"
+    },
+    {
+      "label": "validateQuizQuality",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L408",
+      "id": "lib_quiz_validator_validatequizquality",
+      "community": 146,
+      "norm_label": "validatequizquality"
+    },
+    {
+      "label": "autoPadOptions",
+      "file_type": "code",
+      "source_file": "src/lib/quiz-validator.ts",
+      "source_location": "L492",
+      "id": "lib_quiz_validator_autopadoptions",
+      "community": 142,
+      "norm_label": "autopadoptions"
+    },
+    {
+      "label": "withRateLimit",
+      "file_type": "code",
+      "source_file": "src/lib/rate-limiter.ts",
+      "source_location": "L182",
+      "id": "lib_rate_limiter_withratelimit",
+      "community": 148,
+      "norm_label": "withratelimit"
+    },
+    {
+      "label": "getRateLimitStatus",
+      "file_type": "code",
+      "source_file": "src/lib/rate-limiter.ts",
+      "source_location": "L193",
+      "id": "lib_rate_limiter_getratelimitstatus",
+      "community": 147,
+      "norm_label": "getratelimitstatus"
+    },
+    {
+      "label": "RoadmapDay",
+      "file_type": "code",
+      "source_file": "src/lib/roadmap-generator.ts",
+      "source_location": "L5",
+      "id": "lib_roadmap_generator_roadmapday",
+      "community": 153,
+      "norm_label": "roadmapday"
+    },
+    {
+      "label": "StudyRoadmap",
+      "file_type": "code",
+      "source_file": "src/lib/roadmap-generator.ts",
+      "source_location": "L19",
+      "id": "lib_roadmap_generator_studyroadmap",
+      "community": 154,
+      "norm_label": "studyroadmap"
+    },
+    {
+      "label": "generateAdaptiveRoadmap",
+      "file_type": "code",
+      "source_file": "src/lib/roadmap-generator.ts",
+      "source_location": "L31",
+      "id": "lib_roadmap_generator_generateadaptiveroadmap",
+      "community": 151,
+      "norm_label": "generateadaptiveroadmap"
+    },
+    {
+      "label": "generateQuickFixPlan",
+      "file_type": "code",
+      "source_file": "src/lib/roadmap-generator.ts",
+      "source_location": "L118",
+      "id": "lib_roadmap_generator_generatequickfixplan",
+      "community": 152,
+      "norm_label": "generatequickfixplan"
+    },
+    {
+      "label": "calculateOverallMastery",
+      "file_type": "code",
+      "source_file": "src/lib/roadmap-generator.ts",
+      "source_location": "L173",
+      "id": "lib_roadmap_generator_calculateoverallmastery",
+      "community": 149,
+      "norm_label": "calculateoverallmastery"
+    },
+    {
+      "label": "categorizeConcepts",
+      "file_type": "code",
+      "source_file": "src/lib/roadmap-generator.ts",
+      "source_location": "L183",
+      "id": "lib_roadmap_generator_categorizeconcepts",
+      "community": 150,
+      "norm_label": "categorizeconcepts"
+    },
+    {
+      "type": "ArchitectureConcept",
+      "label": "Attention & Yawn Monitoring Engine",
+      "summary": "Real-time facial tracking using OpenCV and MediaPipe FaceMesh to monitor Eye Aspect Ratio (EAR) and yawning frequency during study sessions.",
+      "file": "Flask/app.py",
+      "file_type": "concept",
+      "id": "concept:AttentionMonitoringSystem",
+      "community": 15,
+      "norm_label": "attention & yawn monitoring engine"
+    },
+    {
+      "type": "ArchitectureConcept",
+      "label": "Ambient Focus Audio Service",
+      "summary": "Background audio player providing lo-fi, binaural beats, and ambient soundscapes to maintain cognitive focus.",
+      "file": "Flask/server/README_MUSIC.txt",
+      "file_type": "concept",
+      "id": "concept:FocusMusicEngine",
+      "community": 18,
+      "norm_label": "ambient focus audio service"
+    },
+    {
+      "type": "ArchitectureConcept",
+      "label": "Document Processing & Study Hub",
+      "summary": "Ingestion engine for PDF, DOCX, and PPTX study materials using PyPDF2 and ReportLab to generate study notes and quizzes.",
+      "file": "Flask/app.py",
+      "file_type": "concept",
+      "id": "concept:DocumentStudyHub",
+      "community": 17,
+      "norm_label": "document processing & study hub"
+    },
+    {
+      "type": "ArchitectureConcept",
+      "label": "Cognitive Break Game Suite",
+      "summary": "Embedded casual games (2048, Block Puzzle, Candy Riddles, Helix Jump, Word Search) designed for mental relaxation between study pomodoros.",
+      "file": "Flask/templates/index.html",
+      "file_type": "concept",
+      "id": "concept:CognitiveGameBreakZone",
+      "community": 16,
+      "norm_label": "cognitive break game suite"
+    },
+    {
+      "type": "ArchitectureConcept",
+      "label": "Post-Session Performance Dashboard",
+      "summary": "Data visualization interface charting focus scores, distraction intervals, and study duration.",
+      "file": "Flask/templates/analytics.html",
+      "file_type": "concept",
+      "id": "concept:SessionAnalyticsDashboard",
+      "community": 19,
+      "norm_label": "post-session performance dashboard"
+    },
+    {
+      "type": "DeploymentConfig",
+      "label": "Render Gunicorn Cloud Deployment",
+      "summary": "Production cloud configuration hosting Flask API on Render with Python 3.11 and environment variable bindings.",
+      "file": "Flask/render.yaml",
+      "file_type": "concept",
+      "id": "config:RenderCloudDeployment",
+      "community": 20,
+      "norm_label": "render gunicorn cloud deployment"
+    },
+    {
+      "type": "Documentation",
+      "label": "Project Guidelines & Architecture Specs",
+      "summary": "Core repository documentation detailing the dual-stack React + Flask architecture and UI/UX design specifications.",
+      "file": "README.md",
+      "file_type": "concept",
+      "id": "doc:ProjectDocumentation",
+      "community": 21,
+      "norm_label": "project guidelines & architecture specs"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "lib_quiz_generator_advanced_quizgenerationresult",
+      "target": "lib_content_analyzer_contentanalysis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "lib_flashcard_generator_advanced_generationprogress",
+      "target": "lib_database_clustertype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/flashcard-generator-advanced.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "lib_flashcard_generator_advanced_flashcardgenerationresult",
+      "target": "lib_database_flashcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "lib_quiz_generator_advanced_quizgenerationresult",
+      "target": "lib_quiz_validator_quizquestion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/quiz-generator-advanced.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "lib_quiz_generator_advanced_quizgenerationresult",
+      "target": "lib_quiz_validator_validationresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "context": "type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/quiz-orchestrator.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lib_quiz_orchestrator_enhancedquizresult",
+      "target": "lib_quiz_generator_advanced_quizgenerationresult",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "dedf6a883e26de701d91a600b3f59d4c829378c2"
+}

@@ -1,0 +1,541 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vastra Vinod",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342005",
+        "suburb": "Basni",
+        "street": "RIICO -Basni AREA RD",
+        "housenumber": "C-15A",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0083847,
+        "lat": 26.2313614,
+        "state_code": "RJ",
+        "formatted": "Vastra Vinod, C-15A, RIICO -Basni AREA RD, Basni, Jodhpur - 342005, Rajasthan, India",
+        "address_line1": "Vastra Vinod",
+        "address_line2": "C-15A, RIICO -Basni AREA RD, Basni, Jodhpur - 342005, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes"
+        ],
+        "details": [
+          "details",
+          "details.contact"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Vastra Vinod",
+            "shop": "boutique",
+            "phone": "02912740519",
+            "osm_id": 3939226090,
+            "website": "https://vastravinod.com/",
+            "osm_type": "n",
+            "addr:street": "Basni 2nd Phase, Jodhpur, Rajasthan- 342005",
+            "description": "Boutique for ethnic & modern Indian wear",
+            "opening_hours": "Mo-Su 10:00-20:00",
+            "addr:housenumber": "C-15A"
+          }
+        },
+        "website": "https://vastravinod.com/",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "description": "Boutique for ethnic & modern Indian wear",
+        "contact": {
+          "phone": "02912740519"
+        },
+        "commercial": {
+          "type": "boutique"
+        },
+        "distance": 1796,
+        "place_id": "515a12fb5f894052405902292f803a3b3a40f00103f901ead1cbea0000000092030c5661737472612056696e6f64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0083847,
+          26.231361400140493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "RAJSHREE BOUTIQUE",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342005",
+        "suburb": "Basni",
+        "street": "Jodhpur Bypass",
+        "housenumber": "7/J/9",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0327546,
+        "lat": 26.2135311,
+        "state_code": "RJ",
+        "formatted": "RAJSHREE BOUTIQUE, 7/J/9, Jodhpur Bypass, Basni, Jodhpur - 342005, Rajasthan, India",
+        "address_line1": "RAJSHREE BOUTIQUE",
+        "address_line2": "7/J/9, Jodhpur Bypass, Basni, Jodhpur - 342005, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes",
+          "commercial.clothing.women"
+        ],
+        "details": [
+          "details",
+          "details.commercial",
+          "details.contact",
+          "details.payment",
+          "details.targeted_for"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "RAJSHREE BOUTIQUE",
+            "shop": "clothes",
+            "phone": 9799903945,
+            "osm_id": 10822004416,
+            "clothes": "women",
+            "operator": "PRIYA BISHNOI",
+            "osm_type": "n",
+            "addr:city": "Jodhpur",
+            "start_date": "2020-11-12",
+            "addr:street": "KUDI BHAGTSASANI POLICE STATION ROAD",
+            "payment:app": "yes",
+            "payment:cash": "yes",
+            "payment:visa": "yes",
+            "addr:postcode": 342005,
+            "opening_hours": "Mo-Su 08:00-22:00",
+            "payment:notes": "yes",
+            "payment:cheque": "yes",
+            "addr:housenumber": "7/J/9",
+            "payment:credit_cards": "yes"
+          }
+        },
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "PRIYA BISHNOI",
+        "contact": {
+          "phone": 9799903945
+        },
+        "payment_options": {
+          "app": true,
+          "cash": true,
+          "visa": true,
+          "notes": true,
+          "cheque": true,
+          "credit_cards": true
+        },
+        "targeted_for": {
+          "woman": true,
+          "child": true
+        },
+        "commercial": {
+          "type": "clothes",
+          "clothes": "women"
+        },
+        "distance": 2935,
+        "place_id": "51caf2bfa6184252405951ca63f9a9363a40f00103f901c0ae0a850200000092031152414a534852454520424f555449515545"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0327546,
+          26.21353110014235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "R K Hausery",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342001",
+        "suburb": "Paota",
+        "street": "Katla Bazar",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0151876,
+        "lat": 26.2927307,
+        "state_code": "RJ",
+        "formatted": "R K Hausery, Katla Bazar, Paota, Jodhpur - 342001, Rajasthan, India",
+        "address_line1": "R K Hausery",
+        "address_line2": "Katla Bazar, Paota, Jodhpur - 342001, Rajasthan, India",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "R K Hausery",
+            "shop": "clothes",
+            "osm_id": 1360697565,
+            "building": "yes",
+            "osm_type": "w",
+            "addr:district": "Jodhpur",
+            "addr:postcode": 342001
+          }
+        },
+        "commercial": {
+          "type": "clothes"
+        },
+        "distance": 6028,
+        "place_id": "510eba96d5f840524059739c2f66f04a3a40f00102f901dd981a510000000092030b52204b2048617573657279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0151876422826,
+          26.292730700134097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maharani Art Exporter",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342003",
+        "suburb": "Paota",
+        "street": "Katla Bazar",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0215399,
+        "lat": 26.2940304,
+        "state_code": "RJ",
+        "formatted": "Maharani Art Exporter, Katla Bazar, Paota, Jodhpur - 342003, Rajasthan, India",
+        "address_line1": "Maharani Art Exporter",
+        "address_line2": "Katla Bazar, Paota, Jodhpur - 342003, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Maharani Art Exporter",
+            "shop": "clothes",
+            "osm_id": 5275329428,
+            "osm_type": "n"
+          }
+        },
+        "commercial": {
+          "type": "clothes"
+        },
+        "distance": 6114,
+        "place_id": "51c783e3e86041524059ea9a8893454b3a40f00103f90194236f3a010000009203154d61686172616e6920417274204578706f72746572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.02153989999998,
+          26.294030400133956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trends",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342010",
+        "suburb": "Paota",
+        "street": "Mandore Road",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0388834,
+        "lat": 26.299805,
+        "state_code": "RJ",
+        "formatted": "Trends, Mandore Road, Paota, Jodhpur - 342010, Rajasthan, India",
+        "address_line1": "Trends",
+        "address_line2": "Mandore Road, Paota, Jodhpur - 342010, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Trends",
+            "shop": "clothes",
+            "osm_id": 12595800909,
+            "osm_type": "n"
+          }
+        },
+        "commercial": {
+          "type": "clothes"
+        },
+        "distance": 6903,
+        "place_id": "51ddd6cc107d4252405905c03e05c04c3a40f00103f9014dabc4ee020000009203065472656e6473"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03888339999999,
+          26.299805000133365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PETER ENGLAND",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342010",
+        "suburb": "Paota",
+        "street": "Mandore Road",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0386471,
+        "lat": 26.3001488,
+        "state_code": "RJ",
+        "formatted": "PETER ENGLAND, Mandore Road, Paota, Jodhpur - 342010, Rajasthan, India",
+        "address_line1": "PETER ENGLAND",
+        "address_line2": "Mandore Road, Paota, Jodhpur - 342010, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "PETER ENGLAND",
+            "shop": "clothes",
+            "osm_id": 12595715571,
+            "osm_type": "n"
+          }
+        },
+        "commercial": {
+          "type": "clothes"
+        },
+        "distance": 6936,
+        "place_id": "5174a5af3179425240599981408dd64c3a40f00103f901f35dc3ee0200000092030d504554455220454e474c414e44"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03864709999999,
+          26.300148800133318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Heritage Safa House",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342010",
+        "suburb": "Paota",
+        "street": "NH62",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.0385993,
+        "lat": 26.3004618,
+        "state_code": "RJ",
+        "formatted": "The Heritage Safa House, NH62, Paota, Jodhpur - 342010, Rajasthan, India",
+        "address_line1": "The Heritage Safa House",
+        "address_line2": "NH62, Paota, Jodhpur - 342010, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes",
+          "commercial.wedding"
+        ],
+        "details": [
+          "details.commercial",
+          "details.targeted_for"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "The Heritage Safa House",
+            "shop": "clothes",
+            "osm_id": 12386446621,
+            "clothes": "wedding",
+            "osm_type": "n"
+          }
+        },
+        "commercial": {
+          "type": "clothes",
+          "clothes": "wedding"
+        },
+        "distance": 6969,
+        "place_id": "5180c93269784252405911458510eb4c3a40f00103f9011d2d4ae202000000920317546865204865726974616765205361666120486f757365"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.03859929999999,
+          26.300461800133295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NAVIKA",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342006",
+        "suburb": "Paota",
+        "street": "Paota C Road",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.048181,
+        "lat": 26.3035218,
+        "state_code": "RJ",
+        "formatted": "NAVIKA, Paota C Road, Paota, Jodhpur - 342006, Rajasthan, India",
+        "address_line1": "NAVIKA",
+        "address_line2": "Paota C Road, Paota, Jodhpur - 342006, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.clothes"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "NAVIKA",
+            "shop": "clothes",
+            "osm_id": 12595631271,
+            "osm_type": "n"
+          }
+        },
+        "commercial": {
+          "type": "clothes"
+        },
+        "distance": 7547,
+        "place_id": "5178d2c2651543524059b331cd9ab34d3a40f00103f901a714c2ee020000009203064e4156494b41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.048181,
+          26.303521800132966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KHUSBOO STORE",
+        "country": "India",
+        "country_code": "in",
+        "state": "Rajasthan",
+        "county": "Jodhpur Tehsil",
+        "state_district": "Jodhpur",
+        "city": "Jodhpur",
+        "postcode": "342006",
+        "suburb": "Paota",
+        "street": "Banar road",
+        "iso3166_2": "IN-RJ",
+        "lon": 73.04306,
+        "lat": 26.3065876,
+        "state_code": "RJ",
+        "formatted": "KHUSBOO STORE, Banar road, Paota, Jodhpur - 342006, Rajasthan, India",
+        "address_line1": "KHUSBOO STORE",
+        "address_line2": "Banar road, Paota, Jodhpur - 342006, Rajasthan, India",
+        "categories": [
+          "commercial",
+          "commercial.clothing",
+          "commercial.clothing.accessories"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database License",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "KHUSBOO STORE",
+            "shop": "fashion_accessories",
+            "osm_id": 12595609171,
+            "osm_type": "n"
+          }
+        },
+        "commercial": {
+          "type": "fashion_accessories"
+        },
+        "distance": 7730,
+        "place_id": "5102f1ba7ec142524059c9ed63867c4e3a40f00103f90153bec1ee0200000092030d4b485553424f4f2053544f5245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.04306,
+          26.306587600132648
+        ]
+      }
+    }
+  ]
+}

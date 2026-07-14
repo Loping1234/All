@@ -1,0 +1,174 @@
+{
+    "about": {
+        "intro": "I'm a *Full Stack Developer* focused on building **scalable MERN applications and AI-driven systems**.",
+        "description": "Computer Engineering graduate from SVKM's NMIMS specializing in **MERN Stack**, **Agentic AI**, and **distributed systems**. I build production-grade web applications with real-time features and *intelligent automation*.",
+        "full": "Hi, I'm **Pranay Kumar**, a Computer Engineering graduate from **SVKM's NMIMS, Navi Mumbai**. I specialize in full-stack development with the **MERN stack** and have a deep interest in **Agentic AI**, **Generative AI**, and **distributed systems**.\n\nI've built production-grade applications like *Revora* — a dynamic pricing intelligence system processing 157K+ decision rows with 86.28% ML accuracy, *TaskOps* — a real-time project management platform with Socket.IO and role-based dashboards, and *TV19* — a full-stack news portal with automated RSS ingestion and JWT-secured admin CMS.\n\nMy work in **AI** includes engineering a real-time student engagement monitoring system using webcam-based attention detection, which I successfully pitched at **Google Mumbai** and published as an **IEEE research paper**. I've also built distributed systems using **Kafka**, **Flask**, and **Docker** achieving sub-1s latency under 1000+ concurrent users.\n\nI hold certifications from **Google Cloud** (GenAI with Gemini, Multi-Agent Systems), **AWS** (Cloud Architecture), and **Activeloop** (Advanced RAG with LangChain & LlamaIndex). I'm passionate about building systems that are not just functional, but **scalable, intelligent, and impactful**.\n\nMy current focus is on **Agentic AI**, **multi-agent systems**, and creating tools that leverage AI to solve real-world problems."
+    },
+    "manifesto": [
+        "SCALABLE SYSTEMS",
+        "INTELLIGENT AUTOMATION",
+        "DATA-DRIVEN SOLUTIONS",
+        "FULL STACK THINKING",
+        "RESEARCH-BACKED INNOVATION",
+        "CONTINUOUS LEARNING"
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Revora",
+            "category": "AI/ML Platform",
+            "year": "2025",
+            "description": "Revora is a dynamic pricing and demand intelligence system built with MERN stack and Python ML pipelines.\n\nIt analyzes sales data, simulates demand/revenue/profit impact, and generates explainable guarded price recommendations. The system processed 157K+ decision rows with 86.28% ML accuracy, integrating data-quality checks, pricing guardrails, interactive dashboards, and exportable reports for business decision-making.",
+            "image": "/projects/revora.jpg",
+            "repo": "https://github.com/pranay-kumar/revora",
+            "stack": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Python",
+                "Scikit-learn"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "TV19",
+            "category": "Web Application",
+            "year": "2026",
+            "description": "TV19 is a full-stack news portal and admin CMS built with the MERN stack.\n\nFeatures include automated RSS ingestion for real-time news feeds, category-based browsing, full-text search, user bookmarks, comments, interactive polls, and a comprehensive JWT-secured admin content management system for editorial control.",
+            "image": "/projects/tv19.jpg",
+            "repo": "https://github.com/pranay-kumar/tv19",
+            "stack": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "JWT",
+                "REST APIs"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "TaskOps",
+            "category": "Web Application",
+            "year": "2026",
+            "description": "TaskOps is a real-time task and project management platform built for teams.\n\nIt features role-based dashboards, Kanban-style task tracking, team and project management, real-time Socket.IO chat, live notifications, and OTP-based two-factor authentication. Designed for productivity and collaboration at scale.",
+            "image": "/projects/taskops.jpg",
+            "repo": "https://github.com/pranay-kumar/taskops",
+            "stack": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Socket.IO"
+            ]
+        },
+        {
+            "id": "4",
+            "title": "AI Engagement Monitor",
+            "category": "AI System",
+            "year": "2025",
+            "description": "An AI-driven student engagement and affective state monitoring system using webcam-based real-time analysis.\n\nEngineered attention, yawning, and drowsiness detection using EAR, MAR, and head-pose tracking for continuous remote focus analysis. Integrated a smart document reader, adaptive quizzes, flashcards, analytics dashboards, and AI chatbot to correlate attention with quiz performance. Successfully pitched at Google Mumbai with strong industry validation. Published as an IEEE research paper.",
+            "image": "/projects/ai-engagement.jpg",
+            "repo": "https://github.com/pranay-kumar/ai-engagement",
+            "stack": [
+                "Python",
+                "TensorFlow",
+                "OpenCV",
+                "Flask",
+                "React"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Kafka Seat Booking",
+            "category": "Distributed System",
+            "year": "2025",
+            "description": "A distributed seat booking system using event-driven microservices architecture.\n\nOrchestrated microservices using Kafka for message brokering, Flask for service endpoints, and Docker for containerization. Achieved sub-1s latency under 1000+ concurrent users, load-tested with Artillery for reliability and performance benchmarking.",
+            "image": "/projects/kafka-booking.jpg",
+            "repo": "https://github.com/pranay-kumar/kafka-seat-booking",
+            "stack": [
+                "Kafka",
+                "Flask",
+                "Docker",
+                "Python"
+            ]
+        },
+        {
+            "id": "6",
+            "title": "AI for Agriculture",
+            "category": "AI / Social Impact",
+            "year": "2025",
+            "description": "An AI-powered plant disease detection and food redistribution system.\n\nDeveloped a plant disease detection model with 92% accuracy, featuring multilingual support for rural accessibility. Includes NGO matching for surplus food redistribution, enabling approximately 30% faster redistribution cycles for reducing food waste.",
+            "image": "/projects/ai-agriculture.jpg",
+            "repo": "https://github.com/pranay-kumar/ai-agriculture",
+            "stack": [
+                "Python",
+                "TensorFlow",
+                "Flask",
+                "React"
+            ]
+        }
+    ],
+    "roadmap": [
+        {
+            "id": "01",
+            "year": "2019",
+            "description": "Completed secondary education at Bombay Scottish School, Powai with 82.20%. Built a strong foundation in mathematics and science that would later fuel my engineering journey.",
+            "stack": [
+                "Mathematics",
+                "Science"
+            ]
+        },
+        {
+            "id": "02",
+            "year": "2022",
+            "description": "Graduated from PACE Junior College with 83% in Science (PCM). Started my B.Tech in Computer Engineering at SVKM's NMIMS, Navi Mumbai. Began learning programming fundamentals with Python and C++.",
+            "stack": [
+                "Python",
+                "C++"
+            ]
+        },
+        {
+            "id": "03",
+            "year": "2023",
+            "description": "Deep-dived into core Computer Science — Data Structures & Algorithms, Database Management Systems, and Object-Oriented Programming. Started exploring web development and built my first full-stack projects.",
+            "stack": [
+                "Java",
+                "SQL",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "id": "04",
+            "year": "2024",
+            "description": "Embraced modern web technologies with the MERN stack. Built several full-stack applications and started exploring AI/ML. Took on leadership as Research Head of the Placement Committee.",
+            "stack": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Python"
+            ]
+        },
+        {
+            "id": "05",
+            "year": "2025",
+            "description": "Built major projects — Revora (dynamic pricing intelligence), Kafka-based distributed systems, and an AI engagement monitoring system pitched at Google Mumbai. Dived deep into Agentic AI, RAG, and multi-agent systems. Earned Google Cloud and AWS certifications.",
+            "stack": [
+                "MERN",
+                "TensorFlow",
+                "Kafka",
+                "Docker"
+            ]
+        },
+        {
+            "id": "06",
+            "year": "2026",
+            "description": "Interned at Tech-Biz Solutions as a MERN Stack developer, building TaskAuto and TV19 apps. Published IEEE research paper on real-time multimodal AI for student engagement. Graduating with B.Tech in Computer Engineering.",
+            "stack": [
+                "MERN",
+                "Agentic AI",
+                "AWS",
+                "GenAI"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "jodhpur-business-sites",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "check:env": "node scripts/check-env.js",
+    "discover": "node scripts/find-jodhpur-businesses.js",
+    "validate:leads": "node scripts/validate-leads.js",
+    "validate:csv": "node scripts/validate-csv.js",
+    "validate:sites": "node scripts/validate-sites.js",
+    "validate:redesign": "node scripts/validate-redesign.js",
+    "validate": "npm run validate:csv && npm run validate:sites",
+    "qa": "node scripts/qa-sites.js"
+  },
+  "dependencies": {
+    "@fontsource/instrument-sans": "^5.2.8",
+    "@fontsource/instrument-serif": "^5.2.8",
+    "dotenv": "^16.4.7",
+    "slugify": "^1.6.6"
+  }
+}
